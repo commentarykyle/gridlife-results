@@ -410,7 +410,7 @@ filteredDriversByClass() {
   // Try the most likely 10–15 class prefixes or no prefix
   const tryPrefixes = [
     'clubtr_', 'clubsc_', 'sundaecup_', 'street_', 'streetgt_',
-    'streetmod_', 'trackmod_', 'unlimited_', 'superunlimited_', '', 'unknown_'
+    'streetmod_', 'trackmod_', 'unlimited_', 'superunlimited_', 'gltc_', '', 'unknown_'
   ];
 
   tryPrefixes.forEach(prefix => {
