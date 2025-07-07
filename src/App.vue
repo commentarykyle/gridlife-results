@@ -812,7 +812,6 @@ li {
 }
 
 .selector-bar {
-  position: sticky;
   top: 0;
   z-index: 1000;
   display: flex;
