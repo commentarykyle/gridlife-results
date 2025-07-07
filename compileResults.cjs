@@ -10,61 +10,55 @@ if (!fs.existsSync(outputDir)) {
 }
 
 function parseSessionName(fileName) {
-    // Capture whatever is after the last '-' and before '.csv', trimming spaces
-    const match = fileName.match(/-\s*([A-Za-z]+)\s*([0-9]*)\.csv$/i);
-    if (!match) return 'Unknown';
+    const file = fileName.toUpperCase().replace(/\.CSV$/, '');
   
-    const type = match[1].toUpperCase();
-    const number = match[2]; // may be empty
+    // Extract session marker from the last token
+    const dashSplit = file.split('-');
+    const sessionToken = dashSplit[dashSplit.length - 1]?.trim();
   
-    if (type === 'HEAT') {
-      return number ? `Heat ${number}` : 'Heat';
-    }
-    if (type === 'H') {
-      return number ? `Heat ${number}` : 'Heat';
-    }
+    // Match known session patterns like 'HEAT', 'PR', etc.
+    const knownMatch = sessionToken.match(/^([A-Z]+)(\d*)$/);
+    const type = knownMatch?.[1] || '';
+    const number = knownMatch?.[2] || '';
   
-    if (type === 'PRACTICE') {
-      return number ? `Practice ${number}` : 'Practice';
-    }
-    if (type === 'PR') {
-      return number ? `Practice ${number}` : 'Practice';
-    }
-    if (type === 'P' && number && number !== 'S') {
-      return `Practice ${number}`;
-    }
-    if (type === 'PS' || type === 'PODIUM' || type === 'SPRINT') {
-      return 'Podium Sprint';
-    }
-    if (type === 'OV' || type === 'OVERALL') {
-      return 'Overall';
-    }
+    // === Strict logic for known types ===
+    if (type === 'HEAT' || type === 'H') return number ? `Heat ${number}` : 'Heat';
+    if (type === 'PRACTICE' || type === 'PR' || (type === 'P' && number && number !== 'S')) return number ? `Practice ${number}` : 'Practice';
+    if (type === 'PS' || type === 'PODIUM' || type === 'SPRINT') return 'Podium Sprint';
+    if (type === 'OV' || type === 'OVERALL') return 'Overall';
   
-    // fallback to raw type + number if unknown pattern
-    return number ? `${type} ${number}` : type;
-  }
+    // === Qualifier fallback ===
+    if (/Q/.test(sessionToken)) return 'Qualifying';
   
-  function normalizeClassName(name) {
-    if (!name || typeof name !== 'string') return 'Unknown';
+    // === Race fallback: look for ending in digit (e.g., TCR1, RACE2) ===
+    const raceMatch = sessionToken.match(/(?:R|RACE)?(\d)$/);
+    if (raceMatch) return `Race ${raceMatch[1]}`;
   
-    let normalized = name.trim().toUpperCase();
-  
-    // Normalize long-form class names
-    normalized = normalized.replace('TRACK MODIFIED', 'TRACK MOD');
-    normalized = normalized.replace('STREET MODIFIED', 'STREET MOD');
-  
-    // Fix any dash formatting (handle extra/missing spaces and all drive types)
-    normalized = normalized.replace(
-      /\b(SUPER UNLIMITED|UNLIMITED|TRACK MOD|STREET MOD|STREET GT|STREET|CLUB TR|CLUB SC|SUNDAE CUP)[\s\-–]*\b(AWD|RWD|FWD)\b/,
-      '$1 - $2'
-    );
-  
-    return normalized.trim();
+    return 'Unknown Session';
   }
   
   
 
+function normalizeClassName(name) {
+  if (!name || typeof name !== 'string') return 'Unknown';
+
+  let normalized = name.trim().toUpperCase();
+
+  // Normalize long-form class names
+  normalized = normalized.replace('TRACK MODIFIED', 'TRACK MOD');
+  normalized = normalized.replace('STREET MODIFIED', 'STREET MOD');
+
+  // Fix any dash formatting (handle extra/missing spaces and all drive types)
+  normalized = normalized.replace(
+    /\b(SUPER UNLIMITED|UNLIMITED|TRACK MOD|STREET MOD|STREET GT|STREET|CLUB TR|CLUB SC|SUNDAE CUP)[\s\-–]*\b(AWD|RWD|FWD)\b/,
+    '$1 - $2'
+  );
+
+  return normalized.trim();
+}
+
 function parseCsvFile(filePath, sessionName) {
+  // For non-GLTC series, standard parsing
   return new Promise((resolve) => {
     const rows = [];
     let parsing = false;
@@ -95,6 +89,33 @@ function parseCsvFile(filePath, sessionName) {
   });
 }
 
+function parseCsvFileGLTC(filePath, sessionName) {
+  // For GLTC, different format with extra fields
+  return new Promise((resolve) => {
+    const rows = [];
+
+    fs.createReadStream(filePath)
+      .pipe(fastcsv.parse({ headers: false, ignoreEmpty: true }))
+      .on('data', (row) => {
+        const firstCol = row[0]?.trim();
+        if (!/^\d+$/.test(firstCol)) return;
+
+        rows.push({
+          pos: row[0],
+          number: row[1],
+          name: row[2],
+          car: row[3],
+          time: row[4],
+          session: sessionName,
+          laps: row[6] || '',
+          gap: row[7] || '',
+          class: 'GLTC',
+        });
+      })
+      .on('end', () => resolve(rows));
+  });
+}
+
 async function compileResults() {
   const allResults = {};
 
@@ -119,13 +140,18 @@ async function compileResults() {
 
         const key = `${year}-${series.toLowerCase()}`;
         if (!allResults[key]) allResults[key] = {};
-
         if (!allResults[key][track]) allResults[key][track] = {};
 
         for (const file of files) {
           const sessionName = parseSessionName(file);
           const filePath = path.join(seriesPath, file);
-          const rows = await parseCsvFile(filePath, sessionName);
+
+          let rows;
+          if (key.includes('gltc')) {
+            rows = await parseCsvFileGLTC(filePath, sessionName);
+          } else {
+            rows = await parseCsvFile(filePath, sessionName);
+          }
 
           for (const row of rows) {
             if (!allResults[key][track][row.name]) {
@@ -138,6 +164,9 @@ async function compileResults() {
               car: row.car,
               time: row.time,
               session: row.session,
+              gap: row.gap || undefined,
+              laps: row.laps || undefined,
+              pos: row.pos || undefined,
             });
           }
         }

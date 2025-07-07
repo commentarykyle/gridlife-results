@@ -53,7 +53,17 @@
                 <th>Pos</th>
                 <th>No.</th>
                 <th>Driver</th>
-                <th>Time</th>
+                
+                <!-- For TrackBattle, show Time only -->
+                <th v-if="selectedSeries === 'TrackBattle'">Time</th>
+                
+                <!-- For race series (GLTC etc), show Lap, Gap, and Fastest Lap -->
+                <template v-else>
+                  <th>Laps</th>
+                  <th>Gap</th>
+                  <th>Fastest Lap</th>
+                </template>
+                
                 <th>Car Model</th>
               </tr>
             </thead>
@@ -76,7 +86,17 @@
                   </div>
                 </td>
                 <td>{{ driver.name }}</td>
-                <td>{{ driver.time }}</td>
+
+                <!-- TrackBattle time -->
+                <td v-if="selectedSeries === 'TrackBattle'">{{ driver.time }}</td>
+
+                <!-- Race series lap, gap, fastest lap -->
+                <template v-else>
+                  <td>{{ driver.laps ?? '-' }}</td>
+                  <td>{{ driver.gap ?? '-' }}</td>
+                  <td>{{ driver.time ?? '-' }}</td>
+                </template>
+
                 <td>{{ driver.car }}</td>
               </tr>
             </tbody>
@@ -182,7 +202,7 @@ export default {
   data() {
     return {
       years: ['2025', '2024', '2023', '2022', '2021', '2020'],
-      seriesList: ['TrackBattle', ''],
+      seriesList: ['TrackBattle', 'GLTC'],
       selectedYear: '',
       selectedSeries: '',
       selectedTrack: '',
@@ -259,47 +279,82 @@ carImageUrl() {
       return this.resultsData ? Object.keys(this.resultsData) : [];
     },
     sessions() {
-      if (!this.selectedTrack) return [];
-      const drivers = this.resultsData[this.selectedTrack];
-      const sessionSet = new Set();
-      for (const driver in drivers) {
-        for (const lap of drivers[driver]) {
-          if (lap.session) sessionSet.add(lap.session);
-        }
-      }
-      return Array.from(sessionSet).sort();
-    },
-    filteredDriversByClass() {
+  if (!this.selectedTrack || !this.resultsData) return [];
+
+  const trackData = this.resultsData[this.selectedTrack];
+  if (!trackData) return [];
+
+  const sessionSet = new Set();
+  for (const driver in trackData) {
+    if (!trackData[driver]) continue;
+    trackData[driver].forEach(lap => {
+      if (lap.session) sessionSet.add(lap.session);
+    });
+  }
+
+  return Array.from(sessionSet).sort();
+},
+
+filteredDriversByClass() {
   if (!this.selectedTrack || !this.selectedSession) return null;
   const rawDrivers = this.resultsData[this.selectedTrack];
   const grouped = {};
+
   for (const driverName in rawDrivers) {
     const laps = rawDrivers[driverName];
     const sessionLap = laps.find(lap => lap.session === this.selectedSession);
     if (!sessionLap) continue;
     const baseClass = (sessionLap.class || 'Unknown').split(' - ')[0];
+
     if (!grouped[baseClass]) grouped[baseClass] = [];
-    grouped[baseClass].push({
-      name: driverName,
-      number: sessionLap.number,
-      time: sessionLap.time,
-      car: sessionLap.car,
-      rawTime: this.parseTime(sessionLap.time),
-    });
+
+    // Build driver object differently depending on series
+    if (this.selectedSeries === 'TrackBattle') {
+      grouped[baseClass].push({
+        name: driverName,
+        number: sessionLap.number,
+        time: sessionLap.time,
+        car: sessionLap.car,
+        rawTime: this.parseTime(sessionLap.time),
+        position: null, // will set later
+      });
+    } else {
+      // Race series: include pos, laps, gap, and fastest lap time
+      grouped[baseClass].push({
+        name: driverName,
+        number: sessionLap.number,
+        time: sessionLap.time,        // fastest lap time or last time?
+        car: sessionLap.car,
+        position: parseInt(sessionLap.pos) || 9999,
+        laps: sessionLap.laps || '-',
+        gap: sessionLap.gap || '-',
+        rawTime: this.parseTime(sessionLap.time), // might be useful for fallback sorting
+      });
+    }
   }
-  // Sort by time and assign position within each class
+
+  // Sorting & position assignment
   for (const className in grouped) {
-    grouped[className].sort((a, b) => {
-      if (isNaN(a.rawTime) && isNaN(b.rawTime)) return 0;
-      if (isNaN(a.rawTime)) return 1;
-      if (isNaN(b.rawTime)) return -1;
-      return a.rawTime - b.rawTime;
-    });
+    if (this.selectedSeries === 'TrackBattle') {
+      // Sort by raw lap time ascending
+      grouped[className].sort((a, b) => {
+        if (isNaN(a.rawTime) && isNaN(b.rawTime)) return 0;
+        if (isNaN(a.rawTime)) return 1;
+        if (isNaN(b.rawTime)) return -1;
+        return a.rawTime - b.rawTime;
+      });
+    } else {
+      // Race series: sort by position ascending
+      grouped[className].sort((a, b) => a.position - b.position);
+    }
+
+    // Assign position within class (1-based)
     grouped[className].forEach((driver, i) => {
       driver.position = i + 1;
     });
   }
 
+  // Class order sorting as you have
   const CLASS_ORDER = [
     "SUPER UNLIMITED",
     "UNLIMITED",
@@ -309,7 +364,8 @@ carImageUrl() {
     "STREET",
     "CLUB TR",
     "SUNDAE CUP",
-    "CLUB SC"
+    "CLUB SC",
+    "GLTC"  // maybe add series class here if needed
   ];
 
   const orderedGrouped = {};
@@ -328,6 +384,7 @@ carImageUrl() {
 
   return orderedGrouped;
 },
+
 
   },
   methods: {
