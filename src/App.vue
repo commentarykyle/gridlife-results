@@ -962,6 +962,52 @@ li {
   color: #ffffff; /* bright teal or your chosen color */
   text-transform: uppercase;
 }
+/* Make the table container scrollable on small screens */
+.class-block table {
+  width: 100%;
+  min-width: 800px; /* or your desired min width */
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* For the selector bar on small screens */
+@media (max-width: 600px) {
+  .selector-bar {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem 0.5rem;
+  }
+
+  .selector-bar label {
+    width: 100%;
+  }
+
+  .selector-bar select {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /* Reduce font sizes for table on small screens */
+  table {
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 8px 6px;
+  }
+  
+  /* Add margin between class blocks */
+  .class-block {
+    margin-bottom: 2rem;
+  }
+}
+
+/* Optional: improve clickable driver row hover for mobile */
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
 
 
 </style>
