@@ -8,37 +8,130 @@ const outputDir = path.join(__dirname, 'public', 'output');
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
-
-function parseSessionName(fileName) {
+function parseSessionName(fileName, series) {
     const file = fileName.toUpperCase().replace(/\.CSV$/, '');
   
-    // Extract session marker from the last token
-    const dashSplit = file.split('-');
-    const sessionToken = dashSplit[dashSplit.length - 1]?.trim();
+    // Get last number in the string if any
+    const lastNumberMatch = file.match(/(\d+)(?!.*\d)/);
+    const lastNumber = lastNumberMatch ? lastNumberMatch[1] : null;
   
-    // Match known session patterns like 'HEAT', 'PR', etc.
-    const knownMatch = sessionToken.match(/^([A-Z]+)(\d*)$/);
-    const type = knownMatch?.[1] || '';
-    const number = knownMatch?.[2] || '';
+    // Helper for loose Q/Qual match (anywhere in string)
+    const hasQ = /Q\d*|QUAL/i.test(file);
   
-    // === Strict logic for known types ===
-    if (type === 'HEAT' || type === 'H') return number ? `Heat ${number}` : 'Heat';
-    if (type === 'PRACTICE' || type === 'PR' || (type === 'P' && number && number !== 'S')) return number ? `Practice ${number}` : 'Practice';
-    if (type === 'PS' || type === 'PODIUM' || type === 'SPRINT') return 'Podium Sprint';
-    if (type === 'OV' || type === 'OVERALL') return 'Overall';
+    if (series === 'TrackBattle') {
+      // TrackBattle: Q sessions return Q or Q1, Q2, etc
+      if (hasQ) {
+        const qMatch = file.match(/Q\d*/);
+        return qMatch ? qMatch[0] : 'Q';
+      }
   
-    // === Qualifier fallback ===
-    if (/Q/.test(sessionToken)) return 'Qualifying';
+      // Heat sessions (H or HEAT anywhere)
+      if (/HEAT|H\d*/.test(file)) {
+        const heatNumMatch = file.match(/H(\d+)/);
+        const heatNum = heatNumMatch ? heatNumMatch[1] : lastNumber || '1';
+        return `Heat ${heatNum}`;
+      }
   
-    // === Race fallback: look for ending in digit (e.g., TCR1, RACE2) ===
-    const raceMatch = sessionToken.match(/(?:R|RACE)?(\d)$/);
-    if (raceMatch) return `Race ${raceMatch[1]}`;
+      // Practice sessions (exclude podium/sprint)
+      if (/PRACTICE|PR|P\d*/.test(file) && !/PS|PODIUM|SPRINT/.test(file)) {
+        const prNumMatch = file.match(/P(\d+)/);
+        const prNum = prNumMatch ? prNumMatch[1] : '';
+        return prNum ? `Practice ${prNum}` : 'Practice';
+      }
   
-    return 'Unknown Session';
+      // Podium Sprint
+      if (/PS|PODIUM|SPRINT/.test(file)) {
+        return 'Podium Sprint';
+      }
+  
+      // Overall
+      if (/OV|OVERALL/.test(file)) {
+        return 'Overall';
+      }
+  
+      // If number present and none of above matched, return Heat (never Race)
+      if (lastNumber) {
+        return `Heat ${lastNumber}`;
+      }
+  
+      return 'Unknown Session';
+  
+    } else if (series === 'GLTC') {
+      // GLTC: loose Qual match means Qualifying
+      if (hasQ) {
+        return 'Qualifying';
+      }
+  
+      // Race: last number is race number if present (never Heat)
+      if (lastNumber) {
+        return `Race ${lastNumber}`;
+      }
+  
+      // Podium Sprint
+      if (/PS|PODIUM|SPRINT/.test(file)) {
+        return 'Podium Sprint';
+      }
+  
+      // Overall
+      if (/OV|OVERALL/.test(file)) {
+        return 'Overall';
+      }
+  
+      // Practice fallback (if any)
+      if (/PRACTICE|PR|P\d*/.test(file)) {
+        const prNumMatch = file.match(/P(\d+)/);
+        const prNum = prNumMatch ? prNumMatch[1] : '';
+        return prNum ? `Practice ${prNum}` : 'Practice';
+      }
+  
+      return 'Unknown Session';
+  
+    } else {
+      // Other series fallback
+  
+      // Heat priority: if "Heat" or "H" anywhere, Heat x
+      if (/HEAT|H/.test(file)) {
+        const heatNumMatch = file.match(/H(\d+)/);
+        const heatNum = heatNumMatch ? heatNumMatch[1] : lastNumber || '1';
+        return `Heat ${heatNum}`;
+      }
+  
+      // Podium Sprint
+      if (/PS|PODIUM|SPRINT/.test(file)) {
+        return 'Podium Sprint';
+      }
+  
+      // Overall
+      if (/OV|OVERALL/.test(file)) {
+        return 'Overall';
+      }
+  
+      // Practice
+      if (/P/.test(file)) {
+        const prNumMatch = file.match(/P(\d+)/);
+        const prNum = prNumMatch ? prNumMatch[1] : '';
+        return prNum ? `Practice ${prNum}` : 'Practice';
+      }
+  
+      // Qualifying: detect number after Q or QUAL and return Qualifying x
+      if (hasQ) {
+        const qualNumMatch = file.match(/Q(\d+)/) || file.match(/QUAL(\d+)/);
+        if (qualNumMatch) {
+          return `Qualifying ${qualNumMatch[1]}`;
+        } else {
+          return 'Qualifying';
+        }
+      }
+  
+      // Race fallback for others
+      if (lastNumber) {
+        return `Race ${lastNumber}`;
+      }
+  
+      return 'Unknown Session';
+    }
   }
   
-  
-
 function normalizeClassName(name) {
   if (!name || typeof name !== 'string') return 'Unknown';
 
