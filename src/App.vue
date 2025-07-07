@@ -46,47 +46,52 @@
 
       <div v-for="(drivers, className) in filteredDriversByClass" :key="className" class="class-block">
         <h3>{{ className }}</h3>
-        <table>
-          <thead>
-            <tr>
-              <th>Pos</th>
-              <th>No.</th>
-              <th>Driver</th>
-              <th>Time</th>
-              <th>Car Model</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr
-              v-for="driver in drivers"
-              :key="driver.name"
-              @click="selectDriver(driver.name, driver.number)"
-              class="clickable-driver"
-              title="Click to see all lap times for this driver"
-            >
-              <td>{{ driver.position }}{{ positionSuffix(driver.position) }}</td>
-              <td class="number-cell">
-                <div class="number-wrapper">
-                  <span>{{ driver.number }}</span>
-                  <div
-                    class="color-bar"
-                    :style="{ backgroundColor: getClassColor(className) }"
-                  ></div>
-                </div>
-              </td>
-              <td>{{ driver.name }}</td>
-              <td>{{ driver.time }}</td>
-              <td>{{ driver.car }}</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Pos</th>
+                <th>No.</th>
+                <th>Driver</th>
+                <th>Time</th>
+                <th>Car Model</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                v-for="driver in drivers"
+                :key="driver.name"
+                @click="selectDriver(driver.name, driver.number)"
+                class="clickable-driver"
+                title="Click to see all lap times for this driver"
+              >
+                <td>{{ driver.position }}{{ positionSuffix(driver.position) }}</td>
+                <td class="number-cell">
+                  <div class="number-wrapper">
+                    <span>{{ driver.number }}</span>
+                    <div
+                      class="color-bar"
+                      :style="{ backgroundColor: getClassColor(className) }"
+                    ></div>
+                  </div>
+                </td>
+                <td>{{ driver.name }}</td>
+                <td>{{ driver.time }}</td>
+                <td>{{ driver.car }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
 
     <!-- Driver Detail View -->
     <div v-if="selectedDriver" class="driver-details">
-      <h2>Driver Profile: <span class="driver-first-name">{{ formatDriverName(selectedDriver).first }}</span>
-        <span class="driver-last-name">{{ formatDriverName(selectedDriver).last }}</span></h2>
+      <h2>
+        Driver Profile:
+        <span class="driver-first-name">{{ formatDriverName(selectedDriver).first }}</span>
+        <span class="driver-last-name">{{ formatDriverName(selectedDriver).last }}</span>
+      </h2>
       <button @click="closeDriver" class="close-btn">Close</button>
 
       <div class="driver-detail-flex">
@@ -115,7 +120,7 @@
             <ul>
               <li><strong>Years in Competition:</strong> {{ driverStats.years }}</li>
               <li><strong>Circuits Run:</strong> {{ driverStats.uniqueTracks }}</li>
-              <li><strong>Social Media:</strong> {{ "COMING SOON"  }}</li>
+              <li><strong>Social Media:</strong> {{ "COMING SOON" }}</li>
             </ul>
           </div>
 
@@ -129,7 +134,7 @@
               >
                 <div
                   @click="toggleTrack(track.name)"
-                  style="cursor: pointer; user-select:none; display: flex; justify-content: space-between; align-items: center;"
+                  style="cursor: pointer; user-select: none; display: flex; justify-content: space-between; align-items: center;"
                 >
                   <span>{{ track.name }} — Best Time: {{ formatTime(track.bestTime) || 'N/A' }}</span>
                   <span>{{ expandedTrackName === track.name ? '[-]' : '[+]' }}</span>
@@ -652,14 +657,15 @@ carImageUrl() {
 @import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700;900&display=swap');
 
 .app {
-  width: 100vw;       /* full viewport width */
-  min-height: 100vh;  /* full viewport height */
-  margin: 0;
-  padding: 0;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
   background: linear-gradient(90deg, rgba(5, 30, 33, 0), rgba(21, 53, 56, 1));
+  min-height: 100vh;
   box-sizing: border-box;
-  /* Removed overflow-x: hidden to allow horizontal scroll for wide content */
+  overflow-x: hidden;
 }
+
 
 h1 {
   font-size: 2rem;
@@ -699,11 +705,13 @@ select:focus {
   outline: 2px solid #00c9b7;
 }
 
-/* Wrapper for tables to enable horizontal scrolling if needed */
 .table-wrapper {
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  -webkit-overflow-scrolling: touch;
+  padding: 0 1rem; /* optional horizontal padding */
 }
 
 table {
@@ -714,11 +722,8 @@ table {
   color: #fff;
   background: transparent;
   margin-top: 1rem;
-
-  /* Removed fixed min-width to allow shrinking and scrolling */
-  min-width: unset;
+  min-width: 800px; /* restored so it doesn't shrink too much */
 }
-
 th,
 td {
   text-align: left;

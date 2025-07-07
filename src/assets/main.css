@@ -1,10 +1,11 @@
 /* src/assets/main.css */
 body {
-  background: #051e21;
+  background: #051e21; /* or your gradient */
   color: #e0f7f6;
   font-family: 'Proxima Nova', sans-serif;
   margin: 0;
   padding: 0;
+  overflow-x: hidden; /* prevent sideways scrolling */
 }
 
 h1, h2, h3, h4, h5 {
