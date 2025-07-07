@@ -652,14 +652,15 @@ carImageUrl() {
 @import url('https://fonts.googleapis.com/css2?family=Proxima+Nova:wght@400;700;900&display=swap');
 
 .app {
-  max-width: 100%;
-  font-family: 'Proxima Nova', sans-serif;
-  background: linear-gradient(90deg, rgba(5, 30, 33, 0), rgba(21, 53, 56, 0));
+  width: 100vw;       /* full viewport width */
+  min-height: 100vh;  /* full viewport height */
   margin: 0;
   padding: 0;
-  color: #fff;
-  overflow-x: auto;
+  background: linear-gradient(90deg, rgba(5, 30, 33, 0), rgba(21, 53, 56, 1));
+  box-sizing: border-box;
+  overflow-x: hidden; /* prevent horizontal scroll */
 }
+
 
 h1 {
   font-size: 2rem;
