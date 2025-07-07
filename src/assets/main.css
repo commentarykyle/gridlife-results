@@ -13,11 +13,18 @@ h1, h2, h3, h4, h5 {
   margin: 0.5rem 0;
 }
 
+/* Wrap table inside a scrollable container */
+.table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
   font-size: 18px;
-  min-width: 1000px;
+  min-width: 1000px; /* desktop minimum width */
   color: #fff;
 }
 
@@ -90,6 +97,7 @@ select:focus {
 .close-btn:hover {
   background-color: #0c6362;
 }
+
 .number-cell {
   text-align: center;
   padding: 10px 0; /* vertical center, horizontal handled by wrapper */
@@ -130,14 +138,30 @@ select:focus {
   flex-shrink: 0;       /* prevent shrinking */
 }
 
-
+/* MOBILE AND TABLET ADJUSTMENTS */
 @media screen and (max-width: 768px) {
   table {
     font-size: 14px;
+    min-width: unset; /* allow table to shrink below 1000px */
   }
 
   th, td {
-    padding: 8px;
+    padding: 6px 8px;
+  }
+
+  thead {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    font-size: 14px;
+    min-width: unset; /* same as above, safe to repeat */
+  }
+
+  th, td {
+    padding: 6px 8px;
   }
 
   thead {
