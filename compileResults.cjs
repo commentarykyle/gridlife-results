@@ -11,119 +11,123 @@ if (!fs.existsSync(outputDir)) {
 function parseSessionName(fileName, series) {
     const file = fileName.toUpperCase().replace(/\.CSV$/, '');
   
-    // Get last number in the string if any
+    // Regex helpers
+    const regexQual = /\b(Q\d*|QUAL)\b/;
+    const regexPodiumSprint = /\b(PS|PODIUM|SPRINT)\b/;
+    const regexOverall = /\b(OV|OVERALL)\b/;
+    const regexPractice = /\b(PRACTICE|PR|P\d*)\b/;
+    const regexHeat = /\b(HEAT|H\d*)\b/;
+  
+    // Get last number in the string if any (for session number)
+    // This avoids picking earlier year numbers by matching digits that are followed by no other digits after them.
     const lastNumberMatch = file.match(/(\d+)(?!.*\d)/);
     const lastNumber = lastNumberMatch ? lastNumberMatch[1] : null;
   
-    // Helper for loose Q/Qual match (anywhere in string)
-    const hasQ = /Q\d*|QUAL/i.test(file);
+    // === SERIES-SPECIFIC LOGIC ===
   
     if (series === 'TrackBattle') {
-      // TrackBattle: Q sessions return Q or Q1, Q2, etc
-      if (hasQ) {
-        const qMatch = file.match(/Q\d*/);
+      // Qualifying (loose Q detection, return Q, Q1, Q2, etc)
+      if (regexQual.test(file)) {
+        const qMatch = file.match(/\bQ\d*\b/);
         return qMatch ? qMatch[0] : 'Q';
       }
   
-      // Heat sessions (H or HEAT anywhere)
-      if (/HEAT|H\d*/.test(file)) {
-        const heatNumMatch = file.match(/H(\d+)/);
-        const heatNum = heatNumMatch ? heatNumMatch[1] : lastNumber || '1';
+      // Heat detection - any Heat or H means Heat x (default 1)
+      if (regexHeat.test(file)) {
+        const heatNumMatch = file.match(/\bH(\d+)\b/);
+        const heatNum = heatNumMatch ? heatNumMatch[1] : (lastNumber || '1');
         return `Heat ${heatNum}`;
       }
   
-      // Practice sessions (exclude podium/sprint)
-      if (/PRACTICE|PR|P\d*/.test(file) && !/PS|PODIUM|SPRINT/.test(file)) {
-        const prNumMatch = file.match(/P(\d+)/);
-        const prNum = prNumMatch ? prNumMatch[1] : '';
-        return prNum ? `Practice ${prNum}` : 'Practice';
+      // Practice (exclude podium/sprint)
+      if (regexPractice.test(file) && !regexPodiumSprint.test(file)) {
+        const prNumMatch = file.match(/\bP(\d+)\b/);
+        return prNumMatch ? `Practice ${prNumMatch[1]}` : 'Practice';
       }
   
       // Podium Sprint
-      if (/PS|PODIUM|SPRINT/.test(file)) {
+      if (regexPodiumSprint.test(file)) {
         return 'Podium Sprint';
       }
   
       // Overall
-      if (/OV|OVERALL/.test(file)) {
+      if (regexOverall.test(file)) {
         return 'Overall';
       }
   
-      // If number present and none of above matched, return Heat (never Race)
+      // Fallback: if number present but no race in TrackBattle, treat as Heat x
       if (lastNumber) {
         return `Heat ${lastNumber}`;
       }
   
       return 'Unknown Session';
+    }
   
-    } else if (series === 'GLTC') {
-      // GLTC: loose Qual match means Qualifying
-      if (hasQ) {
-        return 'Qualifying';
+    else if (series === 'GLTC') {
+      // Qualifying first (loose, anywhere)
+      if (regexQual.test(file)) {
+        // Check for number after Q or QUAL for Qualifying x
+        const qualNumMatch = file.match(/\bQ(\d+)\b/) || file.match(/\bQUAL(\d+)\b/);
+        return qualNumMatch ? `Qualifying ${qualNumMatch[1]}` : 'Qualifying';
       }
   
-      // Race: last number is race number if present (never Heat)
+      // Race last number if present (never heat)
       if (lastNumber) {
         return `Race ${lastNumber}`;
       }
   
       // Podium Sprint
-      if (/PS|PODIUM|SPRINT/.test(file)) {
+      if (regexPodiumSprint.test(file)) {
         return 'Podium Sprint';
       }
   
       // Overall
-      if (/OV|OVERALL/.test(file)) {
+      if (regexOverall.test(file)) {
         return 'Overall';
       }
   
-      // Practice fallback (if any)
-      if (/PRACTICE|PR|P\d*/.test(file)) {
-        const prNumMatch = file.match(/P(\d+)/);
-        const prNum = prNumMatch ? prNumMatch[1] : '';
-        return prNum ? `Practice ${prNum}` : 'Practice';
+      // Practice fallback
+      if (regexPractice.test(file)) {
+        const prNumMatch = file.match(/\bP(\d+)\b/);
+        return prNumMatch ? `Practice ${prNumMatch[1]}` : 'Practice';
       }
   
       return 'Unknown Session';
+    }
   
-    } else {
+    else {
       // Other series fallback
   
-      // Heat priority: if "Heat" or "H" anywhere, Heat x
-      if (/HEAT|H/.test(file)) {
-        const heatNumMatch = file.match(/H(\d+)/);
-        const heatNum = heatNumMatch ? heatNumMatch[1] : lastNumber || '1';
+      // Heat priority: if Heat or H anywhere, Heat x
+      if (regexHeat.test(file)) {
+        const heatNumMatch = file.match(/\bH(\d+)\b/);
+        const heatNum = heatNumMatch ? heatNumMatch[1] : (lastNumber || '1');
         return `Heat ${heatNum}`;
       }
   
       // Podium Sprint
-      if (/PS|PODIUM|SPRINT/.test(file)) {
+      if (regexPodiumSprint.test(file)) {
         return 'Podium Sprint';
       }
   
       // Overall
-      if (/OV|OVERALL/.test(file)) {
+      if (regexOverall.test(file)) {
         return 'Overall';
       }
   
       // Practice
-      if (/P/.test(file)) {
-        const prNumMatch = file.match(/P(\d+)/);
-        const prNum = prNumMatch ? prNumMatch[1] : '';
-        return prNum ? `Practice ${prNum}` : 'Practice';
+      if (regexPractice.test(file)) {
+        const prNumMatch = file.match(/\bP(\d+)\b/);
+        return prNumMatch ? `Practice ${prNumMatch[1]}` : 'Practice';
       }
   
-      // Qualifying: detect number after Q or QUAL and return Qualifying x
-      if (hasQ) {
-        const qualNumMatch = file.match(/Q(\d+)/) || file.match(/QUAL(\d+)/);
-        if (qualNumMatch) {
-          return `Qualifying ${qualNumMatch[1]}`;
-        } else {
-          return 'Qualifying';
-        }
+      // Qualifying (loose, with optional number)
+      if (regexQual.test(file)) {
+        const qualNumMatch = file.match(/\bQ(\d+)\b/) || file.match(/\bQUAL(\d+)\b/);
+        return qualNumMatch ? `Qualifying ${qualNumMatch[1]}` : 'Qualifying';
       }
   
-      // Race fallback for others
+      // Race fallback
       if (lastNumber) {
         return `Race ${lastNumber}`;
       }
@@ -131,6 +135,7 @@ function parseSessionName(fileName, series) {
       return 'Unknown Session';
     }
   }
+  
   
 function normalizeClassName(name) {
   if (!name || typeof name !== 'string') return 'Unknown';
@@ -236,7 +241,7 @@ async function compileResults() {
         if (!allResults[key][track]) allResults[key][track] = {};
 
         for (const file of files) {
-          const sessionName = parseSessionName(file);
+          const sessionName = parseSessionName(file, series);
           const filePath = path.join(seriesPath, file);
 
           let rows;

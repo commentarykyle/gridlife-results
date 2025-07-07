@@ -14110,7 +14110,7 @@
         "class": "STREET - AWD",
         "car": "2.5 RS",
         "time": "1:47.995",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "23"
       }
     ],
@@ -14184,7 +14184,7 @@
         "class": "STREET - RWD",
         "car": "328i",
         "time": "1:58.983",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "40"
       }
     ],
@@ -14242,7 +14242,7 @@
         "class": "STREET - RWD",
         "car": "350Z",
         "time": "1:59.878",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "42"
       }
     ],
@@ -14300,7 +14300,7 @@
         "class": "CLUB TR - RWD",
         "car": "Brz",
         "time": "1:45.599",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "13"
       }
     ],
@@ -14366,7 +14366,7 @@
         "class": "STREET MOD - RWD",
         "car": "BRZ",
         "time": "1:46.284",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "15"
       }
     ],
@@ -14392,7 +14392,7 @@
         "class": "TRACK MOD - RWD",
         "car": "Camaro",
         "time": "1:50.216",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "29"
       }
     ],
@@ -14466,7 +14466,7 @@
         "class": "TRACK MOD - FWD",
         "car": "Civic",
         "time": "1:52.812",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "34"
       }
     ],
@@ -14524,7 +14524,7 @@
         "class": "STREET MOD - RWD",
         "car": "Corvette",
         "time": "1:54.491",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "39"
       }
     ],
@@ -14590,7 +14590,7 @@
         "class": "UNLIMITED - RWD",
         "car": "Corvette",
         "time": "1:42.127",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "6"
       }
     ],
@@ -14656,7 +14656,7 @@
         "class": "STREET - FWD",
         "car": "CRX",
         "time": "1:46.048",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "14"
       }
     ],
@@ -14722,7 +14722,7 @@
         "class": "STREET MOD - RWD",
         "car": "Cutlass",
         "time": "1:51.392",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "32"
       }
     ],
@@ -14796,7 +14796,7 @@
         "class": "STREET - AWD",
         "car": "Evo",
         "time": "1:46.959",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "18"
       }
     ],
@@ -14862,7 +14862,7 @@
         "class": "STREET - AWD",
         "car": "Evo 9",
         "time": "1:46.340",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "16"
       }
     ],
@@ -14896,7 +14896,7 @@
         "class": "STREET MOD - AWD",
         "car": "Evolution 8",
         "time": "1:51.124",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "31"
       }
     ],
@@ -14962,7 +14962,7 @@
         "class": "SUNDAE CUP - FWD",
         "car": "Fit",
         "time": "1:59.724",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "41"
       }
     ],
@@ -15036,7 +15036,7 @@
         "class": "SUNDAE CUP - FWD",
         "car": "Fit",
         "time": "1:59.932",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "43"
       }
     ],
@@ -15110,7 +15110,7 @@
         "class": "SUNDAE CUP - FWD",
         "car": "Fit",
         "time": "2:01.858",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "45"
       }
     ],
@@ -15176,7 +15176,7 @@
         "class": "SUNDAE CUP - FWD",
         "car": "Fit",
         "time": "2:05.307",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "48"
       }
     ],
@@ -15250,7 +15250,7 @@
         "class": "SUNDAE CUP - FWD",
         "car": "Fit",
         "time": "2:04.733",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "47"
       }
     ],
@@ -15324,7 +15324,7 @@
         "class": "SUNDAE CUP - FWD",
         "car": "Fit",
         "time": "2:07.726",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "49"
       }
     ],
@@ -15390,7 +15390,7 @@
         "class": "STREET - AWD",
         "car": "Focus RS",
         "time": "1:52.749",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "33"
       }
     ],
@@ -15464,7 +15464,7 @@
         "class": "CLUB TR - RWD",
         "car": "FRS",
         "time": "1:50.723",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "30"
       }
     ],
@@ -15538,7 +15538,7 @@
         "class": "STREET - AWD",
         "car": "Impreza",
         "time": "1:46.605",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "17"
       }
     ],
@@ -15612,7 +15612,7 @@
         "class": "STREET - AWD",
         "car": "Impreza WRX",
         "time": "1:43.376",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "11"
       }
     ],
@@ -15686,7 +15686,7 @@
         "class": "STREET MOD - AWD",
         "car": "Impreza WRX",
         "time": "1:42.172",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "8"
       }
     ],
@@ -15752,7 +15752,7 @@
         "class": "STREET - AWD",
         "car": "Impreza WRX STI",
         "time": "1:49.510",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "26"
       }
     ],
@@ -15818,7 +15818,7 @@
         "class": "STREET MOD - AWD",
         "car": "Lancer Evolution 9",
         "time": "1:44.962",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "12"
       }
     ],
@@ -15892,7 +15892,7 @@
         "class": "TRACK MOD - RWD",
         "car": "M3",
         "time": "1:43.320",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "10"
       }
     ],
@@ -15966,7 +15966,7 @@
         "class": "TRACK MOD - RWD",
         "car": "M3",
         "time": "1:53.770",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "38"
       }
     ],
@@ -16040,7 +16040,7 @@
         "class": "UNLIMITED - RWD",
         "car": "M3",
         "time": "1:38.294",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "2"
       }
     ],
@@ -16106,7 +16106,7 @@
         "class": "STREET - FWD",
         "car": "Mazdaspeed3",
         "time": "1:47.544",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "21"
       }
     ],
@@ -16180,7 +16180,7 @@
         "class": "CLUB TR - RWD",
         "car": "S2000",
         "time": "1:47.060",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "19"
       }
     ],
@@ -16246,7 +16246,7 @@
         "class": "CLUB TR - RWD",
         "car": "S2000",
         "time": "1:48.643",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "24"
       }
     ],
@@ -16320,7 +16320,7 @@
         "class": "CLUB TR - RWD",
         "car": "S2000",
         "time": "1:49.910",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "28"
       }
     ],
@@ -16354,7 +16354,7 @@
         "class": "STREET MOD - RWD",
         "car": "S2000",
         "time": "1:41.275",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "5"
       }
     ],
@@ -16396,7 +16396,7 @@
         "class": "STREET MOD - AWD",
         "car": "S4",
         "time": "1:49.764",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "27"
       }
     ],
@@ -16454,7 +16454,7 @@
         "class": "STREET - RWD",
         "car": "Solstice GXP",
         "time": "1:53.002",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "35"
       }
     ],
@@ -16528,7 +16528,7 @@
         "class": "STREET MOD - AWD",
         "car": "Sti",
         "time": "1:39.338",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "3"
       }
     ],
@@ -16594,7 +16594,7 @@
         "class": "STREET - AWD",
         "car": "STI Hatchback",
         "time": "1:53.697",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "37"
       }
     ],
@@ -16652,7 +16652,7 @@
         "class": "STREET MOD - RWD",
         "car": "Supra #TA90",
         "time": "1:37.938",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "1"
       }
     ],
@@ -16726,7 +16726,7 @@
         "class": "STREET - FWD",
         "car": "Type R",
         "time": "1:47.453",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "20"
       }
     ],
@@ -16768,7 +16768,7 @@
         "class": "SUPER UNLIMITED - RWD",
         "car": "Viper Competiton Coupe",
         "time": "1:42.788",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "9"
       }
     ],
@@ -16818,7 +16818,7 @@
         "class": "UNLIMITED - RWD",
         "car": "ZR1",
         "time": "1:40.885",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "4"
       }
     ],
@@ -16876,7 +16876,7 @@
         "class": "STREET - RWD",
         "car": "Miata",
         "time": "1:49.145",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "25"
       }
     ],
@@ -16934,7 +16934,7 @@
         "class": "STREET MOD - AWD",
         "car": "Impreza L (Boogeyman)",
         "time": "1:42.146",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "7"
       }
     ],
@@ -16984,7 +16984,7 @@
         "class": "TRACK MOD - AWD",
         "car": "Model 3 performance",
         "time": "1:47.625",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "22"
       }
     ],
@@ -17018,7 +17018,7 @@
         "class": "STREET GT - RWD",
         "car": "Julia",
         "time": "1:53.139",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "36"
       }
     ],
@@ -17036,7 +17036,7 @@
         "class": "CLUB TR - RWD",
         "car": "BRZ",
         "time": "2:00.550",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "44"
       }
     ],
@@ -17078,7 +17078,7 @@
         "class": "SUNDAE CUP - FWD",
         "car": "Fit",
         "time": "2:04.432",
-        "session": "Heat 1",
+        "session": "Overall",
         "pos": "46"
       }
     ],

@@ -1584,7 +1584,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.187",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "1"
       },
       {
@@ -1592,7 +1592,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.053",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.182",
         "laps": "7",
         "pos": "3"
@@ -1602,7 +1602,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.140",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.104",
         "laps": "8",
         "pos": "2"
@@ -1612,7 +1612,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.681",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.694",
         "laps": "6",
         "pos": "2"
@@ -1622,7 +1622,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.560",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.075",
         "laps": "8",
         "pos": "4"
@@ -1634,7 +1634,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:42.348",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "2"
       },
       {
@@ -1642,7 +1642,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:41.923",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.629",
         "laps": "7",
         "pos": "4"
@@ -1652,7 +1652,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:42.096",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.122",
         "laps": "8",
         "pos": "3"
@@ -1662,7 +1662,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:45.743",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.645",
         "laps": "6",
         "pos": "3"
@@ -1672,7 +1672,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:43.584",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2 Laps",
         "laps": "5",
         "pos": "40"
@@ -1684,7 +1684,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:42.571",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "3"
       },
       {
@@ -1692,7 +1692,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:41.975",
-        "session": "Heat 1",
+        "session": "Race 1",
         "laps": "7",
         "pos": "1"
       },
@@ -1701,7 +1701,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:41.830",
-        "session": "Heat 2",
+        "session": "Race 2",
         "laps": "8",
         "pos": "1"
       },
@@ -1710,7 +1710,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:43.078",
-        "session": "Heat 3",
+        "session": "Race 3",
         "laps": "6",
         "pos": "1"
       },
@@ -1719,7 +1719,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:43.344",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.855",
         "laps": "8",
         "pos": "3"
@@ -1731,7 +1731,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.995",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "4"
       },
       {
@@ -1739,7 +1739,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.651",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.772",
         "laps": "7",
         "pos": "2"
@@ -1749,7 +1749,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.481",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "4.274",
         "laps": "8",
         "pos": "4"
@@ -1759,7 +1759,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.949",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "5.632",
         "laps": "6",
         "pos": "4"
@@ -1769,7 +1769,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.000",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.086",
         "laps": "8",
         "pos": "9"
@@ -1781,7 +1781,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.279",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "5"
       },
       {
@@ -1789,7 +1789,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.715",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.645",
         "laps": "7",
         "pos": "6"
@@ -1799,7 +1799,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.513",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.007",
         "laps": "8",
         "pos": "6"
@@ -1809,7 +1809,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.514",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "4 Laps",
         "laps": "2",
         "pos": "40"
@@ -1819,7 +1819,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.104",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.282",
         "laps": "8",
         "pos": "21"
@@ -1831,7 +1831,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:43.425",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "6"
       },
       {
@@ -1839,7 +1839,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:42.749",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.127",
         "laps": "7",
         "pos": "10"
@@ -1849,7 +1849,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:42.894",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.573",
         "laps": "8",
         "pos": "5"
@@ -1859,7 +1859,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.948",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.078",
         "laps": "6",
         "pos": "42"
@@ -1869,7 +1869,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.400",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "7.386",
         "laps": "8",
         "pos": "12"
@@ -1881,7 +1881,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.653",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "7"
       },
       {
@@ -1889,7 +1889,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:42.779",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "4.828",
         "laps": "7",
         "pos": "5"
@@ -1899,7 +1899,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.237",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.39",
         "laps": "8",
         "pos": "13"
@@ -1909,7 +1909,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.444",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.042",
         "laps": "6",
         "pos": "7"
@@ -1919,7 +1919,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.743",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.525",
         "laps": "8",
         "pos": "2"
@@ -1931,7 +1931,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.676",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "8"
       },
       {
@@ -1939,7 +1939,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.424",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.385",
         "laps": "7",
         "pos": "7"
@@ -1949,7 +1949,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.095",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.341",
         "laps": "8",
         "pos": "7"
@@ -1959,7 +1959,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "2 Laps",
         "pos": "45"
       },
@@ -1968,7 +1968,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.207",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.339",
         "laps": "8",
         "pos": "16"
@@ -1980,7 +1980,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.845",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "9"
       },
       {
@@ -1988,7 +1988,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.460",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.995",
         "laps": "7",
         "pos": "8"
@@ -1998,7 +1998,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.238",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "8.854",
         "laps": "8",
         "pos": "8"
@@ -2008,7 +2008,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.896",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "2.615",
         "laps": "6",
         "pos": "5"
@@ -2018,7 +2018,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.854",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2.518",
         "laps": "8",
         "pos": "5"
@@ -2030,7 +2030,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.173",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "10"
       },
       {
@@ -2038,7 +2038,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.761",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "3.822",
         "laps": "7",
         "pos": "9"
@@ -2048,7 +2048,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.421",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "3.18",
         "laps": "8",
         "pos": "9"
@@ -2058,7 +2058,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.946",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.296",
         "laps": "6",
         "pos": "36"
@@ -2068,7 +2068,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.694",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.927",
         "laps": "8",
         "pos": "22"
@@ -2080,7 +2080,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.193",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "11"
       },
       {
@@ -2088,7 +2088,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.402",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.719",
         "laps": "7",
         "pos": "12"
@@ -2098,7 +2098,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:43.828",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.66",
         "laps": "8",
         "pos": "12"
@@ -2108,7 +2108,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.215",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.373",
         "laps": "6",
         "pos": "33"
@@ -2118,7 +2118,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.297",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.722",
         "laps": "8",
         "pos": "14"
@@ -2130,7 +2130,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.292",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "12"
       },
       {
@@ -2138,7 +2138,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.276",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.041",
         "laps": "7",
         "pos": "15"
@@ -2148,7 +2148,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.896",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.861",
         "laps": "8",
         "pos": "11"
@@ -2158,7 +2158,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.418",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "2.123",
         "laps": "2",
         "pos": "41"
@@ -2170,7 +2170,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.420",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "13"
       },
       {
@@ -2178,7 +2178,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.285",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.646",
         "laps": "7",
         "pos": "11"
@@ -2188,7 +2188,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.490",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.539",
         "laps": "8",
         "pos": "17"
@@ -2198,7 +2198,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:45.117",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.687",
         "laps": "6",
         "pos": "9"
@@ -2208,7 +2208,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.282",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1 Lap",
         "laps": "7",
         "pos": "39"
@@ -2220,7 +2220,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.824",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "14"
       },
       {
@@ -2228,7 +2228,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.624",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.376",
         "laps": "7",
         "pos": "16"
@@ -2238,7 +2238,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.026",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.462",
         "laps": "8",
         "pos": "19"
@@ -2248,7 +2248,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.790",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.165",
         "laps": "6",
         "pos": "11"
@@ -2258,7 +2258,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.269",
-        "session": "Heat 4",
+        "session": "Race 4",
         "laps": "8",
         "pos": "1"
       }
@@ -2269,7 +2269,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.927",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "15"
       },
       {
@@ -2277,7 +2277,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.455",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.916",
         "laps": "7",
         "pos": "13"
@@ -2287,7 +2287,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.988",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.125",
         "laps": "8",
         "pos": "16"
@@ -2297,7 +2297,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.824",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.397",
         "laps": "6",
         "pos": "8"
@@ -2307,7 +2307,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.147",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "3.887",
         "laps": "8",
         "pos": "6"
@@ -2319,7 +2319,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.931",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "16"
       },
       {
@@ -2327,7 +2327,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.374",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.977",
         "laps": "7",
         "pos": "14"
@@ -2337,7 +2337,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.958",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.606",
         "laps": "8",
         "pos": "14"
@@ -2347,7 +2347,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.639",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.367",
         "laps": "6",
         "pos": "6"
@@ -2357,7 +2357,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.296",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.404",
         "laps": "8",
         "pos": "7"
@@ -2369,7 +2369,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.049",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "17"
       },
       {
@@ -2377,7 +2377,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.578",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "7.354",
         "laps": "7",
         "pos": "19"
@@ -2387,7 +2387,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.087",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.031",
         "laps": "8",
         "pos": "20"
@@ -2397,7 +2397,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.487",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "4.165",
         "laps": "6",
         "pos": "13"
@@ -2407,7 +2407,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.168",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.078",
         "laps": "8",
         "pos": "11"
@@ -2419,7 +2419,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.155",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "18"
       },
       {
@@ -2427,7 +2427,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.167",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1 Lap",
         "laps": "5",
         "pos": "39"
@@ -2437,7 +2437,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.921",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.345",
         "laps": "8",
         "pos": "18"
@@ -2447,7 +2447,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.917",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.029",
         "laps": "6",
         "pos": "12"
@@ -2457,7 +2457,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.193",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "3.276",
         "laps": "8",
         "pos": "10"
@@ -2469,7 +2469,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.161",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "19"
       },
       {
@@ -2477,7 +2477,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.569",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.437",
         "laps": "7",
         "pos": "17"
@@ -2487,7 +2487,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.539",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.009",
         "laps": "8",
         "pos": "15"
@@ -2497,7 +2497,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.446",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.975",
         "laps": "6",
         "pos": "10"
@@ -2507,7 +2507,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.537",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.095",
         "laps": "8",
         "pos": "8"
@@ -2519,7 +2519,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.173",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "20"
       },
       {
@@ -2527,7 +2527,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.003",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "4 Laps",
         "laps": "4",
         "pos": "43"
@@ -2537,7 +2537,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.640",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.172",
         "laps": "6",
         "pos": "31"
@@ -2547,7 +2547,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.922",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.676",
         "laps": "8",
         "pos": "28"
@@ -2559,7 +2559,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:45.293",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "21"
       },
       {
@@ -2567,7 +2567,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:44.487",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1 Lap",
         "laps": "6",
         "pos": "38"
@@ -2577,7 +2577,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:47.245",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.766",
         "laps": "8",
         "pos": "29"
@@ -2587,7 +2587,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:50.472",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.329",
         "laps": "6",
         "pos": "26"
@@ -2599,7 +2599,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.571",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "22"
       }
     ],
@@ -2609,7 +2609,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.778",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "23"
       },
       {
@@ -2617,7 +2617,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:54.423",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1 Lap",
         "laps": "1",
         "pos": "44"
@@ -2627,7 +2627,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.880",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.904",
         "laps": "8",
         "pos": "33"
@@ -2637,7 +2637,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.922",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.556",
         "laps": "6",
         "pos": "23"
@@ -2647,7 +2647,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.101",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.084",
         "laps": "8",
         "pos": "24"
@@ -2659,7 +2659,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.795",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "24"
       },
       {
@@ -2667,7 +2667,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.028",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "5.138",
         "laps": "7",
         "pos": "18"
@@ -2677,7 +2677,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:44.146",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "4.35",
         "laps": "8",
         "pos": "10"
@@ -2687,7 +2687,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.855",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "3 Laps",
         "laps": "2",
         "pos": "41"
@@ -2699,7 +2699,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.260",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "25"
       },
       {
@@ -2707,7 +2707,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.449",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "4.57",
         "laps": "7",
         "pos": "20"
@@ -2717,7 +2717,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.697",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "7.801",
         "laps": "8",
         "pos": "22"
@@ -2727,7 +2727,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.781",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.197",
         "laps": "6",
         "pos": "15"
@@ -2737,7 +2737,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.450",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "5.098",
         "laps": "8",
         "pos": "18"
@@ -2749,7 +2749,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.481",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "26"
       },
       {
@@ -2757,7 +2757,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:54.659",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1 Lap",
         "laps": "2",
         "pos": "43"
@@ -2767,7 +2767,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.253",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.229",
         "laps": "8",
         "pos": "31"
@@ -2777,7 +2777,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.575",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.343",
         "laps": "6",
         "pos": "21"
@@ -2787,7 +2787,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.314",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.196",
         "laps": "8",
         "pos": "15"
@@ -2799,7 +2799,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.658",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "27"
       },
       {
@@ -2807,7 +2807,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.420",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.825",
         "laps": "7",
         "pos": "21"
@@ -2817,7 +2817,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.254",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.967",
         "laps": "8",
         "pos": "32"
@@ -2827,7 +2827,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.416",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.127",
         "laps": "6",
         "pos": "24"
@@ -2837,7 +2837,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.812",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.495",
         "laps": "8",
         "pos": "23"
@@ -2849,7 +2849,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.725",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "28"
       },
       {
@@ -2857,7 +2857,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.447",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.061",
         "laps": "7",
         "pos": "23"
@@ -2869,7 +2869,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.760",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "29"
       },
       {
@@ -2877,7 +2877,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.085",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.07",
         "laps": "7",
         "pos": "25"
@@ -2887,7 +2887,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.624",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.541",
         "laps": "8",
         "pos": "24"
@@ -2897,7 +2897,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.062",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.115",
         "laps": "6",
         "pos": "18"
@@ -2907,7 +2907,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.628",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.27",
         "laps": "8",
         "pos": "19"
@@ -2919,7 +2919,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.272",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "30"
       },
       {
@@ -2927,7 +2927,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.559",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "3.471",
         "laps": "7",
         "pos": "29"
@@ -2937,7 +2937,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.295",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.493",
         "laps": "8",
         "pos": "45"
@@ -2947,7 +2947,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.639",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.882",
         "laps": "6",
         "pos": "28"
@@ -2957,7 +2957,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.607",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2.903",
         "laps": "8",
         "pos": "30"
@@ -2969,7 +2969,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.334",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "31"
       },
       {
@@ -2977,7 +2977,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.953",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "2.797",
         "laps": "7",
         "pos": "24"
@@ -2987,7 +2987,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.533",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.466",
         "laps": "8",
         "pos": "23"
@@ -2997,7 +2997,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.946",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.913",
         "laps": "6",
         "pos": "16"
@@ -3007,7 +3007,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.139",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2.667",
         "laps": "8",
         "pos": "17"
@@ -3019,7 +3019,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.547",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "32"
       },
       {
@@ -3027,7 +3027,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.390",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1 Lap",
         "laps": "4",
         "pos": "40"
@@ -3037,7 +3037,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.698",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "5.747",
         "laps": "8",
         "pos": "25"
@@ -3047,7 +3047,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.980",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.625",
         "laps": "6",
         "pos": "17"
@@ -3057,7 +3057,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.542",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.532",
         "laps": "8",
         "pos": "20"
@@ -3069,7 +3069,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.555",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "33"
       },
       {
@@ -3077,7 +3077,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.581",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1 Lap",
         "laps": "3",
         "pos": "42"
@@ -3087,7 +3087,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.732",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.272",
         "laps": "8",
         "pos": "30"
@@ -3097,7 +3097,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.279",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.656",
         "laps": "6",
         "pos": "20"
@@ -3107,7 +3107,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.769",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.554",
         "laps": "8",
         "pos": "25"
@@ -3119,7 +3119,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.020",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "34"
       },
       {
@@ -3127,7 +3127,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.945",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "2.742",
         "laps": "7",
         "pos": "31"
@@ -3137,7 +3137,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.459",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.414",
         "laps": "8",
         "pos": "26"
@@ -3147,7 +3147,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.248",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.275",
         "laps": "6",
         "pos": "19"
@@ -3157,7 +3157,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.579",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.862",
         "laps": "8",
         "pos": "27"
@@ -3169,7 +3169,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.446",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "35"
       },
       {
@@ -3177,7 +3177,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.853",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.478",
         "laps": "7",
         "pos": "28"
@@ -3187,7 +3187,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.923",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.664",
         "laps": "8",
         "pos": "27"
@@ -3197,7 +3197,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.323",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.853",
         "laps": "6",
         "pos": "30"
@@ -3207,7 +3207,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.318",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.473",
         "laps": "8",
         "pos": "31"
@@ -3219,7 +3219,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.931",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "36"
       },
       {
@@ -3227,7 +3227,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.847",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "9.713",
         "laps": "7",
         "pos": "26"
@@ -3237,7 +3237,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.125",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1 Lap",
         "laps": "3",
         "pos": "44"
@@ -3247,7 +3247,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.518",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "2.038",
         "laps": "6",
         "pos": "29"
@@ -3257,7 +3257,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.749",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.422",
         "laps": "8",
         "pos": "26"
@@ -3269,7 +3269,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.347",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "37"
       },
       {
@@ -3277,7 +3277,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.031",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.457",
         "laps": "7",
         "pos": "27"
@@ -3287,7 +3287,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.595",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.549",
         "laps": "8",
         "pos": "28"
@@ -3297,7 +3297,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.163",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.718",
         "laps": "6",
         "pos": "22"
@@ -3307,7 +3307,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.170",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2.527",
         "laps": "8",
         "pos": "29"
@@ -3319,7 +3319,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:51.351",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "38"
       },
       {
@@ -3327,7 +3327,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.393",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.627",
         "laps": "7",
         "pos": "22"
@@ -3337,7 +3337,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:45.980",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "6.02",
         "laps": "8",
         "pos": "21"
@@ -3347,7 +3347,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.659",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.722",
         "laps": "6",
         "pos": "14"
@@ -3357,7 +3357,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.136",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.335",
         "laps": "8",
         "pos": "13"
@@ -3369,7 +3369,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:51.719",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "39"
       },
       {
@@ -3377,7 +3377,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:50.509",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "8.917",
         "laps": "7",
         "pos": "32"
@@ -3387,7 +3387,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.984",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "3.095",
         "laps": "8",
         "pos": "35"
@@ -3397,7 +3397,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:50.401",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.852",
         "laps": "6",
         "pos": "27"
@@ -3407,7 +3407,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.295",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.481",
         "laps": "8",
         "pos": "33"
@@ -3419,7 +3419,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:51.843",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "40"
       },
       {
@@ -3427,7 +3427,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:50.683",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.241",
         "laps": "7",
         "pos": "33"
@@ -3437,7 +3437,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:50.664",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "8.229",
         "laps": "8",
         "pos": "37"
@@ -3447,7 +3447,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:51.889",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.982",
         "laps": "6",
         "pos": "34"
@@ -3457,7 +3457,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.662",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "8.287",
         "laps": "8",
         "pos": "34"
@@ -3469,7 +3469,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:52.328",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "41"
       },
       {
@@ -3477,7 +3477,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:02.581",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "15.351",
         "laps": "1",
         "pos": "45"
@@ -3487,7 +3487,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:50.502",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "3.338",
         "laps": "8",
         "pos": "39"
@@ -3497,7 +3497,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:54.942",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "4.253",
         "laps": "2",
         "pos": "44"
@@ -3509,7 +3509,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:52.466",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "42"
       },
       {
@@ -3517,7 +3517,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:51.821",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "11.487",
         "laps": "7",
         "pos": "34"
@@ -3527,7 +3527,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.500",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.97",
         "laps": "8",
         "pos": "36"
@@ -3537,7 +3537,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:52.336",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.994",
         "laps": "6",
         "pos": "32"
@@ -3547,7 +3547,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:48.266",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "4.155",
         "laps": "8",
         "pos": "32"
@@ -3559,7 +3559,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:52.916",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "43"
       },
       {
@@ -3567,7 +3567,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:52.887",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.234",
         "laps": "7",
         "pos": "37"
@@ -3577,7 +3577,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:53.146",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "7.036",
         "laps": "8",
         "pos": "42"
@@ -3587,7 +3587,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:54.832",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.858",
         "laps": "6",
         "pos": "39"
@@ -3597,7 +3597,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:54.416",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "23.887",
         "laps": "8",
         "pos": "38"
@@ -3609,7 +3609,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:53.150",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "44"
       },
       {
@@ -3617,7 +3617,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:51.931",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "21.197",
         "laps": "4",
         "pos": "41"
@@ -3627,7 +3627,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:50.288",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "4.282",
         "laps": "8",
         "pos": "38"
@@ -3637,7 +3637,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:53.816",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "2.623",
         "laps": "6",
         "pos": "35"
@@ -3647,7 +3647,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:50.830",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "9.939",
         "laps": "8",
         "pos": "35"
@@ -3659,7 +3659,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:54.013",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "45"
       },
       {
@@ -3667,7 +3667,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:51.692",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.95",
         "laps": "8",
         "pos": "41"
@@ -3677,7 +3677,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:54.920",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.711",
         "laps": "6",
         "pos": "38"
@@ -3687,7 +3687,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:51.297",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.151",
         "laps": "8",
         "pos": "37"
@@ -3699,7 +3699,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.578",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "46"
       },
       {
@@ -3707,7 +3707,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:52.027",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.287",
         "laps": "7",
         "pos": "36"
@@ -3717,7 +3717,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:51.417",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.756",
         "laps": "8",
         "pos": "40"
@@ -3727,7 +3727,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:55.128",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.39",
         "laps": "6",
         "pos": "37"
@@ -3737,7 +3737,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:50.984",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "4.135",
         "laps": "8",
         "pos": "36"
@@ -3749,7 +3749,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:44.985",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "47"
       },
       {
@@ -3757,7 +3757,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:46.879",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.087",
         "laps": "7",
         "pos": "30"
@@ -3767,7 +3767,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:50.800",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1 Lap",
         "laps": "2",
         "pos": "46"
@@ -3777,7 +3777,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:50.791",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "23.513",
         "laps": "2",
         "pos": "43"
@@ -3789,7 +3789,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.415",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "7.239",
         "laps": "7",
         "pos": "35"
@@ -3799,7 +3799,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:47.522",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "9.467",
         "laps": "8",
         "pos": "34"
@@ -3809,7 +3809,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:49.504",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.726",
         "laps": "6",
         "pos": "25"
@@ -3819,7 +3819,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2 Laps",
         "pos": "42"
       }
@@ -6253,7 +6253,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:54.628",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "1"
       },
       {
@@ -6261,7 +6261,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:55.272",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "2.123",
         "laps": "7",
         "pos": "2"
@@ -6271,7 +6271,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.590",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "4.321",
         "laps": "7",
         "pos": "4"
@@ -6281,7 +6281,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.850",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "4.690",
         "laps": "7",
         "pos": "10"
@@ -6291,7 +6291,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.526",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.637",
         "laps": "8",
         "pos": "7"
@@ -6303,7 +6303,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:54.773",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "2"
       },
       {
@@ -6311,7 +6311,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:54.699",
-        "session": "Practice",
+        "session": "Race 1",
         "laps": "7",
         "pos": "1"
       },
@@ -6320,7 +6320,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:55.473",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1.417",
         "laps": "7",
         "pos": "2"
@@ -6330,7 +6330,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.787",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "2.476",
         "laps": "7",
         "pos": "2"
@@ -6340,7 +6340,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.893",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "1.129",
         "laps": "8",
         "pos": "3"
@@ -6352,7 +6352,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:54.882",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "3"
       },
       {
@@ -6360,7 +6360,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:55.590",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.091",
         "laps": "7",
         "pos": "5"
@@ -6370,7 +6370,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.330",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.269",
         "laps": "7",
         "pos": "5"
@@ -6380,7 +6380,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.111",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "1.635",
         "laps": "7",
         "pos": "3"
@@ -6390,7 +6390,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.216",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "2.377",
         "laps": "8",
         "pos": "2"
@@ -6402,7 +6402,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:55.539",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "4"
       },
       {
@@ -6410,7 +6410,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:55.569",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.578",
         "laps": "7",
         "pos": "4"
@@ -6420,7 +6420,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:55.357",
-        "session": "Practice",
+        "session": "Race 2",
         "laps": "7",
         "pos": "1"
       },
@@ -6429,7 +6429,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:00.643",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "4.473",
         "laps": "7",
         "pos": "5"
@@ -6439,7 +6439,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:58.806",
-        "session": "Practice",
+        "session": "Race 4",
         "laps": "8",
         "pos": "1"
       }
@@ -6450,7 +6450,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:55.641",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "5"
       },
       {
@@ -6458,7 +6458,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:56.287",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1 Lap",
         "laps": "2",
         "pos": "43"
@@ -6468,7 +6468,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:56.754",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1 Lap",
         "laps": "6",
         "pos": "35"
@@ -6480,7 +6480,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:55.861",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "6"
       },
       {
@@ -6488,7 +6488,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:55.115",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.479",
         "laps": "7",
         "pos": "3"
@@ -6498,7 +6498,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:55.456",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.465",
         "laps": "7",
         "pos": "3"
@@ -6508,7 +6508,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.977",
-        "session": "Practice",
+        "session": "Race 3",
         "laps": "7",
         "pos": "1"
       },
@@ -6517,7 +6517,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:09.764",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "7 Laps",
         "laps": "1",
         "pos": "28"
@@ -6529,7 +6529,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.025",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "7"
       },
       {
@@ -6537,7 +6537,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:55.780",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.319",
         "laps": "7",
         "pos": "6"
@@ -6547,7 +6547,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.629",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "2.799",
         "laps": "7",
         "pos": "6"
@@ -6557,7 +6557,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:01.417",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "3.764",
         "laps": "7",
         "pos": "4"
@@ -6567,7 +6567,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.561",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "3.709",
         "laps": "8",
         "pos": "5"
@@ -6579,7 +6579,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.188",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "8"
       },
       {
@@ -6587,7 +6587,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.001",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.304",
         "laps": "7",
         "pos": "7"
@@ -6597,7 +6597,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.411",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.643",
         "laps": "7",
         "pos": "12"
@@ -6607,7 +6607,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:02.695",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "7.474",
         "laps": "8",
         "pos": "17"
@@ -6619,7 +6619,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.548",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "9"
       },
       {
@@ -6627,7 +6627,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.157",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.546",
         "laps": "7",
         "pos": "8"
@@ -6637,7 +6637,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.562",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "2.557",
         "laps": "7",
         "pos": "7"
@@ -6647,7 +6647,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.167",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "2.236",
         "laps": "7",
         "pos": "6"
@@ -6659,7 +6659,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.602",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "10"
       },
       {
@@ -6667,7 +6667,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.723",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.575",
         "laps": "7",
         "pos": "11"
@@ -6677,7 +6677,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.604",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1.805",
         "laps": "7",
         "pos": "11"
@@ -6687,7 +6687,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.832",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "1.896",
         "laps": "8",
         "pos": "12"
@@ -6699,7 +6699,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.658",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "11"
       },
       {
@@ -6707,7 +6707,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.426",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.328",
         "laps": "7",
         "pos": "14"
@@ -6719,7 +6719,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.679",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "12"
       },
       {
@@ -6727,7 +6727,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.594",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.045",
         "laps": "7",
         "pos": "9"
@@ -6737,7 +6737,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1 Lap",
         "pos": "41"
       }
@@ -6748,7 +6748,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.893",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "13"
       },
       {
@@ -6756,7 +6756,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.360",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.495",
         "laps": "7",
         "pos": "15"
@@ -6766,7 +6766,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.500",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1.042",
         "laps": "7",
         "pos": "10"
@@ -6778,7 +6778,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.946",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "14"
       },
       {
@@ -6786,7 +6786,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.110",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "2.678",
         "laps": "7",
         "pos": "10"
@@ -6796,7 +6796,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.701",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.010",
         "laps": "7",
         "pos": "26"
@@ -6806,7 +6806,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:04.314",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "3.127",
         "laps": "7",
         "pos": "14"
@@ -6816,7 +6816,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.460",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "7.231",
         "laps": "8",
         "pos": "8"
@@ -6828,7 +6828,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.235",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "15"
       },
       {
@@ -6836,7 +6836,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:56.915",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.724",
         "laps": "7",
         "pos": "12"
@@ -6846,7 +6846,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.223",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "2.883",
         "laps": "7",
         "pos": "8"
@@ -6856,7 +6856,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:02.040",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "0.747",
         "laps": "7",
         "pos": "9"
@@ -6866,7 +6866,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.496",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.853",
         "laps": "8",
         "pos": "6"
@@ -6878,7 +6878,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:57.256",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "16"
       },
       {
@@ -6886,7 +6886,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "2 Laps",
         "pos": "44"
       },
@@ -6895,7 +6895,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:58.889",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "4.528",
         "laps": "7",
         "pos": "24"
@@ -6905,7 +6905,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:05.153",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "2.012",
         "laps": "7",
         "pos": "18"
@@ -6915,7 +6915,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:59.655",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.805",
         "laps": "8",
         "pos": "13"
@@ -6927,7 +6927,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.278",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "17"
       },
       {
@@ -6935,7 +6935,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.264",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.485",
         "laps": "7",
         "pos": "18"
@@ -6945,7 +6945,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.534",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.428",
         "laps": "7",
         "pos": "20"
@@ -6955,7 +6955,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.930",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "1.391",
         "laps": "7",
         "pos": "13"
@@ -6965,7 +6965,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.985",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.051",
         "laps": "8",
         "pos": "10"
@@ -6977,7 +6977,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:57.314",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "18"
       },
       {
@@ -6985,7 +6985,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:57.649",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.106",
         "laps": "7",
         "pos": "21"
@@ -6995,7 +6995,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:59.415",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1 Lap",
         "laps": "2",
         "pos": "39"
@@ -7005,7 +7005,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:06.370",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "5.868",
         "laps": "7",
         "pos": "23"
@@ -7017,7 +7017,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.443",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "19"
       },
       {
@@ -7025,7 +7025,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.650",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.259",
         "laps": "7",
         "pos": "13"
@@ -7035,7 +7035,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.243",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.328",
         "laps": "7",
         "pos": "14"
@@ -7045,7 +7045,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:04.750",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "1.464",
         "laps": "7",
         "pos": "19"
@@ -7055,7 +7055,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:01.003",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "3.515",
         "laps": "8",
         "pos": "11"
@@ -7067,7 +7067,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.609",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "20"
       },
       {
@@ -7075,7 +7075,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.053",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.196",
         "laps": "7",
         "pos": "26"
@@ -7085,7 +7085,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:07.665",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1 Lap",
         "laps": "1",
         "pos": "40"
@@ -7095,7 +7095,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:05.984",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "0.128",
         "laps": "7",
         "pos": "22"
@@ -7105,7 +7105,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Practice",
+        "session": "Race 4",
         "pos": "29"
       }
     ],
@@ -7115,7 +7115,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.650",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "21"
       },
       {
@@ -7123,7 +7123,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.500",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.271",
         "laps": "7",
         "pos": "16"
@@ -7133,7 +7133,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.448",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.274",
         "laps": "7",
         "pos": "15"
@@ -7143,7 +7143,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:02.741",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "0.331",
         "laps": "7",
         "pos": "7"
@@ -7153,7 +7153,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.060",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.935",
         "laps": "8",
         "pos": "4"
@@ -7165,7 +7165,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.764",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "22"
       },
       {
@@ -7173,7 +7173,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.664",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1 Lap",
         "laps": "6",
         "pos": "40"
@@ -7185,7 +7185,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:57.806",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "23"
       },
       {
@@ -7193,7 +7193,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:58.449",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.353",
         "laps": "7",
         "pos": "20"
@@ -7203,7 +7203,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:58.834",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.348",
         "laps": "7",
         "pos": "23"
@@ -7213,7 +7213,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:05.194",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "2.205",
         "laps": "7",
         "pos": "17"
@@ -7223,7 +7223,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:02.999",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.765",
         "laps": "8",
         "pos": "16"
@@ -7235,7 +7235,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:57.894",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "24"
       },
       {
@@ -7243,7 +7243,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:57.442",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.296",
         "laps": "7",
         "pos": "19"
@@ -7253,7 +7253,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "1:57.383",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "4.423",
         "laps": "7",
         "pos": "9"
@@ -7263,7 +7263,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "4 Laps",
         "pos": "31"
       },
@@ -7272,7 +7272,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:02.563",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "15.275",
         "laps": "8",
         "pos": "14"
@@ -7284,7 +7284,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.896",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "25"
       },
       {
@@ -7292,7 +7292,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.436",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "3 Laps",
         "laps": "3",
         "pos": "42"
@@ -7304,7 +7304,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:57.905",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "26"
       },
       {
@@ -7312,7 +7312,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.267",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.138",
         "laps": "7",
         "pos": "25"
@@ -7322,7 +7322,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.213",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.492",
         "laps": "7",
         "pos": "17"
@@ -7332,7 +7332,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:05.697",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "6.266",
         "laps": "7",
         "pos": "15"
@@ -7344,7 +7344,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.265",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "27"
       },
       {
@@ -7352,7 +7352,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.389",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.086",
         "laps": "7",
         "pos": "22"
@@ -7362,7 +7362,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.678",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "2.544",
         "laps": "7",
         "pos": "18"
@@ -7372,7 +7372,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.996",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "0.690",
         "laps": "7",
         "pos": "11"
@@ -7382,7 +7382,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:04.492",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.241",
         "laps": "8",
         "pos": "19"
@@ -7394,7 +7394,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.381",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "28"
       },
       {
@@ -7402,7 +7402,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.453",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.025",
         "laps": "7",
         "pos": "24"
@@ -7412,7 +7412,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.584",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1.986",
         "laps": "7",
         "pos": "31"
@@ -7424,7 +7424,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.482",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "29"
       },
       {
@@ -7432,7 +7432,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.397",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.968",
         "laps": "7",
         "pos": "29"
@@ -7442,7 +7442,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.834",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1.348",
         "laps": "7",
         "pos": "19"
@@ -7452,7 +7452,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:05.299",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "3.505",
         "laps": "7",
         "pos": "16"
@@ -7464,7 +7464,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.546",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "30"
       },
       {
@@ -7472,7 +7472,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.600",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.170",
         "laps": "7",
         "pos": "17"
@@ -7482,7 +7482,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.531",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "6.755",
         "laps": "7",
         "pos": "13"
@@ -7492,7 +7492,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:02.653",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "18.292",
         "laps": "7",
         "pos": "8"
@@ -7504,7 +7504,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.801",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "31"
       }
     ],
@@ -7514,7 +7514,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.577",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "32"
       },
       {
@@ -7522,7 +7522,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.369",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.288",
         "laps": "7",
         "pos": "23"
@@ -7532,7 +7532,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.538",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.659",
         "laps": "7",
         "pos": "22"
@@ -7542,7 +7542,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:08.288",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "5.187",
         "laps": "7",
         "pos": "20"
@@ -7552,7 +7552,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:04.745",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "1.344",
         "laps": "8",
         "pos": "18"
@@ -7564,7 +7564,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.663",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "33"
       },
       {
@@ -7572,7 +7572,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.488",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.150",
         "laps": "7",
         "pos": "31"
@@ -7582,7 +7582,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.087",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "2.240",
         "laps": "7",
         "pos": "25"
@@ -7592,7 +7592,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:07.500",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "0.645",
         "laps": "7",
         "pos": "21"
@@ -7602,7 +7602,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.006",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "2.234",
         "laps": "8",
         "pos": "15"
@@ -7614,7 +7614,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.129",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "34"
       },
       {
@@ -7622,7 +7622,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.334",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.402",
         "laps": "7",
         "pos": "30"
@@ -7632,7 +7632,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.663",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "3.624",
         "laps": "7",
         "pos": "27"
@@ -7642,7 +7642,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:08.834",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "0.580",
         "laps": "7",
         "pos": "26"
@@ -7652,7 +7652,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:04.585",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "12.487",
         "laps": "8",
         "pos": "21"
@@ -7664,7 +7664,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.164",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "35"
       },
       {
@@ -7672,7 +7672,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.756",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.937",
         "laps": "7",
         "pos": "28"
@@ -7682,7 +7682,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.206",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "2.071",
         "laps": "7",
         "pos": "16"
@@ -7694,7 +7694,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.352",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "36"
       },
       {
@@ -7702,7 +7702,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.896",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "6.057",
         "laps": "6",
         "pos": "41"
@@ -7712,7 +7712,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.790",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1 Lap",
         "laps": "3",
         "pos": "38"
@@ -7724,7 +7724,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.400",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "37"
       },
       {
@@ -7732,7 +7732,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.480",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.263",
         "laps": "7",
         "pos": "32"
@@ -7742,7 +7742,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:59.919",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "2.510",
         "laps": "7",
         "pos": "30"
@@ -7752,7 +7752,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:12.044",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "3 Laps",
         "laps": "4",
         "pos": "30"
@@ -7762,7 +7762,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:05.258",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "1.093",
         "laps": "8",
         "pos": "23"
@@ -7774,7 +7774,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.844",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "38"
       },
       {
@@ -7782,7 +7782,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.444",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.942",
         "laps": "7",
         "pos": "33"
@@ -7792,7 +7792,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:01.683",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "4.325",
         "laps": "7",
         "pos": "28"
@@ -7802,7 +7802,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:09.802",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "15.254",
         "laps": "7",
         "pos": "24"
@@ -7812,7 +7812,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:04.076",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.664",
         "laps": "8",
         "pos": "20"
@@ -7824,7 +7824,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:01.637",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "39"
       },
       {
@@ -7832,7 +7832,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:02.644",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "4.848",
         "laps": "7",
         "pos": "34"
@@ -7842,7 +7842,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:05.871",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1 Lap",
         "laps": "5",
         "pos": "36"
@@ -7852,7 +7852,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:10.994",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "5.777",
         "laps": "7",
         "pos": "27"
@@ -7862,7 +7862,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:07.708",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "3.881",
         "laps": "8",
         "pos": "27"
@@ -7874,7 +7874,7 @@
         "class": "GLTC",
         "car": "GLTC - AWD",
         "time": "2:03.188",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "40"
       }
     ],
@@ -7884,7 +7884,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.563",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "41"
       },
       {
@@ -7892,7 +7892,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.413",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.559",
         "laps": "7",
         "pos": "37"
@@ -7902,7 +7902,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:04.827",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "11.636",
         "laps": "7",
         "pos": "32"
@@ -7912,7 +7912,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:06.017",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "11.519",
         "laps": "8",
         "pos": "22"
@@ -7924,7 +7924,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:04.351",
-        "session": "Practice",
+        "session": "Qualifying",
         "pos": "42"
       },
       {
@@ -7932,7 +7932,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.118",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "1.573",
         "laps": "7",
         "pos": "35"
@@ -7942,7 +7942,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:03.895",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "2.281",
         "laps": "7",
         "pos": "33"
@@ -7952,7 +7952,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:11.360",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "5.039",
         "laps": "7",
         "pos": "28"
@@ -7962,7 +7962,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:08.667",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "5.005",
         "laps": "8",
         "pos": "25"
@@ -7974,7 +7974,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.045",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.378",
         "laps": "7",
         "pos": "27"
@@ -7984,7 +7984,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "1:58.524",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "4.728",
         "laps": "7",
         "pos": "21"
@@ -7994,7 +7994,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:04.148",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "0.484",
         "laps": "7",
         "pos": "12"
@@ -8004,7 +8004,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:00.266",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.218",
         "laps": "8",
         "pos": "9"
@@ -8016,7 +8016,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:03.969",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.879",
         "laps": "7",
         "pos": "36"
@@ -8026,7 +8026,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:04.345",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "1 Lap",
         "laps": "4",
         "pos": "37"
@@ -8036,7 +8036,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:11.667",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "22.430",
         "laps": "7",
         "pos": "29"
@@ -8046,7 +8046,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:06.570",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "8.863",
         "laps": "8",
         "pos": "26"
@@ -8058,7 +8058,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:02.872",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "0.551",
         "laps": "7",
         "pos": "38"
@@ -8068,7 +8068,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:01.678",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "0.299",
         "laps": "7",
         "pos": "29"
@@ -8078,7 +8078,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:09.926",
-        "session": "Practice",
+        "session": "Race 3",
         "gap": "2.194",
         "laps": "7",
         "pos": "25"
@@ -8088,7 +8088,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:06.875",
-        "session": "Practice",
+        "session": "Race 4",
         "gap": "0.286",
         "laps": "8",
         "pos": "24"
@@ -8100,7 +8100,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:06.029",
-        "session": "Practice",
+        "session": "Race 1",
         "gap": "6.351",
         "laps": "7",
         "pos": "39"
@@ -8110,7 +8110,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:08.686",
-        "session": "Practice",
+        "session": "Race 2",
         "gap": "28.330",
         "laps": "7",
         "pos": "34"
@@ -8124,7 +8124,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:30.448",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "1"
       },
       {
@@ -8132,7 +8132,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.501",
-        "session": "Heat 1",
+        "session": "Race 1",
         "laps": "5",
         "pos": "1"
       },
@@ -8141,7 +8141,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:31.640",
-        "session": "Heat 2",
+        "session": "Race 2",
         "laps": "2",
         "pos": "1"
       },
@@ -8150,7 +8150,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:31.908",
-        "session": "Heat 3",
+        "session": "Race 3",
         "laps": "6",
         "pos": "1"
       },
@@ -8159,7 +8159,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:30.977",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2.403",
         "laps": "4",
         "pos": "5"
@@ -8171,7 +8171,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:31.156",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "2"
       },
       {
@@ -8179,7 +8179,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.654",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.279",
         "laps": "5",
         "pos": "3"
@@ -8189,7 +8189,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.183",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.32",
         "laps": "2",
         "pos": "3"
@@ -8199,7 +8199,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.924",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.979",
         "laps": "6",
         "pos": "2"
@@ -8209,7 +8209,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:31.713",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.719",
         "laps": "4",
         "pos": "3"
@@ -8221,7 +8221,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:31.440",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "3"
       },
       {
@@ -8229,7 +8229,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.497",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.195",
         "laps": "5",
         "pos": "2"
@@ -8239,7 +8239,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.485",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.752",
         "laps": "2",
         "pos": "2"
@@ -8249,7 +8249,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.412",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.404",
         "laps": "6",
         "pos": "4"
@@ -8259,7 +8259,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:31.947",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.783",
         "laps": "4",
         "pos": "4"
@@ -8271,7 +8271,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:31.911",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "4"
       },
       {
@@ -8279,7 +8279,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.157",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.448",
         "laps": "5",
         "pos": "5"
@@ -8289,7 +8289,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.512",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.719",
         "laps": "2",
         "pos": "4"
@@ -8299,7 +8299,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.624",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.575",
         "laps": "6",
         "pos": "3"
@@ -8309,7 +8309,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:40.742",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.361",
         "laps": "4",
         "pos": "28"
@@ -8321,7 +8321,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:31.942",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "5"
       },
       {
@@ -8329,7 +8329,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:35.464",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.261",
         "laps": "5",
         "pos": "4"
@@ -8339,7 +8339,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:35.929",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1 Lap",
         "laps": "1",
         "pos": "38"
@@ -8349,7 +8349,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:31.773",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "3.854",
         "laps": "6",
         "pos": "5"
@@ -8359,7 +8359,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:40.798",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1 Lap",
         "laps": "2",
         "pos": "40"
@@ -8371,7 +8371,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.392",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "6"
       },
       {
@@ -8379,7 +8379,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:40.837",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.434",
         "laps": "5",
         "pos": "37"
@@ -8389,7 +8389,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:47.583",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.1",
         "laps": "1",
         "pos": "42"
@@ -8401,7 +8401,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.546",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "7"
       },
       {
@@ -8409,7 +8409,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.606",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.904",
         "laps": "5",
         "pos": "6"
@@ -8419,7 +8419,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.173",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.742",
         "laps": "6",
         "pos": "7"
@@ -8429,7 +8429,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.505",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.316",
         "laps": "4",
         "pos": "41"
@@ -8441,7 +8441,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.570",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "8"
       },
       {
@@ -8449,7 +8449,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.619",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "2.32",
         "laps": "5",
         "pos": "7"
@@ -8459,7 +8459,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.894",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.655",
         "laps": "2",
         "pos": "5"
@@ -8469,7 +8469,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.752",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.418",
         "laps": "6",
         "pos": "6"
@@ -8479,7 +8479,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.405",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.152",
         "laps": "4",
         "pos": "10"
@@ -8491,7 +8491,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.801",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "9"
       },
       {
@@ -8499,7 +8499,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.145",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.136",
         "laps": "5",
         "pos": "18"
@@ -8509,7 +8509,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.449",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.296",
         "laps": "2",
         "pos": "12"
@@ -8519,7 +8519,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.158",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.005",
         "laps": "6",
         "pos": "11"
@@ -8529,7 +8529,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.442",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2.237",
         "laps": "4",
         "pos": "2"
@@ -8541,7 +8541,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.878",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "10"
       },
       {
@@ -8549,7 +8549,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.501",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.191",
         "laps": "5",
         "pos": "10"
@@ -8559,7 +8559,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.051",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.469",
         "laps": "2",
         "pos": "8"
@@ -8569,7 +8569,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.788",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "5.859",
         "laps": "6",
         "pos": "8"
@@ -8579,7 +8579,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.882",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "3.34",
         "laps": "4",
         "pos": "7"
@@ -8591,7 +8591,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.053",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "11"
       },
       {
@@ -8599,7 +8599,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1 Lap",
         "pos": "46"
       },
@@ -8608,7 +8608,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.431",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "2.143",
         "laps": "6",
         "pos": "26"
@@ -8618,7 +8618,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.856",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.206",
         "laps": "4",
         "pos": "16"
@@ -8630,7 +8630,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.215",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "12"
       },
       {
@@ -8638,7 +8638,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:45.560",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.562",
         "laps": "1",
         "pos": "41"
@@ -8650,7 +8650,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.406",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "13"
       },
       {
@@ -8658,7 +8658,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.325",
         "pos": "47"
       }
@@ -8669,7 +8669,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.798",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "14"
       },
       {
@@ -8677,7 +8677,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.049",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "2.201",
         "laps": "5",
         "pos": "14"
@@ -8687,7 +8687,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:42.021",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "7.732",
         "laps": "1",
         "pos": "39"
@@ -8697,7 +8697,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.220",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.37",
         "laps": "6",
         "pos": "20"
@@ -8707,7 +8707,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.142",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.905",
         "laps": "4",
         "pos": "18"
@@ -8719,7 +8719,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.898",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "15"
       },
       {
@@ -8727,7 +8727,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.160",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.671",
         "laps": "5",
         "pos": "8"
@@ -8737,7 +8737,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.293",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.59",
         "laps": "2",
         "pos": "6"
@@ -8747,7 +8747,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.712",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.92",
         "laps": "4",
         "pos": "9"
@@ -8759,7 +8759,7 @@
         "class": "GLTC",
         "car": "NULL - RWD",
         "time": "2:33.949",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "16"
       },
       {
@@ -8767,7 +8767,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.126",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.145",
         "laps": "5",
         "pos": "11"
@@ -8777,7 +8777,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.616",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.12",
         "laps": "2",
         "pos": "9"
@@ -8787,7 +8787,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.780",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.309",
         "laps": "6",
         "pos": "13"
@@ -8797,7 +8797,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.517",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.352",
         "laps": "4",
         "pos": "14"
@@ -8809,7 +8809,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:33.956",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "17"
       },
       {
@@ -8817,7 +8817,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:37.816",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.394",
         "laps": "5",
         "pos": "15"
@@ -8827,7 +8827,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:41.794",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.253",
         "laps": "2",
         "pos": "14"
@@ -8837,7 +8837,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:34.795",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.622",
         "laps": "6",
         "pos": "16"
@@ -8847,7 +8847,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:37.703",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2.992",
         "laps": "4",
         "pos": "20"
@@ -8859,7 +8859,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.971",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "18"
       },
       {
@@ -8867,7 +8867,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:40.422",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.977",
         "laps": "5",
         "pos": "38"
@@ -8877,7 +8877,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:43.922",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.37",
         "laps": "2",
         "pos": "25"
@@ -8887,7 +8887,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.806",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1 Lap",
         "laps": "4",
         "pos": "43"
@@ -8897,7 +8897,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.329",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "5.536",
         "laps": "2",
         "pos": "42"
@@ -8909,7 +8909,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:34.062",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "19"
       },
       {
@@ -8917,7 +8917,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.559",
         "pos": "48"
       },
@@ -8926,7 +8926,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "35.611",
         "pos": "47"
       },
@@ -8935,7 +8935,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:33.728",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.157",
         "laps": "6",
         "pos": "18"
@@ -8945,7 +8945,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:32.200",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.752",
         "laps": "4",
         "pos": "6"
@@ -8957,7 +8957,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.172",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "20"
       },
       {
@@ -8965,7 +8965,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.604",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.274",
         "laps": "5",
         "pos": "16"
@@ -8975,7 +8975,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.580",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "6.725",
         "laps": "2",
         "pos": "13"
@@ -8985,7 +8985,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.602",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.325",
         "laps": "6",
         "pos": "22"
@@ -8995,7 +8995,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.084",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "3.063",
         "laps": "4",
         "pos": "22"
@@ -9007,7 +9007,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.302",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "21"
       },
       {
@@ -9015,7 +9015,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.085",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.436",
         "laps": "5",
         "pos": "9"
@@ -9025,7 +9025,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.740",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.025",
         "laps": "2",
         "pos": "7"
@@ -9035,7 +9035,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.793",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "4.627",
         "laps": "6",
         "pos": "10"
@@ -9045,7 +9045,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:32.914",
-        "session": "Heat 4",
+        "session": "Race 4",
         "laps": "4",
         "pos": "1"
       }
@@ -9056,7 +9056,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.321",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "22"
       },
       {
@@ -9064,7 +9064,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "5:42.157",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "17:29.141",
         "laps": "1",
         "pos": "45"
@@ -9074,7 +9074,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:49.237",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "15.837",
         "laps": "2",
         "pos": "28"
@@ -9084,7 +9084,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.568",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.278",
         "laps": "6",
         "pos": "25"
@@ -9094,7 +9094,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.033",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.19",
         "laps": "4",
         "pos": "19"
@@ -9106,7 +9106,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:34.422",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "23"
       },
       {
@@ -9114,7 +9114,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:36.155",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.345",
         "laps": "5",
         "pos": "12"
@@ -9124,7 +9124,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:33.397",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.722",
         "laps": "2",
         "pos": "11"
@@ -9134,7 +9134,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:34.783",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.208",
         "laps": "6",
         "pos": "9"
@@ -9144,7 +9144,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:36.231",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.318",
         "laps": "4",
         "pos": "12"
@@ -9156,7 +9156,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.467",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "24"
       },
       {
@@ -9164,7 +9164,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:39.137",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1 Lap",
         "laps": "5",
         "pos": "42"
@@ -9174,7 +9174,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.227",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "4.516",
         "laps": "4",
         "pos": "36"
@@ -9186,7 +9186,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.488",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "25"
       },
       {
@@ -9194,7 +9194,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.035",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "2.004",
         "laps": "5",
         "pos": "13"
@@ -9204,7 +9204,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:33.897",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.215",
         "laps": "2",
         "pos": "10"
@@ -9214,7 +9214,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.515",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.675",
         "laps": "6",
         "pos": "15"
@@ -9224,7 +9224,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.554",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.453",
         "laps": "4",
         "pos": "13"
@@ -9236,7 +9236,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.784",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "26"
       },
       {
@@ -9244,7 +9244,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:48.190",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "4.086",
         "laps": "2",
         "pos": "30"
@@ -9254,7 +9254,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.079",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.767",
         "laps": "6",
         "pos": "24"
@@ -9264,7 +9264,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.086",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.078",
         "laps": "4",
         "pos": "17"
@@ -9276,7 +9276,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.988",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "27"
       },
       {
@@ -9284,7 +9284,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.347",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.443",
         "laps": "5",
         "pos": "17"
@@ -9294,7 +9294,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:42.122",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.672",
         "laps": "2",
         "pos": "15"
@@ -9304,7 +9304,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.841",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.158",
         "laps": "6",
         "pos": "19"
@@ -9314,7 +9314,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.323",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.146",
         "laps": "4",
         "pos": "25"
@@ -9326,7 +9326,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.998",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "28"
       },
       {
@@ -9334,7 +9334,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:44.519",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.587",
         "laps": "5",
         "pos": "33"
@@ -9344,7 +9344,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:48.251",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.862",
         "laps": "1",
         "pos": "44"
@@ -9354,7 +9354,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.914",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.959",
         "laps": "6",
         "pos": "29"
@@ -9364,7 +9364,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.459",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.572",
         "laps": "3",
         "pos": "47"
@@ -9376,7 +9376,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.015",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "29"
       },
       {
@@ -9384,7 +9384,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:45.105",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.723",
         "laps": "5",
         "pos": "27"
@@ -9394,7 +9394,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:44.904",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.146",
         "laps": "2",
         "pos": "24"
@@ -9404,7 +9404,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.822",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.486",
         "laps": "6",
         "pos": "21"
@@ -9414,7 +9414,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.744",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.745",
         "laps": "4",
         "pos": "24"
@@ -9426,7 +9426,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.024",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "30"
       },
       {
@@ -9434,7 +9434,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.935",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.081",
         "laps": "5",
         "pos": "19"
@@ -9444,7 +9444,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.472",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.236",
         "laps": "2",
         "pos": "16"
@@ -9454,7 +9454,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.145",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.326",
         "laps": "6",
         "pos": "12"
@@ -9464,7 +9464,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.172",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.027",
         "laps": "4",
         "pos": "8"
@@ -9476,7 +9476,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.714",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "31"
       },
       {
@@ -9484,7 +9484,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.650",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.712",
         "laps": "5",
         "pos": "20"
@@ -9494,7 +9494,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.258",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.447",
         "laps": "2",
         "pos": "17"
@@ -9504,7 +9504,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.343",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.652",
         "laps": "6",
         "pos": "28"
@@ -9514,7 +9514,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.403",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.354",
         "laps": "4",
         "pos": "21"
@@ -9526,7 +9526,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.761",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "32"
       },
       {
@@ -9534,7 +9534,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.412",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.073",
         "laps": "5",
         "pos": "25"
@@ -9544,7 +9544,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:45.019",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.588",
         "laps": "2",
         "pos": "23"
@@ -9554,7 +9554,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.798",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.267",
         "laps": "6",
         "pos": "27"
@@ -9564,7 +9564,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.900",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.266",
         "laps": "3",
         "pos": "38"
@@ -9576,7 +9576,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.828",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "33"
       },
       {
@@ -9584,7 +9584,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.686",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.826",
         "laps": "5",
         "pos": "21"
@@ -9594,7 +9594,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:42.614",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.078",
         "laps": "2",
         "pos": "19"
@@ -9606,7 +9606,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.024",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "34"
       },
       {
@@ -9614,7 +9614,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:40.871",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.7",
         "laps": "5",
         "pos": "22"
@@ -9624,7 +9624,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:42.525",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.216",
         "laps": "2",
         "pos": "20"
@@ -9634,7 +9634,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.907",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "5.391",
         "laps": "4",
         "pos": "44"
@@ -9646,7 +9646,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.896",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "35"
       },
       {
@@ -9654,7 +9654,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:42.043",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.676",
         "laps": "5",
         "pos": "24"
@@ -9664,7 +9664,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:45.097",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.284",
         "laps": "2",
         "pos": "26"
@@ -9674,7 +9674,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.363",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.044",
         "laps": "6",
         "pos": "30"
@@ -9684,7 +9684,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.946",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.194",
         "laps": "4",
         "pos": "30"
@@ -9696,7 +9696,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.945",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "36"
       },
       {
@@ -9704,7 +9704,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:42.893",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.653",
         "laps": "5",
         "pos": "29"
@@ -9714,7 +9714,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:46.925",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "4.333",
         "laps": "2",
         "pos": "27"
@@ -9724,7 +9724,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.979",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "13.785",
         "laps": "6",
         "pos": "37"
@@ -9734,7 +9734,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.602",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.026",
         "laps": "4",
         "pos": "34"
@@ -9746,7 +9746,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.131",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "37"
       },
       {
@@ -9754,7 +9754,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.530",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.57",
         "laps": "5",
         "pos": "23"
@@ -9764,7 +9764,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.161",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.303",
         "laps": "2",
         "pos": "18"
@@ -9774,7 +9774,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.864",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.663",
         "laps": "6",
         "pos": "17"
@@ -9784,7 +9784,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.071",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "3.26",
         "laps": "4",
         "pos": "15"
@@ -9796,7 +9796,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.447",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "38"
       },
       {
@@ -9804,7 +9804,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:43.296",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.566",
         "laps": "5",
         "pos": "30"
@@ -9814,7 +9814,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:50.055",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.695",
         "laps": "1",
         "pos": "45"
@@ -9824,7 +9824,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:39.440",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.93",
         "laps": "6",
         "pos": "35"
@@ -9834,7 +9834,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.332",
         "pos": "45"
       }
@@ -9845,7 +9845,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.601",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "39"
       },
       {
@@ -9853,7 +9853,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.864",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.54",
         "laps": "5",
         "pos": "26"
@@ -9863,7 +9863,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:44.837",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "3.199",
         "laps": "2",
         "pos": "22"
@@ -9873,7 +9873,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:49.945",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1 Lap",
         "laps": "2",
         "pos": "45"
@@ -9883,7 +9883,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:39.401",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.578",
         "laps": "4",
         "pos": "32"
@@ -9895,7 +9895,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.410",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "40"
       },
       {
@@ -9903,7 +9903,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:43.019",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.253",
         "laps": "5",
         "pos": "31"
@@ -9913,7 +9913,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:50.840",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.081",
         "laps": "2",
         "pos": "32"
@@ -9923,7 +9923,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.982",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "2.284",
         "laps": "6",
         "pos": "33"
@@ -9933,7 +9933,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2 Laps",
         "pos": "44"
       }
@@ -9944,7 +9944,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.903",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "41"
       },
       {
@@ -9952,7 +9952,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:43.560",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.988",
         "laps": "5",
         "pos": "28"
@@ -9962,7 +9962,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:42.107",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.744",
         "laps": "2",
         "pos": "21"
@@ -9972,7 +9972,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.815",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "3.201",
         "laps": "6",
         "pos": "23"
@@ -9984,7 +9984,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:39.504",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "42"
       },
       {
@@ -9992,7 +9992,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:51.497",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "4 Laps",
         "laps": "1",
         "pos": "52"
@@ -10002,7 +10002,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:48.739",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "5.678",
         "laps": "2",
         "pos": "31"
@@ -10012,7 +10012,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.217",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.067",
         "laps": "6",
         "pos": "31"
@@ -10022,7 +10022,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.797",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.318",
         "laps": "4",
         "pos": "23"
@@ -10034,7 +10034,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:39.665",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "43"
       },
       {
@@ -10042,7 +10042,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:49.057",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "3.092",
         "laps": "2",
         "pos": "33"
@@ -10052,7 +10052,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.979",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1 Lap",
         "laps": "3",
         "pos": "48"
@@ -10062,7 +10062,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.920",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.119",
         "laps": "4",
         "pos": "33"
@@ -10074,7 +10074,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:40.009",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "44"
       },
       {
@@ -10082,7 +10082,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:45.290",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.974",
         "laps": "5",
         "pos": "35"
@@ -10092,7 +10092,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:46.357",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "7.496",
         "laps": "1",
         "pos": "40"
@@ -10102,7 +10102,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.884",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.125",
         "laps": "6",
         "pos": "39"
@@ -10112,7 +10112,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:39.014",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "4.592",
         "laps": "4",
         "pos": "26"
@@ -10124,7 +10124,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:40.201",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "45"
       },
       {
@@ -10132,7 +10132,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:44.014",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "2.059",
         "laps": "5",
         "pos": "32"
@@ -10142,7 +10142,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:50.112",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.201",
         "laps": "2",
         "pos": "29"
@@ -10152,7 +10152,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:39.341",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "1.998",
         "laps": "6",
         "pos": "34"
@@ -10162,7 +10162,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:39.846",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2.675",
         "laps": "4",
         "pos": "31"
@@ -10174,7 +10174,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:40.547",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "46"
       },
       {
@@ -10182,7 +10182,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:55.312",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "4.651",
         "laps": "1",
         "pos": "43"
@@ -10192,7 +10192,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:41.638",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.836",
         "laps": "6",
         "pos": "38"
@@ -10204,7 +10204,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:40.895",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "47"
       },
       {
@@ -10212,7 +10212,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:44.007",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.125",
         "laps": "5",
         "pos": "39"
@@ -10222,7 +10222,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:52.145",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "5.633",
         "laps": "2",
         "pos": "34"
@@ -10232,7 +10232,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:35.488",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.361",
         "laps": "4",
         "pos": "35"
@@ -10244,7 +10244,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:42.184",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "48"
       },
       {
@@ -10252,7 +10252,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "3:00.546",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "5.439",
         "laps": "1",
         "pos": "44"
@@ -10262,7 +10262,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1 Lap",
         "pos": "46"
       },
@@ -10271,7 +10271,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "2.572",
         "pos": "46"
       }
@@ -10282,7 +10282,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:43.508",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "49"
       }
     ],
@@ -10292,7 +10292,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:45.818",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "50"
       }
     ],
@@ -10302,7 +10302,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:48.071",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "51"
       },
       {
@@ -10310,7 +10310,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:50.891",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "2.871",
         "laps": "5",
         "pos": "40"
@@ -10320,7 +10320,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:41.225",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "6.362",
         "laps": "6",
         "pos": "36"
@@ -10330,7 +10330,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:39.379",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1.241",
         "laps": "4",
         "pos": "27"
@@ -10342,7 +10342,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:48.495",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "52"
       },
       {
@@ -10350,7 +10350,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:44.518",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.598",
         "laps": "5",
         "pos": "36"
@@ -10360,7 +10360,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:46.532",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "0.799",
         "laps": "1",
         "pos": "43"
@@ -10370,7 +10370,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:49.464",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.261",
         "laps": "2",
         "pos": "46"
@@ -10380,7 +10380,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.042",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.419",
         "laps": "4",
         "pos": "29"
@@ -10392,7 +10392,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:48.498",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "53"
       },
       {
@@ -10400,7 +10400,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:58.191",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.31",
         "laps": "5",
         "pos": "41"
@@ -10410,7 +10410,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:52.860",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.422",
         "laps": "2",
         "pos": "35"
@@ -10420,7 +10420,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:46.642",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "7.065",
         "laps": "6",
         "pos": "40"
@@ -10430,7 +10430,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:45.617",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "14.299",
         "laps": "4",
         "pos": "37"
@@ -10442,7 +10442,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:49.292",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "54"
       },
       {
@@ -10450,7 +10450,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:59.598",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "1.048",
         "laps": "5",
         "pos": "42"
@@ -10460,7 +10460,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:53.499",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "1.498",
         "laps": "2",
         "pos": "36"
@@ -10470,7 +10470,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:47.432",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "5.199",
         "laps": "6",
         "pos": "41"
@@ -10480,7 +10480,7 @@
         "class": "GLTC",
         "car": "GLTC - FWD",
         "time": "2:51.559",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "29.758",
         "laps": "2",
         "pos": "43"
@@ -10492,7 +10492,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "",
-        "session": "Heat 24",
+        "session": "Qualifying",
         "pos": "55"
       },
       {
@@ -10500,7 +10500,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:36.956",
-        "session": "Heat 2",
+        "session": "Race 2",
         "gap": "2.792",
         "laps": "2",
         "pos": "37"
@@ -10510,7 +10510,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.944",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "0.744",
         "laps": "6",
         "pos": "14"
@@ -10520,7 +10520,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:34.554",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "0.69",
         "laps": "4",
         "pos": "11"
@@ -10532,7 +10532,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:43.918",
-        "session": "Heat 1",
+        "session": "Race 1",
         "gap": "0.797",
         "laps": "5",
         "pos": "34"
@@ -10542,7 +10542,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:38.780",
-        "session": "Heat 3",
+        "session": "Race 3",
         "gap": "10.795",
         "laps": "6",
         "pos": "32"
@@ -10552,7 +10552,7 @@
         "class": "GLTC",
         "car": "GLTC - RWD",
         "time": "2:37.399",
-        "session": "Heat 4",
+        "session": "Race 4",
         "gap": "1 Lap",
         "laps": "3",
         "pos": "39"
