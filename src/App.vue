@@ -658,9 +658,8 @@ carImageUrl() {
   padding: 0;
   background: linear-gradient(90deg, rgba(5, 30, 33, 0), rgba(21, 53, 56, 1));
   box-sizing: border-box;
-  overflow-x: hidden; /* prevent horizontal scroll */
+  /* Removed overflow-x: hidden to allow horizontal scroll for wide content */
 }
-
 
 h1 {
   font-size: 2rem;
@@ -700,15 +699,24 @@ select:focus {
   outline: 2px solid #00c9b7;
 }
 
+/* Wrapper for tables to enable horizontal scrolling if needed */
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
   font-family: 'Proxima Nova', sans-serif;
   font-size: 18px;
   color: #fff;
-  min-width: 1000px;
-  margin-top: 1rem;
   background: transparent;
+  margin-top: 1rem;
+
+  /* Removed fixed min-width to allow shrinking and scrolling */
+  min-width: unset;
 }
 
 th,
@@ -742,12 +750,34 @@ tbody tr:hover {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Remove display:block and overflow from .class-block table, let wrapper handle scroll */
+.class-block table {
+  width: 100%;
+  min-width: unset;
+  /* display: block; */
+  /* overflow-x: auto; */
+}
+
 .driver-details {
   background: linear-gradient(90deg, #051e21 0%, #153538 100%);
   padding: 1.5rem;
   border-radius: 16px;
   margin-top: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.driver-details ul {
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+
+.driver-details h3,
+.driver-details h4,
+.driver-details h5 {
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
 }
 
 .close-btn {
@@ -781,51 +811,6 @@ li {
   margin-top: 1rem;
 }
 
-@media screen and (max-width: 960px) {
-  table {
-    font-size: 14px;
-  }
-
-  th,
-  td {
-    padding: 8px;
-  }
-
-  thead {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  table {
-    font-size: 14px;
-  }
-
-  th,
-  td {
-    padding: 8px;
-  }
-
-  thead {
-    font-size: 16px;
-  }
-}
-.driver-details {
-  text-align: left;
-  padding-left: 1rem;
-}
-
-.driver-details ul {
-  padding-left: 1rem;
-  list-style-type: disc;
-}
-
-.driver-details h3,
-.driver-details h4,
-.driver-details h5 {
-  margin-bottom: 0.5rem;
-  margin-top: 1rem;
-}
 .selector-bar {
   position: sticky;
   top: 0;
@@ -834,7 +819,7 @@ li {
   flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
-  background: rgba(5, 30, 33, 0.9); /* semi-transparent background */
+  background: rgba(5, 30, 33, 0.9);
   padding: 1rem;
   backdrop-filter: blur(4px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -857,9 +842,12 @@ li {
   border-radius: 4px;
   font-size: 14px;
 }
+
+/* Transitions for expanding sections */
 .expand-enter-active, .expand-leave-active {
   transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
 }
+
 .expand-enter-from, .expand-leave-to {
   max-height: 0;
   opacity: 0;
@@ -867,12 +855,14 @@ li {
   padding-bottom: 0;
   overflow: hidden;
 }
+
 .expand-enter-to, .expand-leave-from {
   max-height: 500px; /* large enough for your content */
   opacity: 1;
   padding-top: initial;
   padding-bottom: initial;
 }
+
 .driver-detail-container {
   display: flex;
   gap: 2rem;
@@ -887,6 +877,7 @@ li {
   max-width: 240px;
 }
 
+/* Headshot image fade mask */
 .headshot-img {
   width: 100%;
   object-fit: cover;
@@ -902,6 +893,7 @@ li {
   height: auto;
   object-fit: contain;
 }
+
 .driver-detail-flex {
   display: flex;
   flex-wrap: nowrap;
@@ -947,6 +939,7 @@ li {
     width: 100%;
   }
 }
+
 .driver-name-cell {
   white-space: nowrap;
 }
@@ -963,13 +956,12 @@ li {
   color: #ffffff; /* bright teal or your chosen color */
   text-transform: uppercase;
 }
+
 /* Make the table container scrollable on small screens */
 .class-block table {
   width: 100%;
-  min-width: 800px; /* or your desired min width */
-  display: block;
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+  min-width: unset; /* allow shrinking */
+  /* display and overflow removed - wrapper handles scroll */
 }
 
 /* For the selector bar on small screens */
@@ -1009,7 +1001,6 @@ li {
 tbody tr:hover {
   background-color: rgba(255, 255, 255, 0.15);
 }
-
 
 </style>
 
