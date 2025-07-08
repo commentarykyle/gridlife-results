@@ -820,7 +820,7 @@ tbody tr:hover {
 }
 
 .driver-details {
-  background: linear-gradient(90deg, #051e21 0%, #153538 100%);
+  background: #153538;
   padding: 1.5rem;
   border-radius: 16px;
   margin-top: 2rem;
