@@ -716,7 +716,7 @@ filteredDriversByClass() {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 1rem;
-  background: linear-gradient(90deg, rgba(5, 30, 33, 0), rgba(21, 53, 56, 1));
+  background: #051e21;
   min-height: 100vh;
   box-sizing: border-box;
   overflow-x: hidden;
