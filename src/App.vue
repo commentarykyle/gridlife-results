@@ -719,87 +719,104 @@ filteredDriversByClass() {
     },
 
     async selectDriver(clickedName, clickedNumber) {
-      this.selectedDriver = clickedName;
-      this.resolvedDriverKey = null;
-      this.driverDetailsLoading = true;
-      this.driverDetailsError = false;
-      this.driverDetailsAllYears = {};
-      this.driverTracks = [];
-      this.expandedTrackName = null;
-      this.expandedYearsPerTrack = {};
+  this.selectedDriver = clickedName;
+  this.resolvedDriverKey = null;
+  this.driverDetailsLoading = true;
+  this.driverDetailsError = false;
+  this.driverDetailsAllYears = {};
+  this.driverTracks = [];
+  this.expandedTrackName = null;
+  this.expandedYearsPerTrack = {};
 
-      const loadPromises = this.years.map(async (year) => {
-        try {
-          const path = `/output/results-${year}-${this.selectedSeries.toLowerCase()}.json`;
-          const res = await fetch(path);
-          if (!res.ok) throw new Error(`Failed to fetch ${path}`);
-          const yearDataRaw = await res.json();
+  try {
+    const loadPromises = this.years.map(async (year) => {
+      const path = `/output/results-${year}-${this.selectedSeries.toLowerCase()}.json`;
+      const res = await fetch(path);
+      if (!res.ok) throw new Error(`Failed to fetch ${path}`);
+      const yearDataRaw = await res.json();
 
-          const yearDataNormalized = {};
-          for (const track in yearDataRaw) {
-            const driversInTrack = yearDataRaw[track];
-            const matchedDriverKey = this.selectDriverNameFromData(
-              driversInTrack,
-              clickedName,
-              clickedNumber
-            );
-            if (matchedDriverKey) {
-              yearDataNormalized[track] = {
-                [matchedDriverKey]: driversInTrack[matchedDriverKey],
-              };
-              // Save the driver key found, but only once (prefer latest year first)
-              if (!this.resolvedDriverKey) this.resolvedDriverKey = matchedDriverKey;
-            }
-          }
-          this.driverDetailsAllYears[year] = yearDataNormalized;
-          this.findAllMatchingCarImages();
-
-        } catch (e) {
-          console.warn(`Failed to load data for year ${year}`, e);
-        }
-      });
-
-      await Promise.all(loadPromises);
-      this.buildDriverTracks();
-      this.driverDetailsLoading = false;
-    },
-
-    buildDriverTracks() {
-      const trackMap = {};
-
-      for (const year of this.years) {
-        const yearData = this.driverDetailsAllYears[year];
-        if (!yearData) continue;
-
-        for (const track in yearData) {
-          const laps = yearData[track][this.resolvedDriverKey];
-          if (!laps) continue;
-
-          if (!trackMap[track]) {
-            trackMap[track] = {
-              name: track,
-              bestTime: Infinity,
-              years: new Set(),
-            };
-          }
-
-          trackMap[track].years.add(year);
-
-          laps.forEach(lap => {
-            const raw = this.parseTime(lap.time);
-            if (!isNaN(raw) && raw < trackMap[track].bestTime) {
-              trackMap[track].bestTime = raw;
-            }
-          });
+      const yearDataNormalized = {};
+      for (const track in yearDataRaw) {
+        const driversInTrack = yearDataRaw[track];
+        const matchedDriverKey = this.selectDriverNameFromData(
+          driversInTrack,
+          clickedName,
+          clickedNumber
+        );
+        if (matchedDriverKey) {
+          yearDataNormalized[track] = {
+            [matchedDriverKey]: driversInTrack[matchedDriverKey],
+          };
+          // Set resolvedDriverKey only once
+          if (!this.resolvedDriverKey) this.resolvedDriverKey = matchedDriverKey;
         }
       }
+      this.driverDetailsAllYears[year] = yearDataNormalized;
 
-      this.driverTracks = Object.values(trackMap).map(track => ({
-        name: track.name,
-        bestTime: track.bestTime === Infinity ? null : track.bestTime,
-        years: Array.from(track.years).sort((a,b) => b - a), // descending years
-      }));
-    },
+      if (!this.resolvedDriverKey) {
+        console.warn(`No resolvedDriverKey found for ${clickedName} (${clickedNumber}) in year ${year}`);
+      }
+    });
+
+    await Promise.all(loadPromises);
+
+    if (!this.resolvedDriverKey) {
+      console.error(`No driver data found matching ${clickedName} (${clickedNumber}) across all years.`);
+      this.driverDetailsError = true;
+    } else {
+      this.findAllMatchingCarImages(); // call once after loading all years
+      this.buildDriverTracks();
+    }
+  } catch (e) {
+    console.error('Error loading driver details:', e);
+    this.driverDetailsError = true;
+  } finally {
+    this.driverDetailsLoading = false;
+  }
+},
+
+
+buildDriverTracks() {
+  if (!this.resolvedDriverKey) {
+    this.driverTracks = [];
+    return;
+  }
+
+  const trackMap = {};
+
+  for (const year of this.years) {
+    const yearData = this.driverDetailsAllYears[year];
+    if (!yearData) continue;
+
+    for (const track in yearData) {
+      const laps = yearData[track][this.resolvedDriverKey];
+      if (!laps) continue;
+
+      if (!trackMap[track]) {
+        trackMap[track] = {
+          name: track,
+          bestTime: Infinity,
+          years: new Set(),
+        };
+      }
+
+      trackMap[track].years.add(year);
+
+      laps.forEach(lap => {
+        const raw = this.parseTime(lap.time);
+        if (!isNaN(raw) && raw < trackMap[track].bestTime) {
+          trackMap[track].bestTime = raw;
+        }
+      });
+    }
+  }
+
+  this.driverTracks = Object.values(trackMap).map(track => ({
+    name: track.name,
+    bestTime: track.bestTime === Infinity ? null : track.bestTime,
+    years: Array.from(track.years).sort((a,b) => b - a), // descending order
+  }));
+},
 
     trackSessionsGroupedBySession(trackName, year) {
       if (!this.driverDetailsAllYears[year]) return {};
