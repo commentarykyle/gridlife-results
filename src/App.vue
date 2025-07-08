@@ -46,7 +46,14 @@
       <h2>{{ selectedSession }} — {{ selectedTrack }} — {{ selectedSeries }} {{ selectedYear }}</h2>
 
       <div v-for="(drivers, className) in filteredDriversByClass" :key="className" class="class-block">
-        <h3>{{ className }}</h3>
+        <h2>
+  <img
+    :src="`/${className.toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9]/g, '')}.png`"
+    :alt="className"
+    style="width: 150px; object-fit: contain;"
+    @error="onClassLabelError"
+  />
+</h2>
         <div class="table-wrapper">
           <table>
             <thead>
