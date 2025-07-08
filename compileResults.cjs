@@ -270,7 +270,28 @@ async function compileResults() {
             });
           }
         }
-
+        if (key.includes('gltc')) {
+            for (const driverName in allResults[key][track]) {
+              const sessions = allResults[key][track][driverName];
+          
+              // Find the first qualifying session with a valid car model
+              const qualSession = sessions.find(
+                (s) => s.session.toLowerCase().includes('qual') && s.car && s.car.trim() !== ''
+              );
+          
+              if (qualSession && qualSession.car) {
+                const carModel = qualSession.car.trim();
+          
+                // Backfill missing car models in later sessions
+                for (const session of sessions) {
+                  if (!session.car || session.car.trim() === '') {
+                    session.car = carModel;
+                  }
+                }
+              }
+            }
+          }
+          
         const outPath = path.join(outputDir, `results-${year}-${series.toLowerCase()}.json`);
         fs.writeFileSync(outPath, JSON.stringify(allResults[key], null, 2));
         console.log(`✅ Saved: ${outPath}`);

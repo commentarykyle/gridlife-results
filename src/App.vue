@@ -57,57 +57,73 @@
         <div class="table-wrapper">
           <table>
             <thead>
-              <tr>
-                <th>Pos</th>
-                <th>No.</th>
-                <th>Driver</th>
-                
-                <!-- For TrackBattle, show Time only -->
-                <th v-if="selectedSeries === 'TrackBattle'">Time</th>
-                
-                <!-- For race series (GLTC etc), show Lap, Gap, and Fastest Lap -->
-                <template v-else>
-                  <th>Laps</th>
-                  <th>Gap</th>
-                  <th>Fastest Lap</th>
-                </template>
-                
-                <th>Car Model</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                v-for="driver in drivers"
-                :key="driver.name"
-                @click="selectDriver(driver.name, driver.number)"
-                class="clickable-driver"
-                title="Click to see all lap times for this driver"
-              >
-                <td>{{ driver.position }}{{ positionSuffix(driver.position) }}</td>
-                <td class="number-cell">
-                  <div class="number-wrapper">
-                    <span>{{ driver.number }}</span>
-                    <div
-                      class="color-bar"
-                      :style="{ backgroundColor: getClassColor(className) }"
-                    ></div>
-                  </div>
-                </td>
-                <td>{{ driver.name }}</td>
+  <tr>
+    <th>Pos</th>
+    <th>No.</th>
+    <th>Driver</th>
 
-                <!-- TrackBattle time -->
-                <td v-if="selectedSeries === 'TrackBattle'">{{ driver.time }}</td>
+    <!-- TrackBattle -->
+    <template v-if="selectedSeries === 'TrackBattle'">
+      <th>Time</th>
+      <th>Car Model</th>
+    </template>
 
-                <!-- Race series lap, gap, fastest lap -->
-                <template v-else>
-                  <td>{{ driver.laps ?? '-' }}</td>
-                  <td>{{ driver.gap ?? '-' }}</td>
-                  <td>{{ driver.time ?? '-' }}</td>
-                </template>
+    <!-- GLTC Qualifying -->
+    <template v-else-if="selectedSeries === 'GLTC' && selectedSession?.toLowerCase().includes('qual')">
+      <th>Time</th>
+      <th>Car Model</th>
+    </template>
 
-                <td>{{ driver.car }}</td>
-              </tr>
-            </tbody>
+    <!-- GLTC Race -->
+    <template v-else-if="selectedSeries === 'GLTC'">
+      <th> Car Model</th>
+      <th>Laps</th>
+      <th>Fastest Lap</th>
+      <th>Gap</th>
+    </template>
+  </tr>
+</thead>
+<tbody>
+  <tr
+    v-for="driver in drivers"
+    :key="driver.name"
+    @click="selectDriver(driver.name, driver.number)"
+    class="clickable-driver"
+    title="Click to see all lap times for this driver"
+  >
+    <td>{{ driver.position }}{{ positionSuffix(driver.position) }}</td>
+    <td class="number-cell">
+      <div class="number-wrapper">
+        <span>{{ driver.number }}</span>
+        <div
+          class="color-bar"
+          :style="{ backgroundColor: getClassColor(className) }"
+        ></div>
+      </div>
+    </td>
+    <td>{{ driver.name }}</td>
+
+    <!-- TrackBattle -->
+    <template v-if="selectedSeries === 'TrackBattle'">
+      <td>{{ driver.time }}</td>
+      <td>{{ driver.car }}</td>
+    </template>
+
+    <!-- GLTC Qualifying -->
+    <template v-else-if="selectedSeries === 'GLTC' && selectedSession?.toLowerCase().includes('qual')">
+      <td>{{ driver.time }}</td>
+      <td>{{ driver.car }}</td>
+    </template>
+
+    <!-- GLTC Race -->
+    <template v-else-if="selectedSeries === 'GLTC'">
+      <td>{{ driver.car }}</td>
+      <td>{{ driver.laps ?? '-' }}</td>
+      <td>{{ driver.time ?? '-' }}</td>
+      <td>{{ driver.gap ?? '-' }}</td>
+    </template>
+  </tr>
+</tbody>
           </table>
         </div>
       </div>
