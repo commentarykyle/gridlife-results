@@ -267,22 +267,44 @@ export default {
     return name
       .toLowerCase()
       .trim()
-      .replace(/[^a-z0-9 ]/g, '') // keep alphanumeric and spaces only
+      .replace(/[^a-z0-9 -]/g, '') // keep alphanumeric, space, dash only
       .replace(/\s+/g, ' ');
   }
 
-  // Try to find if a similar group exists by prefix match (first 7 chars)
-  function findGroupForCar(carNorm, groups) {
-    for (const key in groups) {
-      if (key.startsWith(carNorm.substring(0, 7)) || carNorm.startsWith(key.substring(0,7))) {
-        return key;
-      }
-    }
-    return null;
+  // Check if car starts with 'gltc -'
+  function isGltcDrivetrain(carNorm) {
+    return carNorm.startsWith('gltc -');
   }
 
   const carGroups = {};
 
+  // First pass: collect all distinct normalized car models except 'gltc -' variants
+  const otherCarsSet = new Set();
+
+  for (const year of this.years) {
+    const yearData = this.driverDetailsAllYears[year];
+    if (!yearData) continue;
+
+    for (const track in yearData) {
+      const laps = yearData[track][this.resolvedDriverKey];
+      if (!laps) continue;
+
+      for (const lap of laps) {
+        const carRaw = lap.car || 'Unknown Car';
+        if (carRaw.toLowerCase().trim() === 'unknown car') continue;
+
+        const carNorm = normalizeCarName(carRaw);
+        if (!isGltcDrivetrain(carNorm)) {
+          otherCarsSet.add(carNorm);
+        }
+      }
+    }
+  }
+
+  // Pick the first other car model to merge into (or null if none)
+  const mergeTarget = otherCarsSet.size > 0 ? Array.from(otherCarsSet)[0] : null;
+
+  // Second pass: build groups, merging 'gltc -' into mergeTarget if it exists
   for (const year of this.years) {
     const yearData = this.driverDetailsAllYears[year];
     if (!yearData) continue;
@@ -294,21 +316,41 @@ export default {
       laps.forEach(lap => {
         const number = lap.number || 'N/A';
         const carRaw = lap.car || 'Unknown Car';
+        if (carRaw.toLowerCase().trim() === 'unknown car') return;
+
         const className = (lap.class || 'Unknown').split(' - ')[0];
+        let carNorm = normalizeCarName(carRaw);
 
-        const carNorm = normalizeCarName(carRaw);
+        // If this is a gltc drivetrain variant and we have a merge target, use it
+        if (isGltcDrivetrain(carNorm) && mergeTarget) {
+          carNorm = mergeTarget;
+        }
 
-        // Find existing group for similar cars
-        let groupKey = findGroupForCar(carNorm, carGroups);
+        // Find existing group by fuzzy matching first 7 chars
+        let groupKey = null;
+        for (const key in carGroups) {
+          if (
+            key.startsWith(carNorm.substring(0, 7)) ||
+            carNorm.startsWith(key.substring(0, 7))
+          ) {
+            groupKey = key;
+            break;
+          }
+        }
 
         if (!groupKey) {
           groupKey = carNorm;
           carGroups[groupKey] = {
-            car: carRaw.toUpperCase(), // display always uppercase
+            car: carRaw.toUpperCase(),
             numbers: new Set(),
             classes: new Set(),
             years: new Set(),
           };
+        } else {
+          // Prefer cleaner or shorter name if applicable
+          if (carRaw.length < carGroups[groupKey].car.length) {
+            carGroups[groupKey].car = carRaw.toUpperCase();
+          }
         }
 
         carGroups[groupKey].numbers.add(number);
@@ -323,11 +365,12 @@ export default {
       car: group.car,
       numbers: Array.from(group.numbers).sort(),
       classes: Array.from(group.classes).sort(),
-      years: Array.from(group.years).sort((a,b) => b - a),
+      years: Array.from(group.years).sort((a, b) => b - a),
     }))
     .sort((a, b) => a.car.localeCompare(b.car));
 }
 ,
+
 
     selectedDriverFirst() {
   return this.selectedDriver?.split(' ')[0].replace(/[^a-z]/gi, '').toLowerCase() || 'unknown';
