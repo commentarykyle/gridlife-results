@@ -261,26 +261,12 @@ export default {
   },
   computed: {
     driverVehicles() {
-  if (!this.resolvedDriverKey) return [];
+  if (!this.selectedDriver || !this.resolvedDriverKey) return [];
 
-  function normalizeCarName(name) {
-    return name
-      .toLowerCase()
-      .trim()
-      .replace(/[^a-z0-9 -]/g, '') // keep alphanumeric, space, dash only
-      .replace(/\s+/g, ' ');
-  }
+  const carGroups = {}; // { normalizedCarKey: { car: label, numbers: Set, classes: Set, years: Set } }
+  const rawCars = new Set();
 
-  // Check if car starts with 'gltc -'
-  function isGltcDrivetrain(carNorm) {
-    return carNorm.startsWith('gltc -');
-  }
-
-  const carGroups = {};
-
-  // First pass: collect all distinct normalized car models except 'gltc -' variants
-  const otherCarsSet = new Set();
-
+  // Pass 1: Collect all cars
   for (const year of this.years) {
     const yearData = this.driverDetailsAllYears[year];
     if (!yearData) continue;
@@ -290,86 +276,87 @@ export default {
       if (!laps) continue;
 
       for (const lap of laps) {
-        const carRaw = lap.car || 'Unknown Car';
-        if (carRaw.toLowerCase().trim() === 'unknown car') continue;
+        const rawCar = lap.car?.trim();
+        const number = lap.number?.trim();
+        const className = lap.class?.split(' - ')[0]?.trim();
 
-        const carNorm = normalizeCarName(carRaw);
-        if (!isGltcDrivetrain(carNorm)) {
-          otherCarsSet.add(carNorm);
+        if (!rawCar || rawCar.toUpperCase().includes('UNKNOWN')) continue;
+
+        rawCars.add(rawCar);
+
+        const normCar = rawCar.toLowerCase().replace(/[^a-z0-9]/g, '');
+
+        if (!carGroups[normCar]) {
+          carGroups[normCar] = {
+            car: rawCar.toUpperCase(),
+            numbers: new Set(),
+            classes: new Set(),
+            years: new Set()
+          };
         }
+
+        if (number) carGroups[normCar].numbers.add(number);
+        if (className) carGroups[normCar].classes.add(className);
+        carGroups[normCar].years.add(year);
       }
     }
   }
 
-  // Pick the first other car model to merge into (or null if none)
-  const mergeTarget = otherCarsSet.size > 0 ? Array.from(otherCarsSet)[0] : null;
+  if (Object.keys(carGroups).length === 0) return [];
 
-  // Second pass: build groups, merging 'gltc -' into mergeTarget if it exists
-  for (const year of this.years) {
-    const yearData = this.driverDetailsAllYears[year];
-    if (!yearData) continue;
+  // Identify valid base car (exclude GLTC - X)
+  const nonGltcKeys = Object.keys(carGroups).filter(k => !carGroups[k].car.startsWith('GLTC -'));
+  const mergeTargetKey = nonGltcKeys[0] || Object.keys(carGroups)[0];
+  const mergeTarget = carGroups[mergeTargetKey];
 
-    for (const track in yearData) {
-      const laps = yearData[track][this.resolvedDriverKey];
-      if (!laps) continue;
+  // Pass 2: Fuzzy merge similar cars (especially GLTC - X → into real models)
+  const keys = Object.keys(carGroups);
+  for (const key of keys) {
+    const current = carGroups[key];
+    const label = current.car;
 
-      laps.forEach(lap => {
-        const number = lap.number || 'N/A';
-        const carRaw = lap.car || 'Unknown Car';
-        if (carRaw.toLowerCase().trim() === 'unknown car') return;
+    // GLTC - X entries
+    if (label.startsWith('GLTC -')) {
+      if (mergeTargetKey !== key) {
+        // Merge into base car
+        mergeTarget.numbers = new Set([...mergeTarget.numbers, ...current.numbers]);
+        mergeTarget.classes = new Set([...mergeTarget.classes, ...current.classes]);
+        mergeTarget.years = new Set([...mergeTarget.years, ...current.years]);
+        delete carGroups[key];
+      }
+      continue;
+    }
 
-        const className = (lap.class || 'Unknown').split(' - ')[0];
-        let carNorm = normalizeCarName(carRaw);
+    // Try merging similar cars
+    for (const otherKey of Object.keys(carGroups)) {
+      if (key === otherKey) continue;
 
-        // If this is a gltc drivetrain variant and we have a merge target, use it
-        if (isGltcDrivetrain(carNorm) && mergeTarget) {
-          carNorm = mergeTarget;
-        }
+      const other = carGroups[otherKey];
+      const a = label.replace(/[^A-Z0-9]/gi, '').toLowerCase();
+      const b = other.car.replace(/[^A-Z0-9]/gi, '').toLowerCase();
 
-        // Find existing group by fuzzy matching first 7 chars
-        let groupKey = null;
-        for (const key in carGroups) {
-          if (
-            key.startsWith(carNorm.substring(0, 7)) ||
-            carNorm.startsWith(key.substring(0, 7))
-          ) {
-            groupKey = key;
-            break;
-          }
-        }
+      const shared = a.split('').filter(c => b.includes(c)).length;
+      const similarity = shared / Math.max(a.length, b.length);
 
-        if (!groupKey) {
-          groupKey = carNorm;
-          carGroups[groupKey] = {
-            car: carRaw.toUpperCase(),
-            numbers: new Set(),
-            classes: new Set(),
-            years: new Set(),
-          };
-        } else {
-          // Prefer cleaner or shorter name if applicable
-          if (carRaw.length < carGroups[groupKey].car.length) {
-            carGroups[groupKey].car = carRaw.toUpperCase();
-          }
-        }
-
-        carGroups[groupKey].numbers.add(number);
-        carGroups[groupKey].classes.add(className);
-        carGroups[groupKey].years.add(year);
-      });
+      if (similarity > 0.6) {
+        // Merge other into current
+        current.numbers = new Set([...current.numbers, ...other.numbers]);
+        current.classes = new Set([...current.classes, ...other.classes]);
+        current.years = new Set([...current.years, ...other.years]);
+        delete carGroups[otherKey];
+      }
     }
   }
 
-  return Object.values(carGroups)
-    .map(group => ({
-      car: group.car,
-      numbers: Array.from(group.numbers).sort(),
-      classes: Array.from(group.classes).sort(),
-      years: Array.from(group.years).sort((a, b) => b - a),
-    }))
-    .sort((a, b) => a.car.localeCompare(b.car));
-}
-,
+  // Final result
+  return Object.values(carGroups).map(group => ({
+    car: group.car.toUpperCase(),
+    numbers: Array.from(group.numbers).sort(),
+    classes: Array.from(group.classes).sort(),
+    years: Array.from(group.years).sort((a, b) => b - a)
+  }));
+},
+
 
 
     selectedDriverFirst() {
