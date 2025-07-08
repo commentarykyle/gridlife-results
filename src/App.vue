@@ -156,6 +156,20 @@
               @error="onCarImageError"
             />
           </div>
+          <div class="driver-vehicle-history" v-if="driverVehicles.length">
+  <h3>Vehicle History</h3>
+  <ul>
+    <li v-for="(entry, idx) in driverVehicles" :key="idx" style="margin-bottom: 1rem;">
+      <strong>{{ entry.car }}</strong><br />
+      Numbers: {{ entry.numbers.join(', ') }}<br />
+      Classes: {{ entry.classes.join(', ') }}<br />
+      <small>Years: {{ entry.years.join(', ') }}</small>
+    </li>
+  </ul>
+</div>
+
+
+
         </div>
 
         <div class="driver-right-column">
@@ -246,6 +260,75 @@ export default {
     };
   },
   computed: {
+    driverVehicles() {
+  if (!this.resolvedDriverKey) return [];
+
+  function normalizeCarName(name) {
+    return name
+      .toLowerCase()
+      .trim()
+      .replace(/[^a-z0-9 ]/g, '') // keep alphanumeric and spaces only
+      .replace(/\s+/g, ' ');
+  }
+
+  // Try to find if a similar group exists by prefix match (first 7 chars)
+  function findGroupForCar(carNorm, groups) {
+    for (const key in groups) {
+      if (key.startsWith(carNorm.substring(0, 7)) || carNorm.startsWith(key.substring(0,7))) {
+        return key;
+      }
+    }
+    return null;
+  }
+
+  const carGroups = {};
+
+  for (const year of this.years) {
+    const yearData = this.driverDetailsAllYears[year];
+    if (!yearData) continue;
+
+    for (const track in yearData) {
+      const laps = yearData[track][this.resolvedDriverKey];
+      if (!laps) continue;
+
+      laps.forEach(lap => {
+        const number = lap.number || 'N/A';
+        const carRaw = lap.car || 'Unknown Car';
+        const className = (lap.class || 'Unknown').split(' - ')[0];
+
+        const carNorm = normalizeCarName(carRaw);
+
+        // Find existing group for similar cars
+        let groupKey = findGroupForCar(carNorm, carGroups);
+
+        if (!groupKey) {
+          groupKey = carNorm;
+          carGroups[groupKey] = {
+            car: carRaw.toUpperCase(), // display always uppercase
+            numbers: new Set(),
+            classes: new Set(),
+            years: new Set(),
+          };
+        }
+
+        carGroups[groupKey].numbers.add(number);
+        carGroups[groupKey].classes.add(className);
+        carGroups[groupKey].years.add(year);
+      });
+    }
+  }
+
+  return Object.values(carGroups)
+    .map(group => ({
+      car: group.car,
+      numbers: Array.from(group.numbers).sort(),
+      classes: Array.from(group.classes).sort(),
+      years: Array.from(group.years).sort((a,b) => b - a),
+    }))
+    .sort((a, b) => a.car.localeCompare(b.car));
+}
+,
+
     selectedDriverFirst() {
   return this.selectedDriver?.split(' ')[0].replace(/[^a-z]/gi, '').toLowerCase() || 'unknown';
 },

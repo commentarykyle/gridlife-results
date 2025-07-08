@@ -146,11 +146,11 @@ function normalizeClassName(name) {
   normalized = normalized.replace('TRACK MODIFIED', 'TRACK MOD');
   normalized = normalized.replace('STREET MODIFIED', 'STREET MOD');
   normalized = normalized.replace('[SPEC FIT / ECO CUP]', 'SPEC FIT');
-  normalized = normalized.replace('[SPEC FIT / ECO CUP]', 'SPEC FIT');
+  normalized = normalized.replace('[SPEC FIT / SUNDAE CUP]', 'SPEC FIT');
 
   // Fix any dash formatting (handle extra/missing spaces and all drive types)
   normalized = normalized.replace(
-    /\b(SUPER UNLIMITED|UNLIMITED|TRACK MOD|STREET MOD|STREET GT|STREET|CLUB TR|CLUB SC|SUNDAE CUP)[\s\-–]*\b(AWD|RWD|FWD)\b/,
+    /\b(SUPER UNLIMITED|UNLIMITED|TRACK MOD|STREET MOD|STREET GT|STREET|CLUB TR|CLUB SC|SUNDAE CUP|SPEC FIT)[\s\-–]*\b(AWD|RWD|FWD)\b/,
     '$1 - $2'
   );
 
