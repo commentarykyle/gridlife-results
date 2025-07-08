@@ -140,12 +140,11 @@
             <ul>
               <li><strong>Years in Competition:</strong> {{ driverStats.years }}</li>
               <li><strong>Circuits Run:</strong> {{ driverStats.uniqueTracks }}</li>
-              <li><strong>Social Media:</strong> {{ "COMING SOON" }}</li>
             </ul>
           </div>
 
           <div class="driver-lap-history">
-            <h3>Lap History:</h3>
+            <h3>Fastest Laps:</h3>
             <ul>
               <li
                 v-for="track in sortedDriverTracks"
@@ -156,7 +155,7 @@
                   @click="toggleTrack(track.name)"
                   style="cursor: pointer; user-select: none; display: flex; justify-content: space-between; align-items: center;"
                 >
-                  <span>{{ track.name }} — Best Time: {{ formatTime(track.bestTime) || 'N/A' }}</span>
+                  <span>{{ track.name }} | {{ formatTime(track.bestTime) || 'N/A' }}</span>
                   <span>{{ expandedTrackName === track.name ? '[-]' : '[+]' }}</span>
                 </div>
 
@@ -165,7 +164,7 @@
                     v-if="expandedTrackName === track.name"
                     style="margin-left: 1rem; margin-top: 0.5rem;"
                   >
-                    <h4>Sessions for {{ track.name }}:</h4>
+                    <h4>Personal Bests at {{ track.name }}:</h4>
 
                     <div
                       v-for="year in getYearsForTrack(track.name)"
