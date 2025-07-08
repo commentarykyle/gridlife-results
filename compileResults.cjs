@@ -92,7 +92,7 @@ function parseSessionName(fileName, series) {
         return prNumMatch ? `Practice ${prNumMatch[1]}` : 'Practice';
       }
   
-      return 'Unknown Session';
+      return 'Shootout';
     }
   
     else {
@@ -145,6 +145,8 @@ function normalizeClassName(name) {
   // Normalize long-form class names
   normalized = normalized.replace('TRACK MODIFIED', 'TRACK MOD');
   normalized = normalized.replace('STREET MODIFIED', 'STREET MOD');
+  normalized = normalized.replace('[SPEC FIT / ECO CUP]', 'SPEC FIT');
+  normalized = normalized.replace('[SPEC FIT / ECO CUP]', 'SPEC FIT');
 
   // Fix any dash formatting (handle extra/missing spaces and all drive types)
   normalized = normalized.replace(
