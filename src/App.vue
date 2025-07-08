@@ -263,25 +263,21 @@ export default {
   const carGroups = {}; // { normalizedCarKey: { car: label, numbers: Set, classes: Set, years: Set } }
   const rawCars = new Set();
 
+  // Pass 1: Collect all cars
   for (const year of this.years) {
-    const yearData = this.driverDetailsAllYears?.[year];
+    const yearData = this.driverDetailsAllYears[year];
     if (!yearData) continue;
 
     for (const track in yearData) {
-      const laps = yearData?.[track]?.[this.resolvedDriverKey];
-      if (!Array.isArray(laps)) continue;
+      const laps = yearData[track][this.resolvedDriverKey];
+      if (!laps) continue;
 
       for (const lap of laps) {
-        if (!lap || typeof lap !== 'object') continue;
-
         const rawCar = lap.car?.trim();
-        if (!rawCar) continue;
-
-        // Avoid .toUpperCase on undefined
-        if (rawCar.toUpperCase().includes('UNKNOWN')) continue;
-
         const number = lap.number?.trim();
-        const className = typeof lap.class === 'string' ? lap.class.split(' - ')[0]?.trim() : null;
+        const className = lap.class?.split(' - ')[0]?.trim();
+
+        if (!rawCar || rawCar.toUpperCase().includes('UNKNOWN')) continue;
 
         rawCars.add(rawCar);
 
@@ -292,7 +288,7 @@ export default {
             car: rawCar.toUpperCase(),
             numbers: new Set(),
             classes: new Set(),
-            years: new Set(),
+            years: new Set()
           };
         }
 
@@ -305,17 +301,21 @@ export default {
 
   if (Object.keys(carGroups).length === 0) return [];
 
+  // Identify valid base car (exclude GLTC - X)
   const nonGltcKeys = Object.keys(carGroups).filter(k => !carGroups[k].car.startsWith('GLTC -'));
   const mergeTargetKey = nonGltcKeys[0] || Object.keys(carGroups)[0];
   const mergeTarget = carGroups[mergeTargetKey];
 
+  // Pass 2: Fuzzy merge similar cars (especially GLTC - X → into real models)
   const keys = Object.keys(carGroups);
   for (const key of keys) {
     const current = carGroups[key];
     const label = current.car;
 
+    // GLTC - X entries
     if (label.startsWith('GLTC -')) {
       if (mergeTargetKey !== key) {
+        // Merge into base car
         mergeTarget.numbers = new Set([...mergeTarget.numbers, ...current.numbers]);
         mergeTarget.classes = new Set([...mergeTarget.classes, ...current.classes]);
         mergeTarget.years = new Set([...mergeTarget.years, ...current.years]);
@@ -324,12 +324,11 @@ export default {
       continue;
     }
 
+    // Try merging similar cars
     for (const otherKey of Object.keys(carGroups)) {
       if (key === otherKey) continue;
 
       const other = carGroups[otherKey];
-      if (!other || !other.car) continue;
-
       const a = label.replace(/[^A-Z0-9]/gi, '').toLowerCase();
       const b = other.car.replace(/[^A-Z0-9]/gi, '').toLowerCase();
 
@@ -337,6 +336,7 @@ export default {
       const similarity = shared / Math.max(a.length, b.length);
 
       if (similarity > 0.6) {
+        // Merge other into current
         current.numbers = new Set([...current.numbers, ...other.numbers]);
         current.classes = new Set([...current.classes, ...other.classes]);
         current.years = new Set([...current.years, ...other.years]);
@@ -345,11 +345,12 @@ export default {
     }
   }
 
+  // Final result
   return Object.values(carGroups).map(group => ({
     car: group.car.toUpperCase(),
     numbers: Array.from(group.numbers).sort(),
     classes: Array.from(group.classes).sort(),
-    years: Array.from(group.years).sort((a, b) => b - a),
+    years: Array.from(group.years).sort((a, b) => b - a)
   }));
 },
 
@@ -719,104 +720,87 @@ filteredDriversByClass() {
     },
 
     async selectDriver(clickedName, clickedNumber) {
-  this.selectedDriver = clickedName;
-  this.resolvedDriverKey = null;
-  this.driverDetailsLoading = true;
-  this.driverDetailsError = false;
-  this.driverDetailsAllYears = {};
-  this.driverTracks = [];
-  this.expandedTrackName = null;
-  this.expandedYearsPerTrack = {};
+      this.selectedDriver = clickedName;
+      this.resolvedDriverKey = null;
+      this.driverDetailsLoading = true;
+      this.driverDetailsError = false;
+      this.driverDetailsAllYears = {};
+      this.driverTracks = [];
+      this.expandedTrackName = null;
+      this.expandedYearsPerTrack = {};
 
-  try {
-    const loadPromises = this.years.map(async (year) => {
-      const path = `/output/results-${year}-${this.selectedSeries.toLowerCase()}.json`;
-      const res = await fetch(path);
-      if (!res.ok) throw new Error(`Failed to fetch ${path}`);
-      const yearDataRaw = await res.json();
+      const loadPromises = this.years.map(async (year) => {
+        try {
+          const path = `/output/results-${year}-${this.selectedSeries.toLowerCase()}.json`;
+          const res = await fetch(path);
+          if (!res.ok) throw new Error(`Failed to fetch ${path}`);
+          const yearDataRaw = await res.json();
 
-      const yearDataNormalized = {};
-      for (const track in yearDataRaw) {
-        const driversInTrack = yearDataRaw[track];
-        const matchedDriverKey = this.selectDriverNameFromData(
-          driversInTrack,
-          clickedName,
-          clickedNumber
-        );
-        if (matchedDriverKey) {
-          yearDataNormalized[track] = {
-            [matchedDriverKey]: driversInTrack[matchedDriverKey],
-          };
-          // Set resolvedDriverKey only once
-          if (!this.resolvedDriverKey) this.resolvedDriverKey = matchedDriverKey;
-        }
-      }
-      this.driverDetailsAllYears[year] = yearDataNormalized;
+          const yearDataNormalized = {};
+          for (const track in yearDataRaw) {
+            const driversInTrack = yearDataRaw[track];
+            const matchedDriverKey = this.selectDriverNameFromData(
+              driversInTrack,
+              clickedName,
+              clickedNumber
+            );
+            if (matchedDriverKey) {
+              yearDataNormalized[track] = {
+                [matchedDriverKey]: driversInTrack[matchedDriverKey],
+              };
+              // Save the driver key found, but only once (prefer latest year first)
+              if (!this.resolvedDriverKey) this.resolvedDriverKey = matchedDriverKey;
+            }
+          }
+          this.driverDetailsAllYears[year] = yearDataNormalized;
+          this.findAllMatchingCarImages();
 
-      if (!this.resolvedDriverKey) {
-        console.warn(`No resolvedDriverKey found for ${clickedName} (${clickedNumber}) in year ${year}`);
-      }
-    });
-
-    await Promise.all(loadPromises);
-
-    if (!this.resolvedDriverKey) {
-      console.error(`No driver data found matching ${clickedName} (${clickedNumber}) across all years.`);
-      this.driverDetailsError = true;
-    } else {
-      this.findAllMatchingCarImages(); // call once after loading all years
-      this.buildDriverTracks();
-    }
-  } catch (e) {
-    console.error('Error loading driver details:', e);
-    this.driverDetailsError = true;
-  } finally {
-    this.driverDetailsLoading = false;
-  }
-},
-
-
-buildDriverTracks() {
-  if (!this.resolvedDriverKey) {
-    this.driverTracks = [];
-    return;
-  }
-
-  const trackMap = {};
-
-  for (const year of this.years) {
-    const yearData = this.driverDetailsAllYears[year];
-    if (!yearData) continue;
-
-    for (const track in yearData) {
-      const laps = yearData[track][this.resolvedDriverKey];
-      if (!laps) continue;
-
-      if (!trackMap[track]) {
-        trackMap[track] = {
-          name: track,
-          bestTime: Infinity,
-          years: new Set(),
-        };
-      }
-
-      trackMap[track].years.add(year);
-
-      laps.forEach(lap => {
-        const raw = this.parseTime(lap.time);
-        if (!isNaN(raw) && raw < trackMap[track].bestTime) {
-          trackMap[track].bestTime = raw;
+        } catch (e) {
+          console.warn(`Failed to load data for year ${year}`, e);
         }
       });
-    }
-  }
 
-  this.driverTracks = Object.values(trackMap).map(track => ({
-    name: track.name,
-    bestTime: track.bestTime === Infinity ? null : track.bestTime,
-    years: Array.from(track.years).sort((a,b) => b - a), // descending order
-  }));
-},
+      await Promise.all(loadPromises);
+      this.buildDriverTracks();
+      this.driverDetailsLoading = false;
+    },
+
+    buildDriverTracks() {
+      const trackMap = {};
+
+      for (const year of this.years) {
+        const yearData = this.driverDetailsAllYears[year];
+        if (!yearData) continue;
+
+        for (const track in yearData) {
+          const laps = yearData[track][this.resolvedDriverKey];
+          if (!laps) continue;
+
+          if (!trackMap[track]) {
+            trackMap[track] = {
+              name: track,
+              bestTime: Infinity,
+              years: new Set(),
+            };
+          }
+
+          trackMap[track].years.add(year);
+
+          laps.forEach(lap => {
+            const raw = this.parseTime(lap.time);
+            if (!isNaN(raw) && raw < trackMap[track].bestTime) {
+              trackMap[track].bestTime = raw;
+            }
+          });
+        }
+      }
+
+      this.driverTracks = Object.values(trackMap).map(track => ({
+        name: track.name,
+        bestTime: track.bestTime === Infinity ? null : track.bestTime,
+        years: Array.from(track.years).sort((a,b) => b - a), // descending years
+      }));
+    },
 
     trackSessionsGroupedBySession(trackName, year) {
       if (!this.driverDetailsAllYears[year]) return {};
