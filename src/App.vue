@@ -167,9 +167,6 @@
     </li>
   </ul>
 </div>
-
-
-
         </div>
 
         <div class="driver-right-column">
@@ -266,21 +263,25 @@ export default {
   const carGroups = {}; // { normalizedCarKey: { car: label, numbers: Set, classes: Set, years: Set } }
   const rawCars = new Set();
 
-  // Pass 1: Collect all cars
   for (const year of this.years) {
-    const yearData = this.driverDetailsAllYears[year];
+    const yearData = this.driverDetailsAllYears?.[year];
     if (!yearData) continue;
 
     for (const track in yearData) {
-      const laps = yearData[track][this.resolvedDriverKey];
-      if (!laps) continue;
+      const laps = yearData?.[track]?.[this.resolvedDriverKey];
+      if (!Array.isArray(laps)) continue;
 
       for (const lap of laps) {
-        const rawCar = lap.car?.trim();
-        const number = lap.number?.trim();
-        const className = lap.class?.split(' - ')[0]?.trim();
+        if (!lap || typeof lap !== 'object') continue;
 
-        if (!rawCar || rawCar.toUpperCase().includes('UNKNOWN')) continue;
+        const rawCar = lap.car?.trim();
+        if (!rawCar) continue;
+
+        // Avoid .toUpperCase on undefined
+        if (rawCar.toUpperCase().includes('UNKNOWN')) continue;
+
+        const number = lap.number?.trim();
+        const className = typeof lap.class === 'string' ? lap.class.split(' - ')[0]?.trim() : null;
 
         rawCars.add(rawCar);
 
@@ -291,7 +292,7 @@ export default {
             car: rawCar.toUpperCase(),
             numbers: new Set(),
             classes: new Set(),
-            years: new Set()
+            years: new Set(),
           };
         }
 
@@ -304,21 +305,17 @@ export default {
 
   if (Object.keys(carGroups).length === 0) return [];
 
-  // Identify valid base car (exclude GLTC - X)
   const nonGltcKeys = Object.keys(carGroups).filter(k => !carGroups[k].car.startsWith('GLTC -'));
   const mergeTargetKey = nonGltcKeys[0] || Object.keys(carGroups)[0];
   const mergeTarget = carGroups[mergeTargetKey];
 
-  // Pass 2: Fuzzy merge similar cars (especially GLTC - X → into real models)
   const keys = Object.keys(carGroups);
   for (const key of keys) {
     const current = carGroups[key];
     const label = current.car;
 
-    // GLTC - X entries
     if (label.startsWith('GLTC -')) {
       if (mergeTargetKey !== key) {
-        // Merge into base car
         mergeTarget.numbers = new Set([...mergeTarget.numbers, ...current.numbers]);
         mergeTarget.classes = new Set([...mergeTarget.classes, ...current.classes]);
         mergeTarget.years = new Set([...mergeTarget.years, ...current.years]);
@@ -327,11 +324,12 @@ export default {
       continue;
     }
 
-    // Try merging similar cars
     for (const otherKey of Object.keys(carGroups)) {
       if (key === otherKey) continue;
 
       const other = carGroups[otherKey];
+      if (!other || !other.car) continue;
+
       const a = label.replace(/[^A-Z0-9]/gi, '').toLowerCase();
       const b = other.car.replace(/[^A-Z0-9]/gi, '').toLowerCase();
 
@@ -339,7 +337,6 @@ export default {
       const similarity = shared / Math.max(a.length, b.length);
 
       if (similarity > 0.6) {
-        // Merge other into current
         current.numbers = new Set([...current.numbers, ...other.numbers]);
         current.classes = new Set([...current.classes, ...other.classes]);
         current.years = new Set([...current.years, ...other.years]);
@@ -348,12 +345,11 @@ export default {
     }
   }
 
-  // Final result
   return Object.values(carGroups).map(group => ({
     car: group.car.toUpperCase(),
     numbers: Array.from(group.numbers).sort(),
     classes: Array.from(group.classes).sort(),
-    years: Array.from(group.years).sort((a, b) => b - a)
+    years: Array.from(group.years).sort((a, b) => b - a),
   }));
 },
 
