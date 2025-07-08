@@ -1,6 +1,7 @@
 <template>
   <div class="app">
-    <h1>GRIDLIFE COMPETITION RESULTS</h1>
+    <img src="/gridlife-logo.png" alt="Gridlife Logo" style="height: 40px;" />
+    <h1>COMPETITION RESULTS</h1>
 
     <div class="selector-bar">
       <!-- Year Selector -->
