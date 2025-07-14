@@ -69,7 +69,7 @@
     </template>
 
     <!-- GLTC Qualifying -->
-    <template v-else-if="selectedSeries === 'GLTC' && selectedSession?.toLowerCase().includes('qual')">
+    <template v-else-if="selectedSeries === 'GLTC' || 'RUSH'&& selectedSession?.toLowerCase().includes('qual')">
       <th>Time</th>
       <th>Car Model</th>
     </template>
@@ -77,6 +77,12 @@
     <!-- GLTC Race -->
     <template v-else-if="selectedSeries === 'GLTC'">
       <th> Car Model</th>
+      <th>Laps</th>
+      <th>Fastest Lap</th>
+      <th>Gap</th>
+    </template>
+
+    <template v-else-if="selectedSeries === 'RUSH'">
       <th>Laps</th>
       <th>Fastest Lap</th>
       <th>Gap</th>
@@ -110,7 +116,7 @@
     </template>
 
     <!-- GLTC Qualifying -->
-    <template v-else-if="selectedSeries === 'GLTC' && selectedSession?.toLowerCase().includes('qual')">
+    <template v-else-if="selectedSeries === 'GLTC' || 'RUSH' && selectedSession?.toLowerCase().includes('qual')">
       <td>{{ driver.time }}</td>
       <td>{{ driver.car }}</td>
     </template>
@@ -118,6 +124,11 @@
     <!-- GLTC Race -->
     <template v-else-if="selectedSeries === 'GLTC'">
       <td>{{ driver.car }}</td>
+      <td>{{ driver.laps ?? '-' }}</td>
+      <td>{{ driver.time ?? '-' }}</td>
+      <td>{{ driver.gap ?? '-' }}</td>
+    </template>
+    <template v-else-if="selectedSeries === 'RUSH'">
       <td>{{ driver.laps ?? '-' }}</td>
       <td>{{ driver.time ?? '-' }}</td>
       <td>{{ driver.gap ?? '-' }}</td>
@@ -236,7 +247,7 @@ export default {
   data() {
     return {
       years: ['2025', '2024', '2023', '2022', '2021', '2020', '2019', '2018'],
-      seriesList: ['TrackBattle', 'GLTC'],
+      seriesList: ['TrackBattle', 'GLTC', 'RUSH'],
       selectedYear: '',
       selectedSeries: '',
       selectedTrack: '',
@@ -498,6 +509,10 @@ filteredDriversByClass() {
     "CLUB TR",
     "SUNDAE CUP",
     "CLUB SC",
+    "RUSH SRX",
+    "SRX",
+    "SR",
+    "RUSH SR",
     "GLTC"  // maybe add series class here if needed
   ];
 
@@ -582,8 +597,10 @@ filteredDriversByClass() {
       'SUNDAE CUP':'#ed2590',
       'GLTC':'#ef3b39',
       'GLGT': '#4c92ce',
-      'RUSH SR':'#4c92ce',
-      'RUSH SRX':'#ef3b39',
+      'RUSH SR':'#112f7a',
+      'RUSH SRX':'#ab1616',
+      'SR':'#112f7a',
+      'SRX':'#ab1616',
       // Add your actual class-color mappings here
     };
     return colors[className] || '#999'; // default fallback color

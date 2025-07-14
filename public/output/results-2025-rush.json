@@ -1,0 +1,4200 @@
+{
+  "Carolina Motorsports Park": {
+    "Andy Voelkel": [
+      {
+        "number": "34",
+        "class": "RUSH - RWD",
+        "car": "3",
+        "time": "1:38.446",
+        "session": "Qualifying",
+        "pos": "1"
+      },
+      {
+        "number": "34",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:44.689",
+        "session": "Race 1",
+        "pos": "2"
+      },
+      {
+        "number": "34",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:38.224",
+        "session": "Race 2",
+        "pos": "2"
+      },
+      {
+        "number": "34",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:38.356",
+        "session": "Race 3",
+        "pos": "2"
+      },
+      {
+        "number": "34",
+        "class": "RUSH - RWD",
+        "car": "3",
+        "time": "1:38.195",
+        "session": "Race 4",
+        "pos": "2"
+      }
+    ],
+    "Ryan Leach": [
+      {
+        "number": "56",
+        "class": "RUSH - RWD",
+        "car": "2",
+        "time": "1:38.537",
+        "session": "Qualifying",
+        "pos": "2"
+      },
+      {
+        "number": "56",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:43.245",
+        "session": "Race 1",
+        "pos": "1"
+      },
+      {
+        "number": "56",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:38.009",
+        "session": "Race 2",
+        "pos": "1"
+      },
+      {
+        "number": "56",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:38.423",
+        "session": "Race 3",
+        "pos": "1"
+      },
+      {
+        "number": "56",
+        "class": "RUSH - RWD",
+        "car": "3",
+        "time": "1:38.055",
+        "session": "Race 4",
+        "pos": "1"
+      }
+    ],
+    "Nico Bratz": [
+      {
+        "number": "7",
+        "class": "RUSH - RWD",
+        "car": "1",
+        "time": "1:38.822",
+        "session": "Qualifying",
+        "pos": "3"
+      },
+      {
+        "number": "7",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:44.774",
+        "session": "Race 1",
+        "pos": "3"
+      },
+      {
+        "number": "7",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:38.378",
+        "session": "Race 2",
+        "pos": "3"
+      },
+      {
+        "number": "7",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:39.162",
+        "session": "Race 3",
+        "pos": "3"
+      },
+      {
+        "number": "7",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:38.334",
+        "session": "Race 4",
+        "pos": "3"
+      }
+    ],
+    "Ethan Alexander": [
+      {
+        "number": "33",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:39.494",
+        "session": "Qualifying",
+        "pos": "4"
+      },
+      {
+        "number": "33",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:45.260",
+        "session": "Race 1",
+        "pos": "4"
+      },
+      {
+        "number": "33",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:39.195",
+        "session": "Race 2",
+        "pos": "5"
+      },
+      {
+        "number": "33",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:40.364",
+        "session": "Race 3",
+        "pos": "5"
+      },
+      {
+        "number": "33",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:39.419",
+        "session": "Race 4",
+        "pos": "5"
+      }
+    ],
+    "Jaylan Battley": [
+      {
+        "number": "88",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:39.577",
+        "session": "Qualifying",
+        "pos": "5"
+      },
+      {
+        "number": "88",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:56.923",
+        "session": "Race 1",
+        "pos": "12"
+      },
+      {
+        "number": "88",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:38.840",
+        "session": "Race 2",
+        "pos": "6"
+      },
+      {
+        "number": "88",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:40.864",
+        "session": "Race 3",
+        "pos": "6"
+      },
+      {
+        "number": "88",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:39.354",
+        "session": "Race 4",
+        "pos": "6"
+      }
+    ],
+    "Nate Hamilton": [
+      {
+        "number": "144",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:40.994",
+        "session": "Qualifying",
+        "pos": "6"
+      },
+      {
+        "number": "144",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:48.022",
+        "session": "Race 1",
+        "pos": "6"
+      },
+      {
+        "number": "144",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:41.559",
+        "session": "Race 2",
+        "pos": "7"
+      },
+      {
+        "number": "144",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:40.728",
+        "session": "Race 4",
+        "pos": "8"
+      }
+    ],
+    "Gage Hughes": [
+      {
+        "number": "51",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:41.622",
+        "session": "Qualifying",
+        "pos": "7"
+      },
+      {
+        "number": "51",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:46.042",
+        "session": "Race 1",
+        "pos": "5"
+      },
+      {
+        "number": "51",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:40.295",
+        "session": "Race 2",
+        "pos": "8"
+      },
+      {
+        "number": "51",
+        "class": "RUSH - RWD",
+        "car": "3",
+        "time": "1:40.089",
+        "session": "Race 4",
+        "pos": "7"
+      }
+    ],
+    "Bret Digiacomo": [
+      {
+        "number": "12",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:41.826",
+        "session": "Qualifying",
+        "pos": "8"
+      },
+      {
+        "number": "12",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "2:07.065",
+        "session": "Race 1",
+        "pos": "18"
+      },
+      {
+        "number": "12",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:39.974",
+        "session": "Race 2",
+        "pos": "10"
+      },
+      {
+        "number": "12",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:43.284",
+        "session": "Race 3",
+        "pos": "20"
+      },
+      {
+        "number": "12",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:42.317",
+        "session": "Race 4",
+        "pos": "14"
+      }
+    ],
+    "Samuel Reed": [
+      {
+        "number": "256",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:41.953",
+        "session": "Qualifying",
+        "pos": "9"
+      },
+      {
+        "number": "256",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "2:02.928",
+        "session": "Race 1",
+        "pos": "17"
+      },
+      {
+        "number": "256",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:42.245",
+        "session": "Race 2",
+        "pos": "13"
+      },
+      {
+        "number": "256",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "",
+        "session": "Race 3",
+        "pos": "22"
+      },
+      {
+        "number": "256",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:42.193",
+        "session": "Race 4",
+        "pos": "15"
+      }
+    ],
+    "Bill Wright": [
+      {
+        "number": "58",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:41.978",
+        "session": "Qualifying",
+        "pos": "10"
+      },
+      {
+        "number": "58",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:42.878",
+        "session": "Race 2",
+        "pos": "15"
+      },
+      {
+        "number": "58",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:44.434",
+        "session": "Race 3",
+        "pos": "9"
+      },
+      {
+        "number": "58",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:42.316",
+        "session": "Race 4",
+        "pos": "12"
+      }
+    ],
+    "Grant Anderson": [
+      {
+        "number": "133",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:42.592",
+        "session": "Qualifying",
+        "pos": "11"
+      },
+      {
+        "number": "133",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:47.631",
+        "session": "Race 1",
+        "pos": "10"
+      },
+      {
+        "number": "133",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:42.061",
+        "session": "Race 2",
+        "pos": "12"
+      },
+      {
+        "number": "133",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:42.906",
+        "session": "Race 3",
+        "pos": "8"
+      },
+      {
+        "number": "133",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:41.542",
+        "session": "Race 4",
+        "pos": "10"
+      }
+    ],
+    "Larry Brady": [
+      {
+        "number": "59",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:43.211",
+        "session": "Qualifying",
+        "pos": "12"
+      },
+      {
+        "number": "59",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:48.410",
+        "session": "Race 1",
+        "pos": "7"
+      },
+      {
+        "number": "59",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:43.560",
+        "session": "Race 2",
+        "pos": "18"
+      },
+      {
+        "number": "59",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:45.939",
+        "session": "Race 3",
+        "pos": "14"
+      },
+      {
+        "number": "59",
+        "class": "RUSH - RWD",
+        "car": "2",
+        "time": "1:43.012",
+        "session": "Race 4",
+        "pos": "23"
+      }
+    ],
+    "Matt Wilson": [
+      {
+        "number": "188",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:43.250",
+        "session": "Qualifying",
+        "pos": "13"
+      },
+      {
+        "number": "188",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "2:02.944",
+        "session": "Race 1",
+        "pos": "19"
+      },
+      {
+        "number": "188",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:40.959",
+        "session": "Race 2",
+        "pos": "9"
+      },
+      {
+        "number": "188",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:42.481",
+        "session": "Race 3",
+        "pos": "7"
+      },
+      {
+        "number": "188",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:40.828",
+        "session": "Race 4",
+        "pos": "9"
+      }
+    ],
+    "Tj Hunt": [
+      {
+        "number": "28",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:43.374",
+        "session": "Qualifying",
+        "pos": "14"
+      },
+      {
+        "number": "28",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:46.390",
+        "session": "Race 1",
+        "pos": "8"
+      },
+      {
+        "number": "28",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:42.326",
+        "session": "Race 2",
+        "pos": "11"
+      },
+      {
+        "number": "28",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "",
+        "session": "Race 3",
+        "pos": "21"
+      },
+      {
+        "number": "28",
+        "class": "RUSH - RWD",
+        "car": "9",
+        "time": "1:41.710",
+        "session": "Race 4",
+        "pos": "11"
+      }
+    ],
+    "Andrew Lee": [
+      {
+        "number": "333",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:43.479",
+        "session": "Qualifying",
+        "pos": "15"
+      },
+      {
+        "number": "333",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "2:04.108",
+        "session": "Race 1",
+        "pos": "16"
+      },
+      {
+        "number": "333",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:45.772",
+        "session": "Race 2",
+        "pos": "20"
+      },
+      {
+        "number": "333",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:47.648",
+        "session": "Race 3",
+        "pos": "17"
+      },
+      {
+        "number": "333",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "",
+        "session": "Race 4",
+        "pos": "17"
+      }
+    ],
+    "Evan Shanks": [
+      {
+        "number": "53",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:43.715",
+        "session": "Qualifying",
+        "pos": "16"
+      },
+      {
+        "number": "53",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:47.548",
+        "session": "Race 1",
+        "pos": "9"
+      },
+      {
+        "number": "53",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "1:42.035",
+        "session": "Race 2",
+        "pos": "14"
+      },
+      {
+        "number": "53",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:44.311",
+        "session": "Race 3",
+        "pos": "10"
+      },
+      {
+        "number": "53",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:42.116",
+        "session": "Race 4",
+        "pos": "13"
+      }
+    ],
+    "Jeremy Boysen": [
+      {
+        "number": "22",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:46.643",
+        "session": "Qualifying",
+        "pos": "17"
+      },
+      {
+        "number": "22",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "2:04.683",
+        "session": "Race 1",
+        "pos": "20"
+      },
+      {
+        "number": "22",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:45.031",
+        "session": "Race 2",
+        "pos": "17"
+      },
+      {
+        "number": "22",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:47.115",
+        "session": "Race 3",
+        "pos": "13"
+      },
+      {
+        "number": "22",
+        "class": "RUSH - RWD",
+        "car": "9",
+        "time": "1:43.114",
+        "session": "Race 4",
+        "pos": "16"
+      }
+    ],
+    "Team End Alzheimers Motorsports": [
+      {
+        "number": "29",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:47.316",
+        "session": "Qualifying",
+        "pos": "18"
+      },
+      {
+        "number": "29",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:55.587",
+        "session": "Race 1",
+        "pos": "14"
+      },
+      {
+        "number": "29",
+        "class": "RUSH - RWD",
+        "car": "1",
+        "time": "1:52.606",
+        "session": "Race 2",
+        "pos": "24"
+      },
+      {
+        "number": "29",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:46.090",
+        "session": "Race 3",
+        "pos": "12"
+      },
+      {
+        "number": "29",
+        "class": "RUSH - RWD",
+        "car": "1",
+        "time": "1:50.071",
+        "session": "Race 4",
+        "pos": "24"
+      }
+    ],
+    "Alex Ziegenfus": [
+      {
+        "number": "129",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:48.253",
+        "session": "Qualifying",
+        "pos": "19"
+      },
+      {
+        "number": "129",
+        "class": "RUSH - RWD",
+        "car": "2",
+        "time": "2:11.421",
+        "session": "Race 1",
+        "pos": "22"
+      },
+      {
+        "number": "129",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:43.907",
+        "session": "Race 2",
+        "pos": "19"
+      },
+      {
+        "number": "129",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:48.130",
+        "session": "Race 3",
+        "pos": "15"
+      },
+      {
+        "number": "129",
+        "class": "RUSH - RWD",
+        "car": "3",
+        "time": "1:44.004",
+        "session": "Race 4",
+        "pos": "19"
+      }
+    ],
+    "Jake Sanders": [
+      {
+        "number": "77",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:48.260",
+        "session": "Qualifying",
+        "pos": "20"
+      },
+      {
+        "number": "77",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:54.276",
+        "session": "Race 1",
+        "pos": "11"
+      },
+      {
+        "number": "77",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:44.061",
+        "session": "Race 2",
+        "pos": "16"
+      },
+      {
+        "number": "77",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:45.379",
+        "session": "Race 3",
+        "pos": "11"
+      },
+      {
+        "number": "77",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:43.419",
+        "session": "Race 4",
+        "pos": "18"
+      }
+    ],
+    "Aj Campo": [
+      {
+        "number": "227",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:50.657",
+        "session": "Qualifying",
+        "pos": "21"
+      },
+      {
+        "number": "227",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "",
+        "session": "Race 1",
+        "pos": "23"
+      },
+      {
+        "number": "227",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:50.475",
+        "session": "Race 2",
+        "pos": "23"
+      },
+      {
+        "number": "227",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:51.535",
+        "session": "Race 3",
+        "pos": "19"
+      },
+      {
+        "number": "227",
+        "class": "RUSH - RWD",
+        "car": "9",
+        "time": "1:46.484",
+        "session": "Race 4",
+        "pos": "20"
+      }
+    ],
+    "Grant Ellis": [
+      {
+        "number": "300",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:51.928",
+        "session": "Qualifying",
+        "pos": "22"
+      },
+      {
+        "number": "300",
+        "class": "RUSH - RWD",
+        "car": "6",
+        "time": "2:10.138",
+        "session": "Race 1",
+        "pos": "21"
+      },
+      {
+        "number": "300",
+        "class": "RUSH - RWD",
+        "car": "8",
+        "time": "1:50.480",
+        "session": "Race 2",
+        "pos": "22"
+      },
+      {
+        "number": "300",
+        "class": "RUSH - RWD",
+        "car": "4",
+        "time": "1:52.482",
+        "session": "Race 3",
+        "pos": "18"
+      },
+      {
+        "number": "300",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:49.646",
+        "session": "Race 4",
+        "pos": "21"
+      }
+    ],
+    "John Howe": [
+      {
+        "number": "17",
+        "class": "RUSH - RWD",
+        "car": "0",
+        "time": "1:52.088",
+        "session": "Qualifying",
+        "pos": "23"
+      },
+      {
+        "number": "17",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:56.682",
+        "session": "Race 1",
+        "pos": "13"
+      },
+      {
+        "number": "17",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:48.652",
+        "session": "Race 2",
+        "pos": "21"
+      },
+      {
+        "number": "17",
+        "class": "RUSH - RWD",
+        "car": "2",
+        "time": "1:47.530",
+        "session": "Race 4",
+        "pos": "22"
+      }
+    ],
+    "James French": [
+      {
+        "number": "70",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "2:00.538",
+        "session": "Race 1",
+        "pos": "15"
+      },
+      {
+        "number": "70",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:39.027",
+        "session": "Race 2",
+        "pos": "4"
+      },
+      {
+        "number": "70",
+        "class": "RUSH - RWD",
+        "car": "5",
+        "time": "1:39.767",
+        "session": "Race 3",
+        "pos": "4"
+      },
+      {
+        "number": "70",
+        "class": "RUSH - RWD",
+        "car": "7",
+        "time": "1:38.627",
+        "session": "Race 4",
+        "pos": "4"
+      }
+    ]
+  },
+  "GingerMan Raceway": {
+    "Ryan Leach": [
+      {
+        "number": "56",
+        "class": "SR",
+        "car": "3",
+        "time": "1:34.866",
+        "session": "Qualifying",
+        "pos": "1"
+      },
+      {
+        "number": "56",
+        "class": "SR",
+        "car": "7",
+        "time": "1:35.632",
+        "session": "Race 1",
+        "pos": "1"
+      },
+      {
+        "number": "56",
+        "class": "SR",
+        "car": "2",
+        "time": "1:35.426",
+        "session": "Race 2",
+        "pos": "1"
+      },
+      {
+        "number": "56",
+        "class": "SR",
+        "car": "6",
+        "time": "1:34.488",
+        "session": "Race 3",
+        "pos": "1"
+      },
+      {
+        "number": "56",
+        "class": "SR",
+        "car": "6",
+        "time": "1:35.174",
+        "session": "Race 4",
+        "pos": "1"
+      }
+    ],
+    "Blair Hosie": [
+      {
+        "number": "8",
+        "class": "SR",
+        "car": "2",
+        "time": "1:35.521",
+        "session": "Qualifying",
+        "pos": "2"
+      },
+      {
+        "number": "8",
+        "class": "SR",
+        "car": "7",
+        "time": "1:35.973",
+        "session": "Race 1",
+        "pos": "2"
+      },
+      {
+        "number": "8",
+        "class": "SR",
+        "car": "2",
+        "time": "1:35.651",
+        "session": "Race 2",
+        "pos": "2"
+      },
+      {
+        "number": "8",
+        "class": "SR",
+        "car": "7",
+        "time": "1:34.677",
+        "session": "Race 3",
+        "pos": "2"
+      },
+      {
+        "number": "8",
+        "class": "SR",
+        "car": "6",
+        "time": "1:35.222",
+        "session": "Race 4",
+        "pos": "2"
+      }
+    ],
+    "James French": [
+      {
+        "number": "70",
+        "class": "SR",
+        "car": "1",
+        "time": "1:36.080",
+        "session": "Qualifying",
+        "pos": "3"
+      },
+      {
+        "number": "70",
+        "class": "SR",
+        "car": "7",
+        "time": "1:36.224",
+        "session": "Race 1",
+        "pos": "3"
+      },
+      {
+        "number": "70",
+        "class": "SR",
+        "car": "3",
+        "time": "1:36.153",
+        "session": "Race 2",
+        "pos": "4"
+      },
+      {
+        "number": "70",
+        "class": "SR",
+        "car": "2",
+        "time": "1:36.325",
+        "session": "Race 3",
+        "pos": "30"
+      },
+      {
+        "number": "70",
+        "class": "SR",
+        "car": "9",
+        "time": "1:35.754",
+        "session": "Race 4",
+        "pos": "3"
+      }
+    ],
+    "Nico Bratz": [
+      {
+        "number": "7",
+        "class": "SR",
+        "car": "0",
+        "time": "1:36.229",
+        "session": "Qualifying",
+        "pos": "4"
+      },
+      {
+        "number": "7",
+        "class": "SR",
+        "car": "7",
+        "time": "1:36.448",
+        "session": "Race 1",
+        "pos": "5"
+      },
+      {
+        "number": "7",
+        "class": "SR",
+        "car": "3",
+        "time": "1:36.247",
+        "session": "Race 2",
+        "pos": "5"
+      },
+      {
+        "number": "7",
+        "class": "SR",
+        "car": "7",
+        "time": "1:35.498",
+        "session": "Race 3",
+        "pos": "3"
+      },
+      {
+        "number": "7",
+        "class": "SR",
+        "car": "8",
+        "time": "1:36.422",
+        "session": "Race 4",
+        "pos": "4"
+      }
+    ],
+    "Andy Voelkel": [
+      {
+        "number": "34",
+        "class": "SR",
+        "car": "0",
+        "time": "1:36.363",
+        "session": "Qualifying",
+        "pos": "5"
+      },
+      {
+        "number": "34",
+        "class": "SR",
+        "car": "7",
+        "time": "1:36.098",
+        "session": "Race 1",
+        "pos": "4"
+      },
+      {
+        "number": "34",
+        "class": "SR",
+        "car": "3",
+        "time": "1:36.510",
+        "session": "Race 2",
+        "pos": "3"
+      },
+      {
+        "number": "34",
+        "class": "SR",
+        "car": "8",
+        "time": "1:36.182",
+        "session": "Race 3",
+        "pos": "4"
+      },
+      {
+        "number": "34",
+        "class": "SR",
+        "car": "7",
+        "time": "1:37.005",
+        "session": "Race 4",
+        "pos": "5"
+      }
+    ],
+    "Bryce Mersberger": [
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "0",
+        "time": "1:36.815",
+        "session": "Qualifying",
+        "pos": "6"
+      },
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "6",
+        "time": "1:37.453",
+        "session": "Race 1",
+        "pos": "18"
+      },
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "2",
+        "time": "1:40.909",
+        "session": "Race 2",
+        "pos": "29"
+      },
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "8",
+        "time": "1:37.606",
+        "session": "Race 3",
+        "pos": "17"
+      },
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "10",
+        "time": "1:37.346",
+        "session": "Race 4",
+        "pos": "10"
+      }
+    ],
+    "Jason Oehler": [
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "0",
+        "time": "1:36.950",
+        "session": "Qualifying",
+        "pos": "7"
+      },
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "6",
+        "time": "1:37.448",
+        "session": "Race 1",
+        "pos": "7"
+      },
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "9",
+        "time": "1:37.088",
+        "session": "Race 3",
+        "pos": "12"
+      },
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "7",
+        "time": "1:37.178",
+        "session": "Race 4",
+        "pos": "7"
+      }
+    ],
+    "Lee Kellert": [
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.095",
+        "session": "Qualifying",
+        "pos": "8"
+      },
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "2",
+        "time": "1:38.481",
+        "session": "Race 1",
+        "pos": "22"
+      },
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "3",
+        "time": "1:42.036",
+        "session": "Race 2",
+        "pos": "28"
+      },
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "5",
+        "time": "1:38.041",
+        "session": "Race 3",
+        "pos": "16"
+      },
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "10",
+        "time": "1:38.592",
+        "session": "Race 4",
+        "pos": "14"
+      }
+    ],
+    "Bret Digiacomo": [
+      {
+        "number": "12",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.263",
+        "session": "Qualifying",
+        "pos": "9"
+      },
+      {
+        "number": "12",
+        "class": "SR",
+        "car": "7",
+        "time": "1:37.155",
+        "session": "Race 1",
+        "pos": "10"
+      },
+      {
+        "number": "12",
+        "class": "SR",
+        "car": "2",
+        "time": "1:37.547",
+        "session": "Race 2",
+        "pos": "6"
+      },
+      {
+        "number": "12",
+        "class": "SR",
+        "car": "2",
+        "time": "1:36.806",
+        "session": "Race 3",
+        "pos": "5"
+      },
+      {
+        "number": "12",
+        "class": "SR",
+        "car": "9",
+        "time": "1:37.272",
+        "session": "Race 4",
+        "pos": "8"
+      }
+    ],
+    "Ethan Alexander": [
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.411",
+        "session": "Qualifying",
+        "pos": "10"
+      },
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "7",
+        "time": "1:38.061",
+        "session": "Race 1",
+        "pos": "8"
+      },
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "2",
+        "time": "1:37.797",
+        "session": "Race 2",
+        "pos": "9"
+      },
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "2",
+        "time": "1:37.864",
+        "session": "Race 3",
+        "pos": "9"
+      },
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "10",
+        "time": "1:37.385",
+        "session": "Race 4",
+        "pos": "6"
+      }
+    ],
+    "Mark Charnogorsky": [
+      {
+        "number": "25",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.456",
+        "session": "Qualifying",
+        "pos": "11"
+      },
+      {
+        "number": "25",
+        "class": "SR",
+        "car": "7",
+        "time": "1:37.739",
+        "session": "Race 1",
+        "pos": "11"
+      },
+      {
+        "number": "25",
+        "class": "SR",
+        "car": "2",
+        "time": "1:37.735",
+        "session": "Race 2",
+        "pos": "7"
+      },
+      {
+        "number": "25",
+        "class": "SR",
+        "car": "8",
+        "time": "1:36.911",
+        "session": "Race 3",
+        "pos": "6"
+      },
+      {
+        "number": "25",
+        "class": "SR",
+        "car": "5",
+        "time": "1:41.981",
+        "session": "Race 4",
+        "pos": "29"
+      }
+    ],
+    "Bill Wright": [
+      {
+        "number": "58",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.765",
+        "session": "Qualifying",
+        "pos": "12"
+      },
+      {
+        "number": "58",
+        "class": "SR",
+        "car": "7",
+        "time": "1:38.045",
+        "session": "Race 1",
+        "pos": "12"
+      },
+      {
+        "number": "58",
+        "class": "SR",
+        "car": "2",
+        "time": "1:39.778",
+        "session": "Race 2",
+        "pos": "13"
+      },
+      {
+        "number": "58",
+        "class": "SR",
+        "car": "8",
+        "time": "1:37.984",
+        "session": "Race 3",
+        "pos": "14"
+      },
+      {
+        "number": "58",
+        "class": "SR",
+        "car": "9",
+        "time": "1:37.903",
+        "session": "Race 4",
+        "pos": "15"
+      }
+    ],
+    "John Robinson": [
+      {
+        "number": "190",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.773",
+        "session": "Qualifying",
+        "pos": "13"
+      },
+      {
+        "number": "190",
+        "class": "SR",
+        "car": "6",
+        "time": "1:38.764",
+        "session": "Race 1",
+        "pos": "13"
+      },
+      {
+        "number": "190",
+        "class": "SR",
+        "car": "2",
+        "time": "1:40.507",
+        "session": "Race 2",
+        "pos": "15"
+      },
+      {
+        "number": "190",
+        "class": "SR",
+        "car": "4",
+        "time": "1:37.969",
+        "session": "Race 3",
+        "pos": "11"
+      },
+      {
+        "number": "190",
+        "class": "SR",
+        "car": "0",
+        "time": "",
+        "session": "Race 4",
+        "pos": "9"
+      }
+    ],
+    "Nate Hamilton": [
+      {
+        "number": "144",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.968",
+        "session": "Qualifying",
+        "pos": "14"
+      },
+      {
+        "number": "144",
+        "class": "SR",
+        "car": "7",
+        "time": "1:37.973",
+        "session": "Race 1",
+        "pos": "6"
+      },
+      {
+        "number": "144",
+        "class": "SR",
+        "car": "2",
+        "time": "1:37.379",
+        "session": "Race 2",
+        "pos": "8"
+      },
+      {
+        "number": "144",
+        "class": "SR",
+        "car": "7",
+        "time": "1:37.955",
+        "session": "Race 3",
+        "pos": "18"
+      },
+      {
+        "number": "144",
+        "class": "SR",
+        "car": "3",
+        "time": "1:38.113",
+        "session": "Race 4",
+        "pos": "11"
+      }
+    ],
+    "Aryton Grim": [
+      {
+        "number": "121",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.000",
+        "session": "Qualifying",
+        "pos": "15"
+      },
+      {
+        "number": "121",
+        "class": "SR",
+        "car": "7",
+        "time": "1:38.938",
+        "session": "Race 1",
+        "pos": "17"
+      },
+      {
+        "number": "121",
+        "class": "SR",
+        "car": "3",
+        "time": "1:40.574",
+        "session": "Race 2",
+        "pos": "18"
+      }
+    ],
+    "Jaylan Battley": [
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.061",
+        "session": "Qualifying",
+        "pos": "16"
+      },
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "7",
+        "time": "1:39.114",
+        "session": "Race 1",
+        "pos": "15"
+      },
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "2",
+        "time": "1:38.835",
+        "session": "Race 2",
+        "pos": "11"
+      },
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "8",
+        "time": "1:36.888",
+        "session": "Race 3",
+        "pos": "7"
+      }
+    ],
+    "Gage Hughes": [
+      {
+        "number": "51",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.195",
+        "session": "Qualifying",
+        "pos": "17"
+      },
+      {
+        "number": "51",
+        "class": "SR",
+        "car": "7",
+        "time": "1:39.116",
+        "session": "Race 1",
+        "pos": "16"
+      },
+      {
+        "number": "51",
+        "class": "SR",
+        "car": "3",
+        "time": "1:40.488",
+        "session": "Race 2",
+        "pos": "14"
+      },
+      {
+        "number": "51",
+        "class": "SR",
+        "car": "5",
+        "time": "1:38.002",
+        "session": "Race 3",
+        "pos": "13"
+      },
+      {
+        "number": "51",
+        "class": "SR",
+        "car": "3",
+        "time": "1:38.084",
+        "session": "Race 4",
+        "pos": "12"
+      }
+    ],
+    "Robert Desjardins": [
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.447",
+        "session": "Qualifying",
+        "pos": "18"
+      },
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "6",
+        "time": "1:39.215",
+        "session": "Race 1",
+        "pos": "20"
+      },
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "3",
+        "time": "1:40.513",
+        "session": "Race 2",
+        "pos": "16"
+      },
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "8",
+        "time": "1:37.902",
+        "session": "Race 3",
+        "pos": "15"
+      },
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "6",
+        "time": "1:37.942",
+        "session": "Race 4",
+        "pos": "13"
+      }
+    ],
+    "Tj Hunt": [
+      {
+        "number": "28",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.495",
+        "session": "Qualifying",
+        "pos": "19"
+      },
+      {
+        "number": "28",
+        "class": "SR",
+        "car": "7",
+        "time": "1:37.784",
+        "session": "Race 1",
+        "pos": "9"
+      },
+      {
+        "number": "28",
+        "class": "SR",
+        "car": "9",
+        "time": "1:40.679",
+        "session": "Race 2",
+        "pos": "12"
+      },
+      {
+        "number": "28",
+        "class": "SR",
+        "car": "2",
+        "time": "1:37.642",
+        "session": "Race 3",
+        "pos": "10"
+      },
+      {
+        "number": "28",
+        "class": "SR",
+        "car": "8",
+        "time": "1:38.492",
+        "session": "Race 4",
+        "pos": "16"
+      }
+    ],
+    "Jeremy Boysen": [
+      {
+        "number": "22",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.506",
+        "session": "Qualifying",
+        "pos": "20"
+      },
+      {
+        "number": "22",
+        "class": "SR",
+        "car": "2",
+        "time": "1:42.973",
+        "session": "Race 1",
+        "pos": "33"
+      }
+    ],
+    "Nick Billingsley": [
+      {
+        "number": "9",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.647",
+        "session": "Qualifying",
+        "pos": "21"
+      },
+      {
+        "number": "9",
+        "class": "SR",
+        "car": "6",
+        "time": "1:39.183",
+        "session": "Race 1",
+        "pos": "14"
+      },
+      {
+        "number": "9",
+        "class": "SR",
+        "car": "3",
+        "time": "1:39.227",
+        "session": "Race 2",
+        "pos": "10"
+      },
+      {
+        "number": "9",
+        "class": "SR",
+        "car": "8",
+        "time": "1:37.800",
+        "session": "Race 3",
+        "pos": "8"
+      },
+      {
+        "number": "9",
+        "class": "SR",
+        "car": "3",
+        "time": "1:38.031",
+        "session": "Race 4",
+        "pos": "28"
+      }
+    ],
+    "Kelsey Billingsley": [
+      {
+        "number": "19",
+        "class": "SR",
+        "car": "0",
+        "time": "1:39.391",
+        "session": "Qualifying",
+        "pos": "22"
+      },
+      {
+        "number": "19",
+        "class": "SR",
+        "car": "6",
+        "time": "1:39.032",
+        "session": "Race 1",
+        "pos": "19"
+      },
+      {
+        "number": "19",
+        "class": "SR",
+        "car": "2",
+        "time": "1:41.234",
+        "session": "Race 2",
+        "pos": "30"
+      },
+      {
+        "number": "19",
+        "class": "SR",
+        "car": "6",
+        "time": "1:39.164",
+        "session": "Race 3",
+        "pos": "24"
+      },
+      {
+        "number": "19",
+        "class": "SR",
+        "car": "5",
+        "time": "1:39.553",
+        "session": "Race 4",
+        "pos": "17"
+      }
+    ],
+    "Larry Brady": [
+      {
+        "number": "59",
+        "class": "SR",
+        "car": "0",
+        "time": "1:39.852",
+        "session": "Qualifying",
+        "pos": "23"
+      },
+      {
+        "number": "59",
+        "class": "SR",
+        "car": "4",
+        "time": "1:41.581",
+        "session": "Race 1",
+        "pos": "31"
+      },
+      {
+        "number": "59",
+        "class": "SR",
+        "car": "9",
+        "time": "1:43.111",
+        "session": "Race 2",
+        "pos": "21"
+      },
+      {
+        "number": "59",
+        "class": "SR",
+        "car": "3",
+        "time": "1:39.790",
+        "session": "Race 3",
+        "pos": "21"
+      },
+      {
+        "number": "59",
+        "class": "SR",
+        "car": "5",
+        "time": "1:40.437",
+        "session": "Race 4",
+        "pos": "21"
+      }
+    ],
+    "Aj Campo": [
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "0",
+        "time": "1:40.021",
+        "session": "Qualifying",
+        "pos": "24"
+      },
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "7",
+        "time": "1:40.665",
+        "session": "Race 1",
+        "pos": "23"
+      },
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "9",
+        "time": "1:42.409",
+        "session": "Race 2",
+        "pos": "19"
+      },
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "7",
+        "time": "1:39.562",
+        "session": "Race 3",
+        "pos": "29"
+      },
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "10",
+        "time": "1:40.224",
+        "session": "Race 4",
+        "pos": "20"
+      }
+    ],
+    "Jared Anderson": [
+      {
+        "number": "99",
+        "class": "SR",
+        "car": "0",
+        "time": "1:40.701",
+        "session": "Qualifying",
+        "pos": "25"
+      },
+      {
+        "number": "99",
+        "class": "SR",
+        "car": "7",
+        "time": "1:41.638",
+        "session": "Race 1",
+        "pos": "24"
+      },
+      {
+        "number": "99",
+        "class": "SR",
+        "car": "9",
+        "time": "1:42.468",
+        "session": "Race 2",
+        "pos": "20"
+      },
+      {
+        "number": "99",
+        "class": "SR",
+        "car": "9",
+        "time": "1:39.896",
+        "session": "Race 3",
+        "pos": "20"
+      },
+      {
+        "number": "99",
+        "class": "SR",
+        "car": "7",
+        "time": "1:39.679",
+        "session": "Race 4",
+        "pos": "19"
+      }
+    ],
+    "Matt Wilson": [
+      {
+        "number": "188",
+        "class": "SR",
+        "car": "0",
+        "time": "1:40.980",
+        "session": "Qualifying",
+        "pos": "26"
+      },
+      {
+        "number": "188",
+        "class": "SR",
+        "car": "4",
+        "time": "1:41.017",
+        "session": "Race 1",
+        "pos": "32"
+      },
+      {
+        "number": "188",
+        "class": "SR",
+        "car": "2",
+        "time": "1:40.351",
+        "session": "Race 2",
+        "pos": "17"
+      },
+      {
+        "number": "188",
+        "class": "SR",
+        "car": "4",
+        "time": "1:39.296",
+        "session": "Race 3",
+        "pos": "19"
+      },
+      {
+        "number": "188",
+        "class": "SR",
+        "car": "5",
+        "time": "1:39.446",
+        "session": "Race 4",
+        "pos": "18"
+      }
+    ],
+    "Pat Brady": [
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "0",
+        "time": "1:41.081",
+        "session": "Qualifying",
+        "pos": "27"
+      },
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "2",
+        "time": "1:47.365",
+        "session": "Race 1",
+        "pos": "28"
+      },
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "9",
+        "time": "1:44.066",
+        "session": "Race 2",
+        "pos": "22"
+      },
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "9",
+        "time": "1:40.334",
+        "session": "Race 3",
+        "pos": "22"
+      },
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "8",
+        "time": "1:39.790",
+        "session": "Race 4",
+        "pos": "24"
+      }
+    ],
+    "Tom Kersting": [
+      {
+        "number": "75",
+        "class": "SR",
+        "car": "0",
+        "time": "1:41.802",
+        "session": "Qualifying",
+        "pos": "28"
+      },
+      {
+        "number": "75",
+        "class": "SR",
+        "car": "7",
+        "time": "1:40.510",
+        "session": "Race 1",
+        "pos": "21"
+      },
+      {
+        "number": "75",
+        "class": "SR",
+        "car": "2",
+        "time": "1:41.162",
+        "session": "Race 2",
+        "pos": "31"
+      },
+      {
+        "number": "75",
+        "class": "SR",
+        "car": "6",
+        "time": "1:39.656",
+        "session": "Race 3",
+        "pos": "23"
+      },
+      {
+        "number": "75",
+        "class": "SR",
+        "car": "9",
+        "time": "1:40.544",
+        "session": "Race 4",
+        "pos": "23"
+      }
+    ],
+    "Jake Sanders": [
+      {
+        "number": "77",
+        "class": "SR",
+        "car": "0",
+        "time": "1:42.212",
+        "session": "Qualifying",
+        "pos": "29"
+      },
+      {
+        "number": "77",
+        "class": "SR",
+        "car": "7",
+        "time": "1:41.408",
+        "session": "Race 1",
+        "pos": "25"
+      },
+      {
+        "number": "77",
+        "class": "SR",
+        "car": "9",
+        "time": "1:43.238",
+        "session": "Race 2",
+        "pos": "23"
+      },
+      {
+        "number": "77",
+        "class": "SR",
+        "car": "5",
+        "time": "1:39.933",
+        "session": "Race 3",
+        "pos": "27"
+      },
+      {
+        "number": "77",
+        "class": "SR",
+        "car": "10",
+        "time": "1:40.672",
+        "session": "Race 4",
+        "pos": "22"
+      }
+    ],
+    "Tim Burkard": [
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "0",
+        "time": "1:44.570",
+        "session": "Qualifying",
+        "pos": "30"
+      },
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "6",
+        "time": "1:44.853",
+        "session": "Race 1",
+        "pos": "26"
+      },
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "9",
+        "time": "1:46.300",
+        "session": "Race 2",
+        "pos": "24"
+      },
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "4",
+        "time": "1:43.089",
+        "session": "Race 3",
+        "pos": "26"
+      },
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "6",
+        "time": "1:43.457",
+        "session": "Race 4",
+        "pos": "26"
+      }
+    ],
+    "Chuck Desjardins": [
+      {
+        "number": "55",
+        "class": "SR",
+        "car": "0",
+        "time": "1:45.668",
+        "session": "Qualifying",
+        "pos": "31"
+      },
+      {
+        "number": "55",
+        "class": "SR",
+        "car": "7",
+        "time": "1:50.319",
+        "session": "Race 1",
+        "pos": "29"
+      },
+      {
+        "number": "55",
+        "class": "SR",
+        "car": "2",
+        "time": "1:48.003",
+        "session": "Race 2",
+        "pos": "27"
+      },
+      {
+        "number": "55",
+        "class": "SR",
+        "car": "3",
+        "time": "1:45.101",
+        "session": "Race 3",
+        "pos": "25"
+      },
+      {
+        "number": "55",
+        "class": "SR",
+        "car": "6",
+        "time": "1:46.009",
+        "session": "Race 4",
+        "pos": "27"
+      }
+    ],
+    "Paul Klich": [
+      {
+        "number": "71",
+        "class": "SR",
+        "car": "0",
+        "time": "1:47.432",
+        "session": "Qualifying",
+        "pos": "32"
+      },
+      {
+        "number": "71",
+        "class": "SR",
+        "car": "5",
+        "time": "1:50.390",
+        "session": "Race 1",
+        "pos": "30"
+      },
+      {
+        "number": "71",
+        "class": "SR",
+        "car": "2",
+        "time": "1:47.659",
+        "session": "Race 2",
+        "pos": "26"
+      },
+      {
+        "number": "71",
+        "class": "SR",
+        "car": "5",
+        "time": "1:48.091",
+        "session": "Race 3",
+        "pos": "28"
+      },
+      {
+        "number": "71",
+        "class": "SR",
+        "car": "8",
+        "time": "1:44.330",
+        "session": "Race 4",
+        "pos": "25"
+      }
+    ],
+    "John Howe": [
+      {
+        "number": "17",
+        "class": "SR",
+        "car": "0",
+        "time": "1:56.277",
+        "session": "Qualifying",
+        "pos": "33"
+      },
+      {
+        "number": "17",
+        "class": "SR",
+        "car": "6",
+        "time": "1:50.524",
+        "session": "Race 1",
+        "pos": "27"
+      },
+      {
+        "number": "17",
+        "class": "SR",
+        "car": "9",
+        "time": "1:49.454",
+        "session": "Race 2",
+        "pos": "25"
+      },
+      {
+        "number": "17",
+        "class": "SR",
+        "car": "3",
+        "time": "2:06.226",
+        "session": "Race 3",
+        "pos": "31"
+      },
+      {
+        "number": "17",
+        "class": "SR",
+        "car": "0",
+        "time": "",
+        "session": "Race 4",
+        "pos": "30"
+      }
+    ]
+  },
+  "Michelin Raceway Road Atlanta": {
+    "Rob Radmann": [
+      {
+        "number": "5",
+        "class": "SRX",
+        "car": "3",
+        "time": "1:30.092",
+        "session": "Qualifying",
+        "pos": "1"
+      },
+      {
+        "number": "5",
+        "class": "RUSH SRX - RWD",
+        "car": "2",
+        "time": "1:30.216",
+        "session": "Race 1",
+        "pos": "1"
+      },
+      {
+        "number": "5",
+        "class": "SRX",
+        "car": "1",
+        "time": "1:32.976",
+        "session": "Race 2",
+        "pos": "1"
+      },
+      {
+        "number": "5",
+        "class": "RUSH SRX - RWD",
+        "car": "2",
+        "time": "1:36.912",
+        "session": "Race 3",
+        "pos": "3"
+      },
+      {
+        "number": "5",
+        "class": "RUSH SRX - RWD",
+        "car": "1",
+        "time": "1:38.895",
+        "session": "Race 4",
+        "pos": "1"
+      }
+    ],
+    "John Ulmer": [
+      {
+        "number": "46",
+        "class": "SRX",
+        "car": "2",
+        "time": "1:34.387",
+        "session": "Qualifying",
+        "pos": "2"
+      },
+      {
+        "number": "46",
+        "class": "RUSH SRX - RWD",
+        "car": "1",
+        "time": "1:39.145",
+        "session": "Race 1",
+        "pos": "5"
+      }
+    ],
+    "Michael Schneider": [
+      {
+        "number": "2",
+        "class": "SRX",
+        "car": "1",
+        "time": "1:38.394",
+        "session": "Qualifying",
+        "pos": "3"
+      },
+      {
+        "number": "2",
+        "class": "RUSH SRX - RWD",
+        "car": "2",
+        "time": "1:34.989",
+        "session": "Race 1",
+        "pos": "4"
+      },
+      {
+        "number": "2",
+        "class": "SRX",
+        "car": "4",
+        "time": "1:33.702",
+        "session": "Race 2",
+        "pos": "3"
+      },
+      {
+        "number": "2",
+        "class": "RUSH SRX - RWD",
+        "car": "4",
+        "time": "1:39.248",
+        "session": "Race 3",
+        "pos": "1"
+      },
+      {
+        "number": "2",
+        "class": "RUSH SRX - RWD",
+        "car": "2",
+        "time": "1:43.212",
+        "session": "Race 4",
+        "pos": "3"
+      }
+    ],
+    "Cheddar O'Brien": [
+      {
+        "number": "69",
+        "class": "SRX",
+        "car": "0",
+        "time": "1:49.400",
+        "session": "Qualifying",
+        "pos": "4"
+      },
+      {
+        "number": "69",
+        "class": "RUSH SRX - RWD",
+        "car": "2",
+        "time": "1:49.658",
+        "session": "Race 1",
+        "pos": "3"
+      },
+      {
+        "number": "69",
+        "class": "SRX",
+        "car": "5",
+        "time": "1:43.622",
+        "session": "Race 2",
+        "pos": "2"
+      },
+      {
+        "number": "69",
+        "class": "RUSH SRX - RWD",
+        "car": "7",
+        "time": "1:48.561",
+        "session": "Race 3",
+        "pos": "2"
+      }
+    ],
+    "James French": [
+      {
+        "number": "70",
+        "class": "SR",
+        "car": "3",
+        "time": "1:33.395",
+        "session": "Qualifying",
+        "pos": "1"
+      },
+      {
+        "number": "70",
+        "class": "SR",
+        "car": "3",
+        "time": "1:33.374",
+        "session": "Race 2",
+        "pos": "7"
+      },
+      {
+        "number": "70",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:40.413",
+        "session": "Race 3",
+        "pos": "3"
+      },
+      {
+        "number": "70",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:41.465",
+        "session": "Race 4",
+        "pos": "4"
+      }
+    ],
+    "Ryan Leach": [
+      {
+        "number": "56",
+        "class": "SR",
+        "car": "2",
+        "time": "1:33.585",
+        "session": "Qualifying",
+        "pos": "2"
+      },
+      {
+        "number": "56",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:33.838",
+        "session": "Race 1",
+        "pos": "1"
+      },
+      {
+        "number": "56",
+        "class": "SR",
+        "car": "5",
+        "time": "1:33.113",
+        "session": "Race 2",
+        "pos": "5"
+      },
+      {
+        "number": "56",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:40.085",
+        "session": "Race 3",
+        "pos": "1"
+      },
+      {
+        "number": "56",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:41.390",
+        "session": "Race 4",
+        "pos": "1"
+      }
+    ],
+    "Andy Voelkel": [
+      {
+        "number": "34",
+        "class": "SR",
+        "car": "1",
+        "time": "1:33.858",
+        "session": "Qualifying",
+        "pos": "3"
+      },
+      {
+        "number": "34",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:34.500",
+        "session": "Race 1",
+        "pos": "2"
+      },
+      {
+        "number": "34",
+        "class": "SR",
+        "car": "3",
+        "time": "1:33.621",
+        "session": "Race 2",
+        "pos": "6"
+      },
+      {
+        "number": "34",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:40.459",
+        "session": "Race 3",
+        "pos": "2"
+      },
+      {
+        "number": "34",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:41.081",
+        "session": "Race 4",
+        "pos": "6"
+      }
+    ],
+    "Nico Bratz": [
+      {
+        "number": "7",
+        "class": "SR",
+        "car": "0",
+        "time": "1:33.972",
+        "session": "Qualifying",
+        "pos": "4"
+      },
+      {
+        "number": "7",
+        "class": "RUSH SR - RWD",
+        "car": "1",
+        "time": "1:39.554",
+        "session": "Race 1",
+        "pos": "23"
+      }
+    ],
+    "John Robinson": [
+      {
+        "number": "190",
+        "class": "SR",
+        "car": "0",
+        "time": "1:34.589",
+        "session": "Qualifying",
+        "pos": "5"
+      },
+      {
+        "number": "190",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:35.519",
+        "session": "Race 1",
+        "pos": "5"
+      },
+      {
+        "number": "190",
+        "class": "SR",
+        "car": "8",
+        "time": "1:35.318",
+        "session": "Race 2",
+        "pos": "10"
+      },
+      {
+        "number": "190",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:55.956",
+        "session": "Race 3",
+        "pos": "19"
+      },
+      {
+        "number": "190",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:59.603",
+        "session": "Race 4",
+        "pos": "23"
+      }
+    ],
+    "Ethan Alexander": [
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "0",
+        "time": "1:34.817",
+        "session": "Qualifying",
+        "pos": "6"
+      },
+      {
+        "number": "33",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:35.324",
+        "session": "Race 1",
+        "pos": "4"
+      },
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "3",
+        "time": "1:35.120",
+        "session": "Race 2",
+        "pos": "9"
+      },
+      {
+        "number": "33",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:40.544",
+        "session": "Race 3",
+        "pos": "11"
+      },
+      {
+        "number": "33",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:41.889",
+        "session": "Race 4",
+        "pos": "2"
+      }
+    ],
+    "Hasan Ahmed": [
+      {
+        "number": "253",
+        "class": "SR",
+        "car": "0",
+        "time": "1:35.212",
+        "session": "Qualifying",
+        "pos": "7"
+      },
+      {
+        "number": "253",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:35.169",
+        "session": "Race 1",
+        "pos": "3"
+      },
+      {
+        "number": "253",
+        "class": "SR",
+        "car": "3",
+        "time": "1:35.349",
+        "session": "Race 2",
+        "pos": "8"
+      },
+      {
+        "number": "253",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:41.032",
+        "session": "Race 3",
+        "pos": "5"
+      },
+      {
+        "number": "253",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:42.894",
+        "session": "Race 4",
+        "pos": "13"
+      }
+    ],
+    "Bret Digiacomo": [
+      {
+        "number": "12",
+        "class": "SR",
+        "car": "0",
+        "time": "1:35.445",
+        "session": "Qualifying",
+        "pos": "8"
+      },
+      {
+        "number": "12",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:35.471",
+        "session": "Race 1",
+        "pos": "6"
+      },
+      {
+        "number": "12",
+        "class": "RUSH SR - RWD",
+        "car": "7",
+        "time": "1:49.934",
+        "session": "Race 3",
+        "pos": "15"
+      },
+      {
+        "number": "12",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:46.620",
+        "session": "Race 4",
+        "pos": "14"
+      }
+    ],
+    "Jason Oehler": [
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "0",
+        "time": "1:35.952",
+        "session": "Qualifying",
+        "pos": "9"
+      },
+      {
+        "number": "74",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:36.057",
+        "session": "Race 1",
+        "pos": "7"
+      },
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "6",
+        "time": "1:35.423",
+        "session": "Race 2",
+        "pos": "11"
+      },
+      {
+        "number": "74",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:44.239",
+        "session": "Race 3",
+        "pos": "8"
+      },
+      {
+        "number": "74",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:45.337",
+        "session": "Race 4",
+        "pos": "7"
+      }
+    ],
+    "Matt Wilson": [
+      {
+        "number": "188",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.226",
+        "session": "Qualifying",
+        "pos": "10"
+      },
+      {
+        "number": "188",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:37.107",
+        "session": "Race 1",
+        "pos": "10"
+      },
+      {
+        "number": "188",
+        "class": "SR",
+        "car": "4",
+        "time": "1:35.289",
+        "session": "Race 2",
+        "pos": "13"
+      },
+      {
+        "number": "188",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:44.775",
+        "session": "Race 3",
+        "pos": "22"
+      },
+      {
+        "number": "188",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:44.953",
+        "session": "Race 4",
+        "pos": "15"
+      }
+    ],
+    "Darius Garcia": [
+      {
+        "number": "18",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.761",
+        "session": "Qualifying",
+        "pos": "11"
+      },
+      {
+        "number": "18",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:36.849",
+        "session": "Race 1",
+        "pos": "8"
+      },
+      {
+        "number": "18",
+        "class": "SR",
+        "car": "3",
+        "time": "1:35.557",
+        "session": "Race 2",
+        "pos": "12"
+      },
+      {
+        "number": "18",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:43.023",
+        "session": "Race 3",
+        "pos": "7"
+      },
+      {
+        "number": "18",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:43.894",
+        "session": "Race 4",
+        "pos": "5"
+      }
+    ],
+    "Bill Wright": [
+      {
+        "number": "58",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.973",
+        "session": "Qualifying",
+        "pos": "12"
+      },
+      {
+        "number": "58",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:40.604",
+        "session": "Race 1",
+        "pos": "13"
+      },
+      {
+        "number": "58",
+        "class": "SR",
+        "car": "8",
+        "time": "1:38.041",
+        "session": "Race 2",
+        "pos": "21"
+      }
+    ],
+    "Evan Shanks": [
+      {
+        "number": "53",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.212",
+        "session": "Qualifying",
+        "pos": "13"
+      },
+      {
+        "number": "53",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:38.118",
+        "session": "Race 1",
+        "pos": "11"
+      },
+      {
+        "number": "53",
+        "class": "SR",
+        "car": "6",
+        "time": "1:37.254",
+        "session": "Race 2",
+        "pos": "18"
+      },
+      {
+        "number": "53",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:44.860",
+        "session": "Race 3",
+        "pos": "9"
+      },
+      {
+        "number": "53",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:45.929",
+        "session": "Race 4",
+        "pos": "11"
+      }
+    ],
+    "Nate Hamilton": [
+      {
+        "number": "144",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.213",
+        "session": "Qualifying",
+        "pos": "14"
+      },
+      {
+        "number": "144",
+        "class": "SR",
+        "car": "5",
+        "time": "1:36.501",
+        "session": "Race 2",
+        "pos": "17"
+      },
+      {
+        "number": "144",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:46.505",
+        "session": "Race 3",
+        "pos": "18"
+      },
+      {
+        "number": "144",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:45.732",
+        "session": "Race 4",
+        "pos": "9"
+      }
+    ],
+    "Tj Hunt": [
+      {
+        "number": "28",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.532",
+        "session": "Qualifying",
+        "pos": "15"
+      },
+      {
+        "number": "28",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:37.270",
+        "session": "Race 1",
+        "pos": "9"
+      },
+      {
+        "number": "28",
+        "class": "SR",
+        "car": "3",
+        "time": "1:37.141",
+        "session": "Race 2",
+        "pos": "15"
+      },
+      {
+        "number": "28",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:44.892",
+        "session": "Race 3",
+        "pos": "6"
+      },
+      {
+        "number": "28",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:45.823",
+        "session": "Race 4",
+        "pos": "8"
+      }
+    ],
+    "Michael Neff": [
+      {
+        "number": "199",
+        "class": "SR",
+        "car": "0",
+        "time": "1:39.266",
+        "session": "Qualifying",
+        "pos": "16"
+      },
+      {
+        "number": "199",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:36.486",
+        "session": "Race 1",
+        "pos": "12"
+      },
+      {
+        "number": "199",
+        "class": "SR",
+        "car": "6",
+        "time": "1:36.711",
+        "session": "Race 2",
+        "pos": "16"
+      },
+      {
+        "number": "199",
+        "class": "RUSH SR - RWD",
+        "car": "7",
+        "time": "1:56.317",
+        "session": "Race 3",
+        "pos": "20"
+      },
+      {
+        "number": "199",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:58.068",
+        "session": "Race 4",
+        "pos": "21"
+      }
+    ],
+    "Larry Brady": [
+      {
+        "number": "59",
+        "class": "SR",
+        "car": "0",
+        "time": "1:39.702",
+        "session": "Qualifying",
+        "pos": "17"
+      },
+      {
+        "number": "59",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:41.230",
+        "session": "Race 1",
+        "pos": "14"
+      },
+      {
+        "number": "59",
+        "class": "SR",
+        "car": "8",
+        "time": "1:38.938",
+        "session": "Race 2",
+        "pos": "22"
+      },
+      {
+        "number": "59",
+        "class": "RUSH SR - RWD",
+        "car": "1",
+        "time": "1:55.986",
+        "session": "Race 3",
+        "pos": "23"
+      }
+    ],
+    "Jaylan Battley": [
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "0",
+        "time": "1:39.853",
+        "session": "Qualifying",
+        "pos": "18"
+      },
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "8",
+        "time": "1:34.293",
+        "session": "Race 2",
+        "pos": "14"
+      },
+      {
+        "number": "88",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:40.520",
+        "session": "Race 3",
+        "pos": "4"
+      },
+      {
+        "number": "88",
+        "class": "RUSH SR - RWD",
+        "car": "4",
+        "time": "1:44.092",
+        "session": "Race 4",
+        "pos": "3"
+      }
+    ],
+    "Vilas Saldanha": [
+      {
+        "number": "30",
+        "class": "SR",
+        "car": "0",
+        "time": "1:39.874",
+        "session": "Qualifying",
+        "pos": "19"
+      },
+      {
+        "number": "30",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:41.536",
+        "session": "Race 1",
+        "pos": "16"
+      },
+      {
+        "number": "30",
+        "class": "SR",
+        "car": "6",
+        "time": "1:40.250",
+        "session": "Race 2",
+        "pos": "25"
+      },
+      {
+        "number": "30",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:47.271",
+        "session": "Race 3",
+        "pos": "10"
+      },
+      {
+        "number": "30",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:45.625",
+        "session": "Race 4",
+        "pos": "10"
+      }
+    ],
+    "Jeremy Boysen": [
+      {
+        "number": "22",
+        "class": "SR",
+        "car": "0",
+        "time": "1:40.452",
+        "session": "Qualifying",
+        "pos": "20"
+      },
+      {
+        "number": "22",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:40.416",
+        "session": "Race 1",
+        "pos": "15"
+      },
+      {
+        "number": "22",
+        "class": "SR",
+        "car": "3",
+        "time": "1:37.701",
+        "session": "Race 2",
+        "pos": "20"
+      },
+      {
+        "number": "22",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:47.912",
+        "session": "Race 4",
+        "pos": "12"
+      }
+    ],
+    "Samuel Reed": [
+      {
+        "number": "256",
+        "class": "SR",
+        "car": "0",
+        "time": "1:40.800",
+        "session": "Qualifying",
+        "pos": "21"
+      },
+      {
+        "number": "256",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:41.066",
+        "session": "Race 1",
+        "pos": "17"
+      },
+      {
+        "number": "256",
+        "class": "SR",
+        "car": "6",
+        "time": "1:37.870",
+        "session": "Race 2",
+        "pos": "19"
+      },
+      {
+        "number": "256",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:46.657",
+        "session": "Race 3",
+        "pos": "13"
+      },
+      {
+        "number": "256",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:46.010",
+        "session": "Race 4",
+        "pos": "19"
+      }
+    ],
+    "Jeff Hughes": [
+      {
+        "number": "51",
+        "class": "SR",
+        "car": "0",
+        "time": "1:40.940",
+        "session": "Qualifying",
+        "pos": "22"
+      },
+      {
+        "number": "51",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:41.018",
+        "session": "Race 1",
+        "pos": "19"
+      },
+      {
+        "number": "51",
+        "class": "SR",
+        "car": "5",
+        "time": "1:38.250",
+        "session": "Race 2",
+        "pos": "23"
+      },
+      {
+        "number": "51",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:46.927",
+        "session": "Race 3",
+        "pos": "12"
+      },
+      {
+        "number": "51",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:47.206",
+        "session": "Race 4",
+        "pos": "16"
+      }
+    ],
+    "Aj Campo": [
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "0",
+        "time": "1:42.313",
+        "session": "Qualifying",
+        "pos": "23"
+      },
+      {
+        "number": "227",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:40.701",
+        "session": "Race 1",
+        "pos": "20"
+      },
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "6",
+        "time": "1:40.047",
+        "session": "Race 2",
+        "pos": "26"
+      },
+      {
+        "number": "227",
+        "class": "RUSH SR - RWD",
+        "car": "7",
+        "time": "1:50.156",
+        "session": "Race 3",
+        "pos": "14"
+      },
+      {
+        "number": "227",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:52.118",
+        "session": "Race 4",
+        "pos": "17"
+      }
+    ],
+    "Grant Anderson": [
+      {
+        "number": "133",
+        "class": "SR",
+        "car": "0",
+        "time": "1:43.872",
+        "session": "Qualifying",
+        "pos": "24"
+      },
+      {
+        "number": "133",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:40.700",
+        "session": "Race 1",
+        "pos": "18"
+      },
+      {
+        "number": "133",
+        "class": "SR",
+        "car": "8",
+        "time": "1:39.251",
+        "session": "Race 2",
+        "pos": "24"
+      },
+      {
+        "number": "133",
+        "class": "RUSH SR - RWD",
+        "car": "7",
+        "time": "1:51.771",
+        "session": "Race 3",
+        "pos": "16"
+      },
+      {
+        "number": "133",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:50.289",
+        "session": "Race 4",
+        "pos": "20"
+      }
+    ],
+    "Andrew Lee": [
+      {
+        "number": "333",
+        "class": "SR",
+        "car": "0",
+        "time": "1:44.156",
+        "session": "Qualifying",
+        "pos": "25"
+      },
+      {
+        "number": "333",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:42.780",
+        "session": "Race 1",
+        "pos": "21"
+      },
+      {
+        "number": "333",
+        "class": "SR",
+        "car": "7",
+        "time": "1:40.004",
+        "session": "Race 2",
+        "pos": "27"
+      },
+      {
+        "number": "333",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:57.967",
+        "session": "Race 3",
+        "pos": "21"
+      },
+      {
+        "number": "333",
+        "class": "RUSH SR - RWD",
+        "car": "3",
+        "time": "1:58.592",
+        "session": "Race 4",
+        "pos": "22"
+      }
+    ],
+    "John Howe": [
+      {
+        "number": "17",
+        "class": "SR",
+        "car": "0",
+        "time": "1:48.904",
+        "session": "Qualifying",
+        "pos": "26"
+      },
+      {
+        "number": "17",
+        "class": "RUSH SR - RWD",
+        "car": "1",
+        "time": "1:48.055",
+        "session": "Race 1",
+        "pos": "22"
+      },
+      {
+        "number": "17",
+        "class": "SR",
+        "car": "2",
+        "time": "1:49.785",
+        "session": "Race 2",
+        "pos": "28"
+      },
+      {
+        "number": "17",
+        "class": "RUSH SR - RWD",
+        "car": "7",
+        "time": "1:52.343",
+        "session": "Race 3",
+        "pos": "17"
+      },
+      {
+        "number": "17",
+        "class": "RUSH SR - RWD",
+        "car": "2",
+        "time": "1:53.531",
+        "session": "Race 4",
+        "pos": "18"
+      }
+    ],
+    "Blair Hosie": [
+      {
+        "number": "8",
+        "class": "RUSH SRX - RWD",
+        "car": "3",
+        "time": "1:29.831",
+        "session": "Race 1",
+        "pos": "2"
+      },
+      {
+        "number": "8",
+        "class": "SRX",
+        "car": "3",
+        "time": "1:29.395",
+        "session": "Race 2",
+        "pos": "4"
+      },
+      {
+        "number": "8",
+        "class": "RUSH SRX - RWD",
+        "car": "2",
+        "time": "1:38.973",
+        "session": "Race 3",
+        "pos": "4"
+      },
+      {
+        "number": "8",
+        "class": "RUSH SRX - RWD",
+        "car": "1",
+        "time": "1:47.491",
+        "session": "Race 4",
+        "pos": "2"
+      }
+    ]
+  },
+  "Mid-Ohio Sports Car Course": {
+    "Jason Oehler": [
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "3",
+        "time": "1:34.446",
+        "session": "Qualifying",
+        "pos": "1"
+      },
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "4",
+        "time": "1:34.390",
+        "session": "Race 1",
+        "pos": "2"
+      },
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "9",
+        "time": "1:34.248",
+        "session": "Race 2",
+        "pos": "1"
+      },
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "3",
+        "time": "1:33.727",
+        "session": "Race 3",
+        "pos": "1"
+      },
+      {
+        "number": "74",
+        "class": "SR",
+        "car": "7",
+        "time": "1:34.700",
+        "session": "Race 4",
+        "pos": "1"
+      }
+    ],
+    "Bryce Mersberger": [
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "2",
+        "time": "1:34.812",
+        "session": "Qualifying",
+        "pos": "2"
+      },
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "7",
+        "time": "1:34.540",
+        "session": "Race 1",
+        "pos": "1"
+      },
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "7",
+        "time": "1:34.884",
+        "session": "Race 2",
+        "pos": "2"
+      },
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "2",
+        "time": "1:34.460",
+        "session": "Race 3",
+        "pos": "2"
+      },
+      {
+        "number": "114",
+        "class": "SR",
+        "car": "6",
+        "time": "1:35.702",
+        "session": "Race 4",
+        "pos": "3"
+      }
+    ],
+    "Jaylan Battley": [
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "1",
+        "time": "1:35.967",
+        "session": "Qualifying",
+        "pos": "3"
+      },
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "1",
+        "time": "1:35.442",
+        "session": "Race 1",
+        "pos": "3"
+      },
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "1",
+        "time": "1:35.688",
+        "session": "Race 2",
+        "pos": "4"
+      },
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "9",
+        "time": "1:34.454",
+        "session": "Race 3",
+        "pos": "3"
+      },
+      {
+        "number": "88",
+        "class": "SR",
+        "car": "6",
+        "time": "1:34.518",
+        "session": "Race 4",
+        "pos": "2"
+      }
+    ],
+    "Ethan Hardesty": [
+      {
+        "number": "115",
+        "class": "SR",
+        "car": "0",
+        "time": "1:36.232",
+        "session": "Qualifying",
+        "pos": "4"
+      },
+      {
+        "number": "115",
+        "class": "SR",
+        "car": "6",
+        "time": "1:36.235",
+        "session": "Race 1",
+        "pos": "10"
+      },
+      {
+        "number": "115",
+        "class": "SR",
+        "car": "8",
+        "time": "1:36.400",
+        "session": "Race 2",
+        "pos": "9"
+      },
+      {
+        "number": "115",
+        "class": "SR",
+        "car": "5",
+        "time": "1:35.179",
+        "session": "Race 3",
+        "pos": "7"
+      },
+      {
+        "number": "115",
+        "class": "SR",
+        "car": "7",
+        "time": "1:37.185",
+        "session": "Race 4",
+        "pos": "8"
+      }
+    ],
+    "Evan Pecore": [
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "0",
+        "time": "1:36.374",
+        "session": "Qualifying",
+        "pos": "5"
+      },
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "5",
+        "time": "1:35.375",
+        "session": "Race 1",
+        "pos": "4"
+      },
+      {
+        "number": "33",
+        "class": "SR",
+        "car": "5",
+        "time": "1:36.274",
+        "session": "Race 2",
+        "pos": "6"
+      }
+    ],
+    "Robert Desjardins": [
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "0",
+        "time": "1:36.546",
+        "session": "Qualifying",
+        "pos": "6"
+      },
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "4",
+        "time": "1:35.338",
+        "session": "Race 1",
+        "pos": "5"
+      },
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "7",
+        "time": "1:35.275",
+        "session": "Race 2",
+        "pos": "3"
+      },
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "7",
+        "time": "1:34.348",
+        "session": "Race 3",
+        "pos": "4"
+      },
+      {
+        "number": "81",
+        "class": "SR",
+        "car": "7",
+        "time": "1:36.244",
+        "session": "Race 4",
+        "pos": "4"
+      }
+    ],
+    "Max Krause": [
+      {
+        "number": "125",
+        "class": "SR",
+        "car": "0",
+        "time": "1:36.894",
+        "session": "Qualifying",
+        "pos": "7"
+      },
+      {
+        "number": "125",
+        "class": "SR",
+        "car": "6",
+        "time": "1:35.836",
+        "session": "Race 1",
+        "pos": "7"
+      },
+      {
+        "number": "125",
+        "class": "SR",
+        "car": "3",
+        "time": "1:36.097",
+        "session": "Race 2",
+        "pos": "5"
+      },
+      {
+        "number": "125",
+        "class": "SR",
+        "car": "5",
+        "time": "1:34.846",
+        "session": "Race 3",
+        "pos": "5"
+      },
+      {
+        "number": "125",
+        "class": "SR",
+        "car": "7",
+        "time": "1:36.120",
+        "session": "Race 4",
+        "pos": "7"
+      }
+    ],
+    "Jeff Hardesty": [
+      {
+        "number": "128",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.151",
+        "session": "Qualifying",
+        "pos": "8"
+      },
+      {
+        "number": "128",
+        "class": "SR",
+        "car": "3",
+        "time": "1:36.782",
+        "session": "Race 1",
+        "pos": "8"
+      },
+      {
+        "number": "128",
+        "class": "SR",
+        "car": "5",
+        "time": "1:37.265",
+        "session": "Race 2",
+        "pos": "10"
+      },
+      {
+        "number": "128",
+        "class": "SR",
+        "car": "7",
+        "time": "1:35.916",
+        "session": "Race 3",
+        "pos": "10"
+      }
+    ],
+    "Jeremy Boysen": [
+      {
+        "number": "22",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.208",
+        "session": "Qualifying",
+        "pos": "9"
+      },
+      {
+        "number": "22",
+        "class": "SR",
+        "car": "4",
+        "time": "1:36.065",
+        "session": "Race 1",
+        "pos": "18"
+      },
+      {
+        "number": "22",
+        "class": "SR",
+        "car": "8",
+        "time": "1:37.314",
+        "session": "Race 2",
+        "pos": "11"
+      },
+      {
+        "number": "22",
+        "class": "SR",
+        "car": "7",
+        "time": "1:35.578",
+        "session": "Race 3",
+        "pos": "11"
+      }
+    ],
+    "Lee Kellert": [
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.245",
+        "session": "Qualifying",
+        "pos": "10"
+      },
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "5",
+        "time": "1:35.632",
+        "session": "Race 1",
+        "pos": "6"
+      },
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "1",
+        "time": "1:36.018",
+        "session": "Race 2",
+        "pos": "18"
+      },
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "1",
+        "time": "1:35.518",
+        "session": "Race 3",
+        "pos": "8"
+      },
+      {
+        "number": "13",
+        "class": "SR",
+        "car": "7",
+        "time": "1:36.211",
+        "session": "Race 4",
+        "pos": "5"
+      }
+    ],
+    "Kevin Kirkwood": [
+      {
+        "number": "117",
+        "class": "SR",
+        "car": "0",
+        "time": "1:37.792",
+        "session": "Qualifying",
+        "pos": "11"
+      },
+      {
+        "number": "117",
+        "class": "SR",
+        "car": "2",
+        "time": "1:36.996",
+        "session": "Race 1",
+        "pos": "12"
+      },
+      {
+        "number": "117",
+        "class": "SR",
+        "car": "8",
+        "time": "1:36.787",
+        "session": "Race 2",
+        "pos": "8"
+      },
+      {
+        "number": "117",
+        "class": "SR",
+        "car": "5",
+        "time": "1:35.856",
+        "session": "Race 3",
+        "pos": "9"
+      }
+    ],
+    "Samuel Reed": [
+      {
+        "number": "256",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.011",
+        "session": "Qualifying",
+        "pos": "12"
+      },
+      {
+        "number": "256",
+        "class": "SR",
+        "car": "5",
+        "time": "1:36.835",
+        "session": "Race 1",
+        "pos": "9"
+      },
+      {
+        "number": "256",
+        "class": "SR",
+        "car": "6",
+        "time": "1:37.436",
+        "session": "Race 2",
+        "pos": "7"
+      },
+      {
+        "number": "256",
+        "class": "SR",
+        "car": "3",
+        "time": "1:35.756",
+        "session": "Race 3",
+        "pos": "6"
+      },
+      {
+        "number": "256",
+        "class": "SR",
+        "car": "7",
+        "time": "1:36.422",
+        "session": "Race 4",
+        "pos": "6"
+      }
+    ],
+    "Pat Brady": [
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "0",
+        "time": "1:38.754",
+        "session": "Qualifying",
+        "pos": "13"
+      },
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "6",
+        "time": "1:38.431",
+        "session": "Race 1",
+        "pos": "11"
+      },
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "5",
+        "time": "1:37.243",
+        "session": "Race 2",
+        "pos": "12"
+      },
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "5",
+        "time": "1:36.508",
+        "session": "Race 3",
+        "pos": "17"
+      },
+      {
+        "number": "82",
+        "class": "SR",
+        "car": "1",
+        "time": "1:38.602",
+        "session": "Race 4",
+        "pos": "10"
+      }
+    ],
+    "Chuck Desjardins": [
+      {
+        "number": "55",
+        "class": "SR",
+        "car": "0",
+        "time": "1:39.605",
+        "session": "Qualifying",
+        "pos": "14"
+      },
+      {
+        "number": "55",
+        "class": "SR",
+        "car": "6",
+        "time": "1:41.397",
+        "session": "Race 1",
+        "pos": "14"
+      },
+      {
+        "number": "55",
+        "class": "SR",
+        "car": "8",
+        "time": "1:39.343",
+        "session": "Race 2",
+        "pos": "13"
+      },
+      {
+        "number": "55",
+        "class": "SR",
+        "car": "6",
+        "time": "1:38.104",
+        "session": "Race 3",
+        "pos": "18"
+      }
+    ],
+    "Tim Burkard": [
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "0",
+        "time": "1:41.972",
+        "session": "Qualifying",
+        "pos": "15"
+      },
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "3",
+        "time": "1:41.639",
+        "session": "Race 1",
+        "pos": "13"
+      },
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "5",
+        "time": "1:40.207",
+        "session": "Race 2",
+        "pos": "15"
+      },
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "5",
+        "time": "1:39.746",
+        "session": "Race 3",
+        "pos": "14"
+      },
+      {
+        "number": "113",
+        "class": "SR",
+        "car": "6",
+        "time": "1:42.153",
+        "session": "Race 4",
+        "pos": "13"
+      }
+    ],
+    "Fred Thomas": [
+      {
+        "number": "444",
+        "class": "SR",
+        "car": "0",
+        "time": "1:42.580",
+        "session": "Qualifying",
+        "pos": "16"
+      },
+      {
+        "number": "444",
+        "class": "SR",
+        "car": "6",
+        "time": "1:42.364",
+        "session": "Race 1",
+        "pos": "15"
+      },
+      {
+        "number": "444",
+        "class": "SR",
+        "car": "8",
+        "time": "1:41.010",
+        "session": "Race 2",
+        "pos": "17"
+      },
+      {
+        "number": "444",
+        "class": "SR",
+        "car": "6",
+        "time": "1:39.482",
+        "session": "Race 3",
+        "pos": "16"
+      },
+      {
+        "number": "444",
+        "class": "SR",
+        "car": "1",
+        "time": "1:41.545",
+        "session": "Race 4",
+        "pos": "12"
+      }
+    ],
+    "Aj Campo": [
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "0",
+        "time": "1:43.992",
+        "session": "Qualifying",
+        "pos": "17"
+      },
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "3",
+        "time": "1:41.294",
+        "session": "Race 1",
+        "pos": "16"
+      },
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "8",
+        "time": "1:40.721",
+        "session": "Race 2",
+        "pos": "16"
+      },
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "8",
+        "time": "1:39.283",
+        "session": "Race 3",
+        "pos": "15"
+      },
+      {
+        "number": "227",
+        "class": "SR",
+        "car": "4",
+        "time": "1:51.591",
+        "session": "Race 4",
+        "pos": "14"
+      }
+    ],
+    "Paul Klich": [
+      {
+        "number": "71",
+        "class": "SR",
+        "car": "3",
+        "time": "1:51.130",
+        "session": "Race 1",
+        "pos": "17"
+      },
+      {
+        "number": "71",
+        "class": "SR",
+        "car": "9",
+        "time": "1:39.655",
+        "session": "Race 2",
+        "pos": "14"
+      },
+      {
+        "number": "71",
+        "class": "SR",
+        "car": "5",
+        "time": "1:39.518",
+        "session": "Race 3",
+        "pos": "13"
+      },
+      {
+        "number": "71",
+        "class": "SR",
+        "car": "5",
+        "time": "1:40.948",
+        "session": "Race 4",
+        "pos": "11"
+      }
+    ],
+    "Bill Wright": [
+      {
+        "number": "58",
+        "class": "SR",
+        "car": "6",
+        "time": "1:36.851",
+        "session": "Race 3",
+        "pos": "12"
+      },
+      {
+        "number": "58",
+        "class": "SR",
+        "car": "7",
+        "time": "1:37.442",
+        "session": "Race 4",
+        "pos": "9"
+      }
+    ]
+  }
+}
