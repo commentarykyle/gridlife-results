@@ -69,9 +69,13 @@
     </template>
 
     <!-- GLTC Qualifying -->
-    <template v-else-if="selectedSeries === 'GLTC' || 'RUSH'&& selectedSession?.toLowerCase().includes('qual')">
+    <template v-else-if="selectedSeries === 'GLTC' && selectedSession?.toLowerCase().includes('qual')">
       <th>Time</th>
       <th>Car Model</th>
+    </template>
+
+    <template v-else-if="selectedSeries === 'RUSH'&& selectedSession?.toLowerCase().includes('qual')">
+      <th>Time</th>
     </template>
 
     <!-- GLTC Race -->
@@ -116,9 +120,13 @@
     </template>
 
     <!-- GLTC Qualifying -->
-    <template v-else-if="selectedSeries === 'GLTC' || 'RUSH' && selectedSession?.toLowerCase().includes('qual')">
+    <template v-else-if="selectedSeries === 'GLTC' && selectedSession?.toLowerCase().includes('qual')">
       <td>{{ driver.time }}</td>
       <td>{{ driver.car }}</td>
+    </template>
+
+    <template v-else-if="selectedSeries === 'RUSH' && selectedSession?.toLowerCase().includes('qual')">
+      <td>{{ driver.time }}</td>
     </template>
 
     <!-- GLTC Race -->
