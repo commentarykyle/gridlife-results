@@ -126,6 +126,38 @@ function parseSessionName(fileName, series) {
   
       return 'Shootout';
     }
+
+    else if (series === 'GLGT') {
+      // Qualifying first (loose, anywhere)
+      if (regexQual.test(file)) {
+        // Check for number after Q or QUAL for Qualifying x
+        const qualNumMatch = file.match(/\bQ(\d+)\b/) || file.match(/\bQUAL(\d+)\b/);
+        return qualNumMatch ? `Qualifying ${qualNumMatch[1]}` : 'Qualifying';
+      }
+  
+      // Race last number if present (never heat)
+      if (lastNumber) {
+        return `Race ${lastNumber}`;
+      }
+  
+      // Podium Sprint
+      if (regexPodiumSprint.test(file)) {
+        return 'Podium Sprint';
+      }
+  
+      // Overall
+      if (regexOverall.test(file)) {
+        return 'Overall';
+      }
+  
+      // Practice fallback
+      if (regexPractice.test(file)) {
+        const prNumMatch = file.match(/\bP(\d+)\b/);
+        return prNumMatch ? `Practice ${prNumMatch[1]}` : 'Practice';
+      }
+  
+      return 'Shootout';
+    }
   
     else {
       // Other series fallback
@@ -221,8 +253,7 @@ function parseCsvFile(filePath, sessionName) {
   });
 }
 
-function parseCsvFileGLTC(filePath, sessionName) {
-  // For GLTC, different format with extra fields
+function parseCsvFileGLTC(filePath, sessionName, className = 'GLTC') {
   return new Promise((resolve) => {
     const rows = [];
 
@@ -241,12 +272,13 @@ function parseCsvFileGLTC(filePath, sessionName) {
           session: sessionName,
           laps: row[6] || '',
           gap: row[7] || '',
-          class: 'GLTC',
+          class: className, // ✅ use the passed-in className here
         });
       })
       .on('end', () => resolve(rows));
   });
 }
+
 
 async function compileResults() {
   const allResults = {};
@@ -279,11 +311,12 @@ async function compileResults() {
           const sessionName = parseSessionName(file, series);
           const filePath = path.join(seriesPath, file);
 
-          const useGLTCParser = lowerSeries === 'gltc' || lowerSeries === 'rush';
+          const useGLTCParser = lowerSeries === 'gltc' || lowerSeries === 'rush' || lowerSeries === 'glgt';
           
           if (useGLTCParser) {
-            rows = await parseCsvFileGLTC(filePath, sessionName);
-          } else {
+            rows = await parseCsvFileGLTC(filePath, sessionName, series.toUpperCase());
+          }
+           else {
             rows = await parseCsvFile(filePath, sessionName);
           }
           
@@ -304,7 +337,7 @@ async function compileResults() {
             });
           }
         }
-        if (['gltc', 'rush'].includes(lowerSeries)) {
+        if (['gltc', 'rush', 'glgt'].includes(lowerSeries)) {
           for (const driverName in allResults[key][track]) {
             const sessions = allResults[key][track][driverName];
           

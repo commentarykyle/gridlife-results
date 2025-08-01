@@ -1435,7 +1435,7 @@
         "class": "GLTC",
         "car": "M3",
         "time": "1:38.910",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "1"
       },
       {
@@ -1482,7 +1482,7 @@
         "class": "GLTC",
         "car": "CORVETTE",
         "time": "1:39.033",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "2"
       },
       {
@@ -1532,7 +1532,7 @@
         "class": "GLTC",
         "car": "CIVIC",
         "time": "1:39.266",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "3"
       },
       {
@@ -1582,7 +1582,7 @@
         "class": "GLTC",
         "car": "GT86.24",
         "time": "1:39.340",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "4"
       },
       {
@@ -1632,7 +1632,7 @@
         "class": "GLTC",
         "car": "CORVETTE",
         "time": "1:39.516",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "5"
       },
       {
@@ -1681,7 +1681,7 @@
         "class": "GLTC",
         "car": "M3",
         "time": "1:39.687",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "6"
       },
       {
@@ -1710,7 +1710,7 @@
         "class": "GLTC",
         "car": "S2000",
         "time": "1:40.321",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "7"
       },
       {
@@ -1760,7 +1760,7 @@
         "class": "GLTC",
         "car": "CAYMAN",
         "time": "1:40.396",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "8"
       },
       {
@@ -1810,7 +1810,7 @@
         "class": "GLTC",
         "car": "S2000",
         "time": "1:40.398",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "9"
       },
       {
@@ -1860,7 +1860,7 @@
         "class": "GLTC",
         "car": "S2000",
         "time": "1:40.548",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "10"
       },
       {
@@ -1910,7 +1910,7 @@
         "class": "GLTC",
         "car": "M2",
         "time": "1:40.726",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "11"
       },
       {
@@ -1960,7 +1960,7 @@
         "class": "GLTC",
         "car": "S2000",
         "time": "1:40.741",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "12"
       },
       {
@@ -2000,7 +2000,7 @@
         "class": "GLTC",
         "car": "BRZ",
         "time": "1:40.765",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "13"
       },
       {
@@ -2050,7 +2050,7 @@
         "class": "GLTC",
         "car": "M3",
         "time": "1:40.920",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "14"
       },
       {
@@ -2090,7 +2090,7 @@
         "class": "GLTC",
         "car": "FR-S",
         "time": "1:40.939",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "15"
       },
       {
@@ -2120,7 +2120,7 @@
         "class": "GLTC",
         "car": "FR-S",
         "time": "1:41.098",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "16"
       },
       {
@@ -2160,7 +2160,7 @@
         "class": "GLTC",
         "car": "86",
         "time": "1:41.195",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "17"
       },
       {
@@ -2200,7 +2200,7 @@
         "class": "GLTC",
         "car": "S2000",
         "time": "1:41.226",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "18"
       },
       {
@@ -2250,7 +2250,7 @@
         "class": "GLTC",
         "car": "M3",
         "time": "1:41.491",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "19"
       },
       {
@@ -2300,7 +2300,7 @@
         "class": "GLTC",
         "car": "MX-5 MIATA",
         "time": "1:41.560",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "20"
       },
       {
@@ -2350,7 +2350,7 @@
         "class": "GLTC",
         "car": "S2000",
         "time": "1:41.699",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "21"
       },
       {
@@ -2400,7 +2400,7 @@
         "class": "GLTC",
         "car": "116I",
         "time": "1:41.938",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "22"
       },
       {
@@ -2449,7 +2449,7 @@
         "class": "GLTC",
         "car": "M3",
         "time": "1:41.938",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "23"
       },
       {
@@ -2489,7 +2489,7 @@
         "class": "GLTC",
         "car": "CIVIC",
         "time": "1:42.152",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "24"
       },
       {
@@ -2539,7 +2539,7 @@
         "class": "GLTC",
         "car": "3 SERIES",
         "time": "1:42.456",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "25"
       },
       {
@@ -2589,7 +2589,7 @@
         "class": "GLTC",
         "car": "M3",
         "time": "1:42.514",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "26"
       },
       {
@@ -2629,7 +2629,7 @@
         "class": "GLTC",
         "car": "MX-5 MIATA",
         "time": "1:42.528",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "27"
       },
       {
@@ -2669,7 +2669,7 @@
         "class": "GLTC",
         "car": "MX-5 MIATA",
         "time": "1:42.586",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "28"
       },
       {
@@ -2719,7 +2719,7 @@
         "class": "GLTC",
         "car": "325I",
         "time": "1:42.678",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "29"
       },
       {
@@ -2769,7 +2769,7 @@
         "class": "GLTC",
         "car": "CORVETTE",
         "time": "1:43.149",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "30"
       },
       {
@@ -2819,7 +2819,7 @@
         "class": "GLTC",
         "car": "3 SERIES",
         "time": "1:43.878",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "31"
       },
       {
@@ -2859,7 +2859,7 @@
         "class": "GLTC",
         "car": "INTEGRA",
         "time": "1:44.668",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "32"
       },
       {
@@ -2908,7 +2908,7 @@
         "class": "GLTC",
         "car": "DEL SOL",
         "time": "1:44.728",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "33"
       },
       {
@@ -2958,7 +2958,7 @@
         "class": "GLTC",
         "car": "MR2",
         "time": "1:44.804",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "34"
       },
       {
@@ -3008,7 +3008,7 @@
         "class": "GLTC",
         "car": "CSX",
         "time": "1:45.143",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "35"
       },
       {
@@ -3048,7 +3048,7 @@
         "class": "GLTC",
         "car": "MX-5 MIATA",
         "time": "1:45.256",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "36"
       },
       {
@@ -3097,7 +3097,7 @@
         "class": "GLTC",
         "car": "BRZ",
         "time": "1:47.644",
-        "session": "Race 25",
+        "session": "Qualifying",
         "pos": "37"
       },
       {

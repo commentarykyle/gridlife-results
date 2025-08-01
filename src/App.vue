@@ -78,6 +78,10 @@
       <th>Time</th>
     </template>
 
+    <template v-else-if="selectedSeries === 'GLGT'&& selectedSession?.toLowerCase().includes('qual')">
+      <th>Time</th>
+    </template>
+
     <!-- GLTC Race -->
     <template v-else-if="selectedSeries === 'GLTC'">
       <th> Car Model</th>
@@ -85,7 +89,12 @@
       <th>Fastest Lap</th>
       <th>Gap</th>
     </template>
-
+    <template v-else-if="selectedSeries === 'GLGT'">
+      <th> Car Model</th>
+      <th>Laps</th>
+      <th>Fastest Lap</th>
+      <th>Gap</th>
+    </template>
     <template v-else-if="selectedSeries === 'RUSH'">
       <th>Laps</th>
       <th>Fastest Lap</th>
@@ -255,7 +264,7 @@ export default {
   data() {
     return {
       years: ['2025', '2024', '2023', '2022', '2021', '2020', '2019', '2018'],
-      seriesList: ['TrackBattle', 'GLTC', 'RUSH'],
+      seriesList: ['TrackBattle', 'GLTC', 'GLGT', 'RUSH'],
       selectedYear: '',
       selectedSeries: '',
       selectedTrack: '',
@@ -332,7 +341,7 @@ export default {
     const label = current.car;
 
     // GLTC - X entries
-    if (label.startsWith('GLTC -')) {
+    if (label.startsWith('GLTC -' || 'GLGT -')) {
       if (mergeTargetKey !== key) {
         // Merge into base car
         mergeTarget.numbers = new Set([...mergeTarget.numbers, ...current.numbers]);
@@ -566,7 +575,7 @@ filteredDriversByClass() {
   // Try the most likely 10–15 class prefixes or no prefix
   const tryPrefixes = [
     'clubtr_', 'clubsc_', 'sundaecup_', 'street_', 'streetgt_',
-    'streetmod_', 'trackmod_', 'unlimited_', 'superunlimited_', 'gltc_', '', 'unknown_'
+    'streetmod_', 'trackmod_', 'unlimited_', 'superunlimited_', 'gltc_', 'glgt_', '', 'unknown_'
   ];
 
   tryPrefixes.forEach(prefix => {
@@ -604,8 +613,9 @@ filteredDriversByClass() {
       'CLUB SC':'#ed2590',
       'SUNDAE CUP':'#ed2590',
       'GLTC':'#ef3b39',
-      'GLGT': '#4c92ce',
+      'GLGT': '#71009e',
       'RUSH SR':'#112f7a',
+      'RUSH':'#112f7a',
       'RUSH SRX':'#ab1616',
       'SR':'#112f7a',
       'SRX':'#ab1616',

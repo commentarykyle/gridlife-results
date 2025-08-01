@@ -1,0 +1,1243 @@
+{
+  "GingerMan Raceway": {
+    "James Houghton": [
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "CIVIC TYPE R",
+        "time": "1:36.615",
+        "session": "Race 1",
+        "laps": "9",
+        "pos": "1"
+      },
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "CIVIC TYPE R",
+        "time": "1:34.805",
+        "session": "Race 2",
+        "gap": "2.258",
+        "laps": "8",
+        "pos": "2"
+      },
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "CIVIC TYPE R",
+        "time": "1:35.369",
+        "session": "Race 3",
+        "gap": "1.550",
+        "laps": "10",
+        "pos": "2"
+      },
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "GLGT - FWD",
+        "time": "1:36.933",
+        "session": "Race 4",
+        "gap": "4.746",
+        "laps": "9",
+        "pos": "3"
+      },
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "1:35.698",
+        "time": "CIVIC TYPE R",
+        "session": "Qualifying",
+        "pos": "1"
+      }
+    ],
+    "Allen Patten": [
+      {
+        "number": "606",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:36.515",
+        "session": "Race 1",
+        "gap": "1.048",
+        "laps": "9",
+        "pos": "2"
+      },
+      {
+        "number": "606",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:34.535",
+        "session": "Race 2",
+        "laps": "8",
+        "pos": "1"
+      },
+      {
+        "number": "606",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:35.216",
+        "session": "Race 3",
+        "laps": "10",
+        "pos": "1"
+      },
+      {
+        "number": "606",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:36.368",
+        "session": "Race 4",
+        "laps": "9",
+        "pos": "1"
+      },
+      {
+        "number": "606",
+        "class": "GLGT",
+        "car": "1:36.560",
+        "time": "CORVETTE",
+        "session": "Qualifying",
+        "pos": "2"
+      }
+    ],
+    "Aj Hartman": [
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "MUSTANG",
+        "time": "1:38.872",
+        "session": "Race 1",
+        "gap": "19.657",
+        "laps": "9",
+        "pos": "3"
+      },
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "MUSTANG",
+        "time": "1:37.488",
+        "session": "Race 2",
+        "gap": "21.805",
+        "laps": "8",
+        "pos": "3"
+      },
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "MUSTANG",
+        "time": "1:37.633",
+        "session": "Race 3",
+        "gap": "14.698",
+        "laps": "10",
+        "pos": "3"
+      },
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:37.464",
+        "session": "Race 4",
+        "gap": "14.077",
+        "laps": "9",
+        "pos": "2"
+      },
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "1:37.513",
+        "time": "MUSTANG",
+        "session": "Qualifying",
+        "pos": "3"
+      }
+    ],
+    "Hans Horpedahl": [
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:38.572",
+        "session": "Race 1",
+        "gap": "1.292",
+        "laps": "9",
+        "pos": "4"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:40.860",
+        "session": "Race 2",
+        "gap": "2 Laps",
+        "laps": "1",
+        "pos": "7"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:38.627",
+        "session": "Race 3",
+        "gap": "13.911",
+        "laps": "10",
+        "pos": "5"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:38.535",
+        "session": "Race 4",
+        "gap": "2 Laps",
+        "laps": "7",
+        "pos": "6"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "1:39.287",
+        "time": "CORVETTE",
+        "session": "Qualifying",
+        "pos": "6"
+      }
+    ],
+    "David Calzada": [
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "MX-5 MIATA",
+        "time": "1:39.631",
+        "session": "Race 1",
+        "gap": "5.941",
+        "laps": "9",
+        "pos": "5"
+      },
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "MX-5 MIATA",
+        "time": "1:37.771",
+        "session": "Race 2",
+        "gap": "9.582",
+        "laps": "8",
+        "pos": "5"
+      },
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "MX-5 MIATA",
+        "time": "1:39.421",
+        "session": "Race 3",
+        "gap": "5.640",
+        "laps": "10",
+        "pos": "6"
+      },
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:38.803",
+        "session": "Race 4",
+        "gap": "4.778",
+        "laps": "9",
+        "pos": "5"
+      },
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "1:38.892",
+        "time": "MX-5 MIATA",
+        "session": "Qualifying",
+        "pos": "4"
+      }
+    ],
+    "Chris Delucia": [
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:39.638",
+        "session": "Race 1",
+        "gap": "8.482",
+        "laps": "9",
+        "pos": "6"
+      },
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:37.472",
+        "session": "Race 2",
+        "gap": "0.813",
+        "laps": "8",
+        "pos": "4"
+      },
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:37.561",
+        "session": "Race 3",
+        "gap": "4.023",
+        "laps": "10",
+        "pos": "4"
+      },
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:37.500",
+        "session": "Race 4",
+        "gap": "3.089",
+        "laps": "9",
+        "pos": "4"
+      },
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "1:39.319",
+        "time": "3 SERIES",
+        "session": "Qualifying",
+        "pos": "7"
+      }
+    ],
+    "Tony Barber": [
+      {
+        "number": "333",
+        "class": "GLGT",
+        "car": "350Z",
+        "time": "1:40.385",
+        "session": "Race 1",
+        "gap": "1.486",
+        "laps": "9",
+        "pos": "7"
+      },
+      {
+        "number": "333",
+        "class": "GLGT",
+        "car": "350Z",
+        "time": "1:40.165",
+        "session": "Race 3",
+        "gap": "3 Laps",
+        "laps": "7",
+        "pos": "7"
+      },
+      {
+        "number": "333",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "",
+        "session": "Race 4",
+        "pos": "7"
+      },
+      {
+        "number": "333",
+        "class": "GLGT",
+        "car": "1:39.176",
+        "time": "350Z",
+        "session": "Qualifying",
+        "pos": "5"
+      }
+    ],
+    "Jeremy Boysen": [
+      {
+        "number": "22",
+        "class": "GLGT",
+        "car": "CIVIC",
+        "time": "1:51.374",
+        "session": "Race 1",
+        "gap": "8 Laps",
+        "laps": "1",
+        "pos": "8"
+      },
+      {
+        "number": "22",
+        "class": "GLGT",
+        "car": "1:41.832",
+        "time": "CIVIC",
+        "session": "Qualifying",
+        "pos": "8"
+      }
+    ],
+    "Jordan Wiseley": [
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "IONIQ5 N",
+        "time": "",
+        "session": "Race 1",
+        "gap": "1 Lap",
+        "pos": "9"
+      },
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "IONIQ5 N",
+        "time": "1:42.051",
+        "session": "Race 2",
+        "gap": "5 Laps",
+        "laps": "3",
+        "pos": "6"
+      }
+    ]
+  },
+  "Mid-Ohio Sports Car Course": {
+    "Aaron Leichty": [
+      {
+        "number": "66",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:31.513",
+        "session": "Race 1",
+        "laps": "10",
+        "pos": "1"
+      },
+      {
+        "number": "66",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:31.855",
+        "session": "Race 2",
+        "gap": "2.77",
+        "laps": "9",
+        "pos": "2"
+      },
+      {
+        "number": "66",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:31.088",
+        "session": "Race 3",
+        "laps": "9",
+        "pos": "1"
+      },
+      {
+        "number": "66",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:31.805",
+        "session": "Race 4",
+        "gap": "3.246",
+        "laps": "9",
+        "pos": "2"
+      },
+      {
+        "number": "66",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:32.983",
+        "session": "Qualifying",
+        "pos": "2"
+      }
+    ],
+    "James Houghton": [
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "CIVIC TYPE R",
+        "time": "1:31.595",
+        "session": "Race 1",
+        "gap": "0.356",
+        "laps": "10",
+        "pos": "2"
+      },
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "CIVIC TYPE R",
+        "time": "1:31.590",
+        "session": "Race 2",
+        "laps": "9",
+        "pos": "1"
+      },
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "CIVIC TYPE R",
+        "time": "1:30.880",
+        "session": "Race 3",
+        "gap": "0.262",
+        "laps": "9",
+        "pos": "2"
+      },
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "GLGT - FWD",
+        "time": "1:31.223",
+        "session": "Race 4",
+        "laps": "9",
+        "pos": "1"
+      },
+      {
+        "number": "41",
+        "class": "GLGT",
+        "car": "CIVIC TYPE R",
+        "time": "1:32.031",
+        "session": "Qualifying",
+        "pos": "1"
+      }
+    ],
+    "Aj Hartman": [
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "MUSTANG",
+        "time": "1:32.108",
+        "session": "Race 1",
+        "gap": "9.548",
+        "laps": "10",
+        "pos": "3"
+      },
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "MUSTANG",
+        "time": "1:32.215",
+        "session": "Race 2",
+        "gap": "4.533",
+        "laps": "9",
+        "pos": "3"
+      },
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "MUSTANG",
+        "time": "1:32.468",
+        "session": "Race 3",
+        "gap": "0.37",
+        "laps": "9",
+        "pos": "4"
+      },
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:31.784",
+        "session": "Race 4",
+        "gap": "2.743",
+        "laps": "9",
+        "pos": "4"
+      },
+      {
+        "number": "24",
+        "class": "GLGT",
+        "car": "MUSTANG",
+        "time": "1:33.552",
+        "session": "Qualifying",
+        "pos": "3"
+      }
+    ],
+    "Charlesandre Bilodeau": [
+      {
+        "number": "6",
+        "class": "GLGT",
+        "car": "M4",
+        "time": "1:33.784",
+        "session": "Race 1",
+        "gap": "13.086",
+        "laps": "10",
+        "pos": "4"
+      },
+      {
+        "number": "6",
+        "class": "GLGT",
+        "car": "M4",
+        "time": "1:33.207",
+        "session": "Race 2",
+        "gap": "10.058",
+        "laps": "9",
+        "pos": "4"
+      },
+      {
+        "number": "6",
+        "class": "GLGT",
+        "car": "M4",
+        "time": "1:32.544",
+        "session": "Race 3",
+        "gap": "12.132",
+        "laps": "9",
+        "pos": "3"
+      },
+      {
+        "number": "6",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:33.498",
+        "session": "Race 4",
+        "gap": "13.444",
+        "laps": "9",
+        "pos": "3"
+      },
+      {
+        "number": "6",
+        "class": "GLGT",
+        "car": "M4",
+        "time": "1:34.917",
+        "session": "Qualifying",
+        "pos": "5"
+      }
+    ],
+    "Chris Delucia": [
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:33.525",
+        "session": "Race 1",
+        "gap": "1.274",
+        "laps": "10",
+        "pos": "5"
+      },
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:34.220",
+        "session": "Race 2",
+        "gap": "1 Lap",
+        "laps": "8",
+        "pos": "10"
+      },
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:34.001",
+        "session": "Race 3",
+        "gap": "2 Laps",
+        "laps": "3",
+        "pos": "11"
+      },
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:33.634",
+        "session": "Race 4",
+        "gap": "5.155",
+        "laps": "9",
+        "pos": "5"
+      },
+      {
+        "number": "40",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:34.546",
+        "session": "Qualifying",
+        "pos": "4"
+      }
+    ],
+    "James Forbis": [
+      {
+        "number": "69",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:33.195",
+        "session": "Race 1",
+        "gap": "4.227",
+        "laps": "10",
+        "pos": "6"
+      },
+      {
+        "number": "69",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:33.911",
+        "session": "Race 2",
+        "gap": "1 Lap",
+        "laps": "7",
+        "pos": "11"
+      },
+      {
+        "number": "69",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:33.402",
+        "session": "Race 3",
+        "gap": "3.184",
+        "laps": "9",
+        "pos": "6"
+      },
+      {
+        "number": "69",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:33.431",
+        "session": "Race 4",
+        "gap": "6.019",
+        "laps": "9",
+        "pos": "6"
+      },
+      {
+        "number": "69",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:36.003",
+        "session": "Qualifying",
+        "pos": "6"
+      }
+    ],
+    "Hans Horpedahl": [
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:33.543",
+        "session": "Race 1",
+        "gap": "4.434",
+        "laps": "10",
+        "pos": "7"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:34.012",
+        "session": "Race 2",
+        "gap": "8.732",
+        "laps": "9",
+        "pos": "5"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:33.543",
+        "session": "Race 3",
+        "gap": "15.582",
+        "laps": "9",
+        "pos": "5"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:34.160",
+        "session": "Race 4",
+        "gap": "4 Laps",
+        "laps": "5",
+        "pos": "10"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:38.296",
+        "session": "Qualifying",
+        "pos": "8"
+      }
+    ],
+    "David Bamforth": [
+      {
+        "number": "404",
+        "class": "GLGT",
+        "car": "CAYMAN",
+        "time": "1:34.917",
+        "session": "Race 1",
+        "gap": "10.323",
+        "laps": "10",
+        "pos": "8"
+      },
+      {
+        "number": "404",
+        "class": "GLGT",
+        "car": "CAYMAN",
+        "time": "1:35.170",
+        "session": "Race 2",
+        "gap": "8.881",
+        "laps": "9",
+        "pos": "6"
+      },
+      {
+        "number": "404",
+        "class": "GLGT",
+        "car": "CAYMAN",
+        "time": "1:34.402",
+        "session": "Race 3",
+        "gap": "6.206",
+        "laps": "9",
+        "pos": "7"
+      },
+      {
+        "number": "404",
+        "class": "GLGT",
+        "car": "GLGT - RWD",
+        "time": "1:34.632",
+        "session": "Race 4",
+        "gap": "9.938",
+        "laps": "9",
+        "pos": "7"
+      },
+      {
+        "number": "404",
+        "class": "GLGT",
+        "car": "CAYMAN",
+        "time": "1:36.319",
+        "session": "Qualifying",
+        "pos": "7"
+      }
+    ],
+    "Jeffrey Zissulis": [
+      {
+        "number": "62",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:37.774",
+        "session": "Race 1",
+        "gap": "32.949",
+        "laps": "10",
+        "pos": "9"
+      },
+      {
+        "number": "62",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:37.327",
+        "session": "Race 2",
+        "gap": "25.609",
+        "laps": "9",
+        "pos": "7"
+      },
+      {
+        "number": "62",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:36.833",
+        "session": "Race 3",
+        "gap": "0.846",
+        "laps": "9",
+        "pos": "9"
+      },
+      {
+        "number": "62",
+        "class": "GLGT",
+        "car": "3 SERIES",
+        "time": "1:38.349",
+        "session": "Qualifying",
+        "pos": "9"
+      }
+    ],
+    "Jordan Wiseley": [
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "IONIQ5 N",
+        "time": "1:38.229",
+        "session": "Race 1",
+        "gap": "10.648",
+        "laps": "10",
+        "pos": "10"
+      },
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "IONIQ5 N",
+        "time": "1:37.593",
+        "session": "Race 2",
+        "gap": "1.789",
+        "laps": "9",
+        "pos": "8"
+      },
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "IONIQ5 N",
+        "time": "1:37.011",
+        "session": "Race 3",
+        "gap": "21.994",
+        "laps": "9",
+        "pos": "8"
+      },
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "GLGT - AWD",
+        "time": "1:37.460",
+        "session": "Race 4",
+        "gap": "1.264",
+        "laps": "9",
+        "pos": "9"
+      },
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "IONIQ5 N",
+        "time": "",
+        "session": "Qualifying",
+        "pos": "12"
+      }
+    ],
+    "Erik Dallariva": [
+      {
+        "number": "74",
+        "class": "GLGT",
+        "car": "CSX",
+        "time": "1:38.065",
+        "session": "Race 1",
+        "gap": "1 Lap",
+        "laps": "9",
+        "pos": "11"
+      },
+      {
+        "number": "74",
+        "class": "GLGT",
+        "car": "CSX",
+        "time": "1:38.950",
+        "session": "Race 2",
+        "gap": "3 Laps",
+        "laps": "4",
+        "pos": "12"
+      },
+      {
+        "number": "74",
+        "class": "GLGT",
+        "car": "GLGT - FWD",
+        "time": "1:36.626",
+        "session": "Race 4",
+        "gap": "19.307",
+        "laps": "9",
+        "pos": "8"
+      },
+      {
+        "number": "74",
+        "class": "GLGT",
+        "car": "CSX",
+        "time": "",
+        "session": "Qualifying",
+        "pos": "13"
+      }
+    ],
+    "Taylor Allen": [
+      {
+        "number": "12",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:39.689",
+        "session": "Race 1",
+        "gap": "35.626",
+        "laps": "9",
+        "pos": "12"
+      },
+      {
+        "number": "12",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:38.087",
+        "session": "Race 2",
+        "gap": "16.442",
+        "laps": "9",
+        "pos": "9"
+      },
+      {
+        "number": "12",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:38.737",
+        "session": "Race 3",
+        "gap": "4 Laps",
+        "laps": "5",
+        "pos": "10"
+      },
+      {
+        "number": "12",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "1:41.103",
+        "session": "Qualifying",
+        "pos": "10"
+      }
+    ],
+    "Adam Spence": [
+      {
+        "number": "60",
+        "class": "GLGT",
+        "car": "S4",
+        "time": "1:41.172",
+        "session": "Qualifying",
+        "pos": "11"
+      }
+    ]
+  },
+  "Road America": {
+    "Aaron Leichty": [
+      {
+        "number": "66",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:25.774",
+        "session": "Race 1",
+        "laps": "6",
+        "pos": "1"
+      },
+      {
+        "number": "66",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:25.341",
+        "session": "Race 2",
+        "laps": "7",
+        "pos": "1"
+      },
+      {
+        "number": "66",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:25.093",
+        "session": "Qualifying",
+        "pos": "1"
+      }
+    ],
+    "Charlesandre Bilodeau": [
+      {
+        "number": "6",
+        "class": "GLGT",
+        "car": "M4",
+        "time": "2:28.570",
+        "session": "Race 1",
+        "gap": "17.633",
+        "laps": "6",
+        "pos": "2"
+      },
+      {
+        "number": "6",
+        "class": "GLGT",
+        "car": "M4",
+        "time": "2:27.063",
+        "session": "Race 2",
+        "gap": "7.897",
+        "laps": "7",
+        "pos": "3"
+      },
+      {
+        "number": "6",
+        "class": "GLGT",
+        "car": "M4",
+        "time": "2:28.527",
+        "session": "Race 3",
+        "gap": "14.522",
+        "laps": "6",
+        "pos": "2"
+      },
+      {
+        "number": "6",
+        "class": "GLGT",
+        "car": "M4",
+        "time": "2:28.116",
+        "session": "Qualifying",
+        "pos": "3"
+      }
+    ],
+    "Collin King": [
+      {
+        "number": "21",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:27.574",
+        "session": "Race 1",
+        "gap": "1.912",
+        "laps": "6",
+        "pos": "3"
+      },
+      {
+        "number": "21",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:25.473",
+        "session": "Race 2",
+        "gap": "3.224",
+        "laps": "7",
+        "pos": "2"
+      },
+      {
+        "number": "21",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:26.202",
+        "session": "Race 3",
+        "laps": "6",
+        "pos": "1"
+      },
+      {
+        "number": "21",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:26.729",
+        "session": "Race 4",
+        "laps": "3",
+        "pos": "1"
+      },
+      {
+        "number": "21",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:27.839",
+        "session": "Qualifying",
+        "pos": "2"
+      }
+    ],
+    "Alex Peitz": [
+      {
+        "number": "61",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:50.268",
+        "session": "Race 1",
+        "gap": "5 Laps",
+        "laps": "1",
+        "pos": "4"
+      },
+      {
+        "number": "61",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "",
+        "session": "Race 2",
+        "gap": "4 Laps",
+        "pos": "7"
+      },
+      {
+        "number": "61",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:43.174",
+        "session": "Race 3",
+        "gap": "1:10.329",
+        "laps": "6",
+        "pos": "5"
+      },
+      {
+        "number": "61",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:47.141",
+        "session": "Race 4",
+        "gap": "38.444",
+        "laps": "3",
+        "pos": "3"
+      }
+    ],
+    "David Calzada": [
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "MX-5 MIATA",
+        "time": "",
+        "session": "Race 1",
+        "gap": "1 Lap",
+        "pos": "5"
+      },
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "MX-5 MIATA",
+        "time": "2:30.323",
+        "session": "Race 2",
+        "gap": "26.886",
+        "laps": "7",
+        "pos": "4"
+      },
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "MX-5 MIATA",
+        "time": "2:27.977",
+        "session": "Race 3",
+        "gap": "6.01",
+        "laps": "6",
+        "pos": "3"
+      },
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "MX-5 MIATA",
+        "time": "2:38.140",
+        "session": "Race 4",
+        "gap": "2 Laps",
+        "laps": "1",
+        "pos": "4"
+      },
+      {
+        "number": "174",
+        "class": "GLGT",
+        "car": "MX-5 MIATA",
+        "time": "2:29.238",
+        "session": "Qualifying",
+        "pos": "4"
+      }
+    ],
+    "Jordan Wiseley": [
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "Ionic5 N",
+        "time": "",
+        "session": "Race 1",
+        "gap": "0.099",
+        "pos": "6"
+      },
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "Ionic5 N",
+        "time": "2:31.881",
+        "session": "Race 2",
+        "gap": "7.915",
+        "laps": "7",
+        "pos": "5"
+      },
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "Ionic5 N",
+        "time": "2:32.631",
+        "session": "Race 3",
+        "gap": "14.136",
+        "laps": "6",
+        "pos": "4"
+      },
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "Ionic5 N",
+        "time": "2:33.357",
+        "session": "Race 4",
+        "gap": "15.233",
+        "laps": "3",
+        "pos": "2"
+      },
+      {
+        "number": "7",
+        "class": "GLGT",
+        "car": "Ionic5 N",
+        "time": "2:29.979",
+        "session": "Qualifying",
+        "pos": "5"
+      }
+    ],
+    "Hans Horpedahl": [
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "",
+        "session": "Race 1",
+        "gap": "0.069",
+        "pos": "7"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "2:29.803",
+        "session": "Race 2",
+        "gap": "3 Laps",
+        "laps": "4",
+        "pos": "6"
+      },
+      {
+        "number": "77",
+        "class": "GLGT",
+        "car": "CORVETTE",
+        "time": "",
+        "session": "Qualifying",
+        "pos": "6"
+      }
+    ]
+  }
+}
