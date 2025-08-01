@@ -5,16 +5,9 @@
 
     <div class="selector-bar">
       <!-- Year Selector -->
-      <label>
-        Select Year:
-        <select v-model="selectedYear" @change="onYearChange">
-          <option disabled value="">-- Select Year --</option>
-          <option v-for="year in years" :key="year">{{ year }}</option>
-        </select>
-      </label>
 
-      <!-- Series Selector -->
-      <label v-if="selectedYear">
+         <!-- Series Selector -->
+         <label>
         Select Series:
         <select v-model="selectedSeries" @change="loadResults">
           <option disabled value="">-- Select Series --</option>
@@ -22,6 +15,13 @@
         </select>
       </label>
 
+      <label>
+        Select Year:
+        <select v-model="selectedYear" @change="onYearChange">
+          <option disabled value="">-- Select Year --</option>
+          <option v-for="year in years" :key="year">{{ year }}</option>
+        </select>
+      </label>
       <!-- Track Selector -->
       <label v-if="tracks.length > 0 && !selectedDriver">
         Select Track:
