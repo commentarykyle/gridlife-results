@@ -2,6 +2,15 @@
   <div class="app">
     <img src="/gridlife-logo.png" alt="Gridlife Logo" style="height: 40px;" />
     <h1>COMPETITION RESULTS</h1>
+    <a
+  href="https://gridlife-drivers.netlify.app/"
+  target="_blank"
+  rel="noopener"
+  class="button-link"
+>
+  GRIDLIFE COMPETITOR LIST
+</a>
+
 
     <div class="selector-bar">
       <!-- Year Selector -->
@@ -937,6 +946,17 @@ select:focus {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   padding: 0 1rem; /* optional horizontal padding */
+}
+.button-link {
+  display: inline-block;
+  padding: 0.5em 1em;
+  background-color: #004c4b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 table {
