@@ -94,6 +94,38 @@ function parseSessionName(fileName, series) {
   
       return 'Shootout';
     }
+
+    else if (series === 'RUSH') {
+      // Qualifying first (loose, anywhere)
+      if (regexQual.test(file)) {
+        // Check for number after Q or QUAL for Qualifying x
+        const qualNumMatch = file.match(/\bQ(\d+)\b/) || file.match(/\bQUAL(\d+)\b/);
+        return qualNumMatch ? `Qualifying ${qualNumMatch[1]}` : 'Qualifying';
+      }
+  
+      // Race last number if present (never heat)
+      if (lastNumber) {
+        return `Race ${lastNumber}`;
+      }
+  
+      // Podium Sprint
+      if (regexPodiumSprint.test(file)) {
+        return 'Podium Sprint';
+      }
+  
+      // Overall
+      if (regexOverall.test(file)) {
+        return 'Overall';
+      }
+  
+      // Practice fallback
+      if (regexPractice.test(file)) {
+        const prNumMatch = file.match(/\bP(\d+)\b/);
+        return prNumMatch ? `Practice ${prNumMatch[1]}` : 'Practice';
+      }
+  
+      return 'Shootout';
+    }
   
     else {
       // Other series fallback
@@ -233,6 +265,7 @@ async function compileResults() {
       for (const series of seriesList) {
         const seriesPath = path.join(trackPath, series);
         if (!fs.statSync(seriesPath).isDirectory()) continue;
+        const lowerSeries = series.toLowerCase();
 
         const files = fs.readdirSync(seriesPath)
           .filter(f => f.endsWith('.csv'))
@@ -246,13 +279,14 @@ async function compileResults() {
           const sessionName = parseSessionName(file, series);
           const filePath = path.join(seriesPath, file);
 
-          let rows;
-          if (key.includes('gltc')) {
+          const useGLTCParser = lowerSeries === 'gltc' || lowerSeries === 'rush';
+          
+          if (useGLTCParser) {
             rows = await parseCsvFileGLTC(filePath, sessionName);
           } else {
             rows = await parseCsvFile(filePath, sessionName);
           }
-
+          
           for (const row of rows) {
             if (!allResults[key][track][row.name]) {
               allResults[key][track][row.name] = [];
@@ -270,9 +304,9 @@ async function compileResults() {
             });
           }
         }
-        if (key.includes('gltc')) {
-            for (const driverName in allResults[key][track]) {
-              const sessions = allResults[key][track][driverName];
+        if (['gltc', 'rush'].includes(lowerSeries)) {
+          for (const driverName in allResults[key][track]) {
+            const sessions = allResults[key][track][driverName];
           
               // Find the first qualifying session with a valid car model
               const qualSession = sessions.find(

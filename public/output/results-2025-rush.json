@@ -3,336 +3,394 @@
     "Ryan Leach": [
       {
         "number": "56",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:25.938",
         "session": "Qualifying",
         "pos": "1"
       },
       {
         "number": "56",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.801",
         "session": "Race 1",
+        "gap": "0.581",
+        "laps": "4",
         "pos": "2"
       },
       {
         "number": "56",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.888",
         "session": "Race 2",
+        "gap": "1 Lap",
+        "laps": "5",
         "pos": "37"
       },
       {
         "number": "56",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.376",
         "session": "Race 4",
+        "gap": "1.361",
+        "laps": "6",
         "pos": "3"
       }
     ],
     "James French": [
       {
         "number": "70",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:25.966",
         "session": "Qualifying",
         "pos": "2"
       },
       {
         "number": "70",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.779",
         "session": "Race 1",
+        "laps": "4",
         "pos": "1"
       },
       {
         "number": "70",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.332",
         "session": "Race 2",
+        "gap": "4:41.196",
+        "laps": "5",
         "pos": "38"
       },
       {
         "number": "70",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.893",
         "session": "Race 3",
+        "gap": "1.437",
+        "laps": "5",
         "pos": "9"
       },
       {
         "number": "70",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.298",
         "session": "Race 4",
+        "laps": "6",
         "pos": "1"
       }
     ],
     "Blair Hosie": [
       {
         "number": "8",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:26.055",
         "session": "Qualifying",
         "pos": "3"
       },
       {
         "number": "8",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.366",
         "session": "Race 1",
+        "gap": "0.378",
+        "laps": "4",
         "pos": "4"
       },
       {
         "number": "8",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.139",
         "session": "Race 2",
+        "laps": "6",
         "pos": "1"
       },
       {
         "number": "8",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.093",
         "session": "Race 3",
+        "laps": "5",
         "pos": "1"
       },
       {
         "number": "8",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.063",
         "session": "Race 4",
+        "gap": "0.006",
+        "laps": "6",
         "pos": "2"
       }
     ],
     "Bryce Mersberger": [
       {
         "number": "114",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:26.948",
         "session": "Qualifying",
         "pos": "4"
       },
       {
         "number": "114",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.443",
         "session": "Race 1",
+        "gap": "0.226",
+        "laps": "4",
         "pos": "3"
       },
       {
         "number": "114",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.655",
         "session": "Race 2",
+        "gap": "7.697",
+        "laps": "6",
         "pos": "3"
       },
       {
         "number": "114",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.004",
         "session": "Race 3",
+        "gap": "1.2",
+        "laps": "5",
         "pos": "2"
       },
       {
         "number": "114",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.385",
         "session": "Race 4",
+        "gap": "0.356",
+        "laps": "6",
         "pos": "6"
       }
     ],
     "Nico Bratz": [
       {
         "number": "7",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.059",
         "session": "Qualifying",
         "pos": "5"
       },
       {
         "number": "7",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.923",
         "session": "Race 1",
+        "gap": "0.553",
+        "laps": "4",
         "pos": "6"
       },
       {
         "number": "7",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.412",
         "session": "Race 2",
+        "gap": "3.238",
+        "laps": "6",
         "pos": "2"
       },
       {
         "number": "7",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.136",
         "session": "Race 3",
+        "gap": "0.399",
+        "laps": "5",
         "pos": "3"
       },
       {
         "number": "7",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.766",
         "session": "Race 4",
+        "gap": "2.668",
+        "laps": "6",
         "pos": "5"
       }
     ],
     "Andy Voelkel": [
       {
         "number": "34",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.115",
         "session": "Qualifying",
         "pos": "6"
       },
       {
         "number": "34",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.716",
         "session": "Race 1",
+        "gap": "0.558",
+        "laps": "4",
         "pos": "5"
       },
       {
         "number": "34",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.534",
         "session": "Race 2",
+        "gap": "2 Laps",
+        "laps": "2",
         "pos": "41"
       },
       {
         "number": "34",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.660",
         "session": "Race 3",
+        "gap": "0.548",
+        "laps": "5",
         "pos": "10"
       },
       {
         "number": "34",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.990",
         "session": "Race 4",
+        "gap": "5.814",
+        "laps": "6",
         "pos": "4"
       }
     ],
     "Ethan Alexander": [
       {
         "number": "33",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:27.840",
         "session": "Qualifying",
         "pos": "7"
       },
       {
         "number": "33",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.271",
         "session": "Race 1",
+        "gap": "0.69",
+        "laps": "4",
         "pos": "7"
       },
       {
         "number": "33",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.103",
         "session": "Race 2",
+        "gap": "1 Lap",
+        "laps": "4",
         "pos": "39"
       },
       {
         "number": "33",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.535",
         "session": "Race 3",
+        "gap": "0.48",
+        "laps": "5",
         "pos": "6"
       },
       {
         "number": "33",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.477",
         "session": "Race 4",
+        "gap": "2 Laps",
+        "laps": "4",
         "pos": "40"
       }
     ],
     "Jason Oehler": [
       {
         "number": "74",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.763",
         "session": "Qualifying",
         "pos": "8"
       },
       {
         "number": "74",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.546",
         "session": "Race 1",
+        "gap": "0.826",
+        "laps": "4",
         "pos": "9"
       },
       {
         "number": "74",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.569",
         "session": "Race 2",
+        "gap": "0.184",
+        "laps": "6",
         "pos": "5"
       },
       {
         "number": "74",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.748",
         "session": "Race 3",
+        "gap": "0.206",
+        "laps": "5",
         "pos": "7"
       },
       {
         "number": "74",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.067",
         "session": "Race 4",
+        "gap": "9.388",
+        "laps": "6",
         "pos": "7"
       }
     ],
     "Jaylan Battley": [
       {
         "number": "88",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.833",
         "session": "Qualifying",
         "pos": "9"
@@ -341,1418 +399,1685 @@
     "John Robinson": [
       {
         "number": "190",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.871",
         "session": "Qualifying",
         "pos": "10"
       },
       {
         "number": "190",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.799",
         "session": "Race 1",
+        "gap": "0.668",
+        "laps": "4",
         "pos": "10"
       },
       {
         "number": "190",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.077",
         "session": "Race 2",
+        "gap": "3.363",
+        "laps": "6",
         "pos": "6"
       },
       {
         "number": "190",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.405",
         "session": "Race 3",
+        "gap": "0.101",
+        "laps": "5",
         "pos": "33"
       },
       {
         "number": "190",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.184",
         "session": "Race 4",
+        "gap": "0.071",
+        "laps": "6",
         "pos": "9"
       }
     ],
     "Mark Charnogorsky": [
       {
         "number": "25",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.042",
         "session": "Qualifying",
         "pos": "11"
       },
       {
         "number": "25",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.848",
         "session": "Race 1",
+        "gap": "0.691",
+        "laps": "4",
         "pos": "8"
       },
       {
         "number": "25",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.698",
         "session": "Race 2",
+        "gap": "1.796",
+        "laps": "6",
         "pos": "4"
       },
       {
         "number": "25",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.283",
         "session": "Race 3",
+        "gap": "1.999",
+        "laps": "5",
         "pos": "4"
       },
       {
         "number": "25",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.632",
         "session": "Race 4",
+        "gap": "0.001",
+        "laps": "6",
         "pos": "14"
       }
     ],
     "Hasan Ahmed": [
       {
         "number": "253",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.249",
         "session": "Qualifying",
         "pos": "12"
       },
       {
         "number": "253",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.913",
         "session": "Race 1",
+        "gap": "1.087",
+        "laps": "4",
         "pos": "13"
       },
       {
         "number": "253",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.719",
         "session": "Race 2",
+        "gap": "1.59",
+        "laps": "6",
         "pos": "16"
       },
       {
         "number": "253",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:37.038",
         "session": "Race 3",
+        "gap": "1.614",
+        "laps": "5",
         "pos": "15"
       },
       {
         "number": "253",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.722",
         "session": "Race 4",
+        "gap": "1.789",
+        "laps": "6",
         "pos": "12"
       }
     ],
     "Nate Hamilton": [
       {
         "number": "144",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.283",
         "session": "Qualifying",
         "pos": "13"
       },
       {
         "number": "144",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.890",
         "session": "Race 1",
+        "gap": "0.545",
+        "laps": "4",
         "pos": "16"
       },
       {
         "number": "144",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.961",
         "session": "Race 2",
+        "gap": "0.01",
+        "laps": "6",
         "pos": "12"
       },
       {
         "number": "144",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.242",
         "session": "Race 4",
+        "gap": "15.579",
+        "laps": "4",
         "pos": "41"
       }
     ],
     "Tj Hunt": [
       {
         "number": "28",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.749",
         "session": "Qualifying",
         "pos": "14"
       },
       {
         "number": "28",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.917",
         "session": "Race 1",
+        "gap": "3 Laps",
+        "laps": "1",
         "pos": "42"
       },
       {
         "number": "28",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.871",
         "session": "Race 2",
+        "gap": "4.879",
+        "laps": "6",
         "pos": "19"
       },
       {
         "number": "28",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.527",
         "session": "Race 4",
+        "gap": "1.339",
+        "laps": "6",
         "pos": "19"
       }
     ],
     "Gage Hughes": [
       {
         "number": "51",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.368",
         "session": "Qualifying",
         "pos": "15"
       },
       {
         "number": "51",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.623",
         "session": "Race 1",
+        "gap": "0.93",
+        "laps": "4",
         "pos": "11"
       },
       {
         "number": "51",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.555",
         "session": "Race 2",
+        "gap": "8.778",
+        "laps": "6",
         "pos": "13"
       },
       {
         "number": "51",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:35.674",
         "session": "Race 3",
+        "gap": "0.039",
+        "laps": "5",
         "pos": "14"
       },
       {
         "number": "51",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.609",
         "session": "Race 4",
+        "gap": "1.357",
+        "laps": "6",
         "pos": "15"
       }
     ],
     "Andor  Tobelem": [
       {
         "number": "12",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.415",
         "session": "Qualifying",
         "pos": "16"
       },
       {
         "number": "12",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.435",
         "session": "Race 1",
+        "gap": "0.174",
+        "laps": "4",
         "pos": "17"
       },
       {
         "number": "12",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.692",
         "session": "Race 2",
+        "gap": "8.896",
+        "laps": "2",
         "pos": "42"
       },
       {
         "number": "12",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:38.475",
         "session": "Race 3",
+        "gap": "0.598",
+        "laps": "5",
         "pos": "20"
       },
       {
         "number": "12",
-        "class": "SR",
-        "car": "6",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.571",
         "session": "Race 4",
+        "gap": "1.518",
+        "laps": "6",
         "pos": "17"
       }
     ],
     "Travis Pendelton": [
       {
         "number": "211",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.579",
         "session": "Qualifying",
         "pos": "17"
       },
       {
         "number": "211",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:35.083",
         "session": "Race 1",
+        "gap": "0.493",
+        "laps": "1",
         "pos": "43"
       },
       {
         "number": "211",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.059",
         "session": "Race 2",
+        "gap": "12.32",
+        "laps": "2",
         "pos": "43"
       }
     ],
     "Matt Wilson": [
       {
         "number": "188",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.660",
         "session": "Qualifying",
         "pos": "18"
       },
       {
         "number": "188",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.307",
         "session": "Race 1",
+        "gap": "1.075",
+        "laps": "4",
         "pos": "14"
       },
       {
         "number": "188",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.777",
         "session": "Race 2",
+        "gap": "0.609",
+        "laps": "6",
         "pos": "11"
       },
       {
         "number": "188",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:35.567",
         "session": "Race 3",
+        "gap": "0.497",
+        "laps": "5",
         "pos": "11"
       },
       {
         "number": "188",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.697",
         "session": "Race 4",
+        "gap": "0.124",
+        "laps": "6",
         "pos": "16"
       }
     ],
     "Nicholas Billingsley": [
       {
         "number": "9",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.224",
         "session": "Qualifying",
         "pos": "19"
       },
       {
         "number": "9",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.812",
         "session": "Race 1",
+        "gap": "0.594",
+        "laps": "4",
         "pos": "12"
       },
       {
         "number": "9",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.054",
         "session": "Race 2",
+        "gap": "3.578",
+        "laps": "6",
         "pos": "10"
       },
       {
         "number": "9",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.863",
         "session": "Race 3",
+        "gap": "2.114",
+        "laps": "5",
         "pos": "5"
       },
       {
         "number": "9",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.675",
         "session": "Race 4",
+        "gap": "1.306",
+        "laps": "6",
         "pos": "10"
       }
     ],
     "Vilas Saldanha": [
       {
         "number": "30",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.355",
         "session": "Qualifying",
         "pos": "20"
       },
       {
         "number": "30",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:44.585",
         "session": "Race 1",
+        "gap": "0.593",
+        "laps": "4",
         "pos": "38"
       },
       {
         "number": "30",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.028",
         "session": "Race 2",
+        "gap": "28.53",
+        "laps": "4",
         "pos": "40"
       },
       {
         "number": "30",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "",
         "session": "Race 3",
+        "gap": "0.2",
         "pos": "38"
       },
       {
         "number": "30",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.219",
         "session": "Race 4",
+        "gap": "5.446",
+        "laps": "6",
         "pos": "27"
       }
     ],
     "Ethan Hardesty": [
       {
         "number": "115",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.668",
         "session": "Qualifying",
         "pos": "21"
       },
       {
         "number": "115",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:42.146",
         "session": "Race 1",
+        "gap": "1.156",
+        "laps": "4",
         "pos": "37"
       },
       {
         "number": "115",
-        "class": "SR",
-        "car": "6",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.431",
         "session": "Race 2",
+        "gap": "0.679",
+        "laps": "6",
         "pos": "18"
       },
       {
         "number": "115",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "",
         "session": "Race 3",
+        "gap": "5 Laps",
         "pos": "35"
       },
       {
         "number": "115",
-        "class": "SR",
-        "car": "6",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.761",
         "session": "Race 4",
+        "gap": "7.274",
+        "laps": "6",
         "pos": "25"
       }
     ],
     "Darius Garcia": [
       {
         "number": "18",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.790",
         "session": "Qualifying",
         "pos": "22"
       },
       {
         "number": "18",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:38.799",
         "session": "Race 1",
+        "gap": "1.825",
+        "laps": "4",
         "pos": "25"
       },
       {
         "number": "18",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "",
         "session": "Race 2",
+        "gap": "2 Laps",
         "pos": "44"
       },
       {
         "number": "18",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:38.005",
         "session": "Race 3",
+        "gap": "1.551",
+        "laps": "5",
         "pos": "17"
       },
       {
         "number": "18",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.800",
         "session": "Race 4",
+        "gap": "0.055",
+        "laps": "6",
         "pos": "21"
       }
     ],
     "Michael Neff": [
       {
         "number": "39",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:31.984",
         "session": "Qualifying",
         "pos": "23"
       },
       {
         "number": "39",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:36.415",
         "session": "Race 1",
+        "gap": "0.744",
+        "laps": "4",
         "pos": "20"
       },
       {
         "number": "39",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.559",
         "session": "Race 2",
+        "gap": "1.488",
+        "laps": "6",
         "pos": "20"
       },
       {
         "number": "39",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "",
         "session": "Race 3",
+        "gap": "0.141",
         "pos": "36"
       }
     ],
     "Kelsey Billingsley": [
       {
         "number": "19",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.080",
         "session": "Qualifying",
         "pos": "24"
       },
       {
         "number": "19",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.854",
         "session": "Race 1",
+        "gap": "0.613",
+        "laps": "4",
         "pos": "21"
       },
       {
         "number": "19",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.250",
         "session": "Race 2",
+        "gap": "0.615",
+        "laps": "6",
         "pos": "17"
       },
       {
         "number": "19",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:40.135",
         "session": "Race 3",
+        "gap": "1.585",
+        "laps": "5",
         "pos": "18"
       },
       {
         "number": "19",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.962",
         "session": "Race 4",
+        "gap": "6.055",
+        "laps": "4",
         "pos": "42"
       }
     ],
     "Brandon Schwarz": [
       {
         "number": "48",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.194",
         "session": "Qualifying",
         "pos": "25"
       },
       {
         "number": "48",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.879",
         "session": "Race 1",
+        "gap": "0.901",
+        "laps": "4",
         "pos": "15"
       },
       {
         "number": "48",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.152",
         "session": "Race 2",
+        "gap": "1.081",
+        "laps": "6",
         "pos": "7"
       },
       {
         "number": "48",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.568",
         "session": "Race 4",
+        "gap": "0.05",
+        "laps": "6",
         "pos": "11"
       }
     ],
     "Tim Burkard": [
       {
         "number": "113",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.535",
         "session": "Qualifying",
         "pos": "26"
       },
       {
         "number": "113",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:43.795",
         "session": "Race 1",
+        "gap": "1.366",
+        "laps": "4",
         "pos": "29"
       },
       {
         "number": "113",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.562",
         "session": "Race 2",
+        "gap": "0.001",
+        "laps": "6",
         "pos": "28"
       },
       {
         "number": "113",
-        "class": "SR",
-        "car": "6",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.776",
         "session": "Race 4",
+        "gap": "0.226",
+        "laps": "6",
         "pos": "26"
       }
     ],
     "Samuel Reed": [
       {
         "number": "256",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.748",
         "session": "Qualifying",
         "pos": "27"
       },
       {
         "number": "256",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.389",
         "session": "Race 1",
+        "gap": "0.925",
+        "laps": "4",
         "pos": "18"
       },
       {
         "number": "256",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.457",
         "session": "Race 2",
+        "gap": "2.325",
+        "laps": "6",
         "pos": "15"
       },
       {
         "number": "256",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:40.598",
         "session": "Race 3",
+        "gap": "2.079",
+        "laps": "5",
         "pos": "26"
       },
       {
         "number": "256",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.591",
         "session": "Race 4",
+        "gap": "1.513",
+        "laps": "6",
         "pos": "28"
       }
     ],
     "Jared Anderson": [
       {
         "number": "99",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.901",
         "session": "Qualifying",
         "pos": "28"
       },
       {
         "number": "99",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:38.587",
         "session": "Race 1",
+        "gap": "1.099",
+        "laps": "4",
         "pos": "23"
       },
       {
         "number": "99",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.856",
         "session": "Race 2",
+        "gap": "1.443",
+        "laps": "6",
         "pos": "21"
       },
       {
         "number": "99",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:39.480",
         "session": "Race 3",
+        "gap": "1.335",
+        "laps": "5",
         "pos": "19"
       },
       {
         "number": "99",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.803",
         "session": "Race 4",
+        "gap": "2.851",
+        "laps": "6",
         "pos": "23"
       }
     ],
     "Adam Spence": [
       {
         "number": "60",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.945",
         "session": "Qualifying",
         "pos": "29"
       },
       {
         "number": "60",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:43.944",
         "session": "Race 1",
+        "gap": "0.704",
+        "laps": "4",
         "pos": "30"
       },
       {
         "number": "60",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.629",
         "session": "Race 2",
+        "gap": "1.556",
+        "laps": "6",
         "pos": "25"
       },
       {
         "number": "60",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:41.548",
         "session": "Race 3",
+        "gap": "0.058",
+        "laps": "5",
         "pos": "24"
       },
       {
         "number": "60",
-        "class": "SR",
-        "car": "6",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.410",
         "session": "Race 4",
+        "gap": "8.508",
+        "laps": "6",
         "pos": "22"
       }
     ],
     "Tom Kersting": [
       {
         "number": "75",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.356",
         "session": "Qualifying",
         "pos": "30"
       },
       {
         "number": "75",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:39.005",
         "session": "Race 1",
+        "gap": "1.634",
+        "laps": "4",
         "pos": "27"
       },
       {
         "number": "75",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:35.059",
         "session": "Race 2",
+        "gap": "0.482",
+        "laps": "6",
         "pos": "29"
       },
       {
         "number": "75",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:48.347",
         "session": "Race 3",
+        "gap": "6.659",
+        "laps": "5",
         "pos": "29"
       },
       {
         "number": "75",
-        "class": "SR",
-        "car": "6",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:36.011",
         "session": "Race 4",
+        "gap": "1.842",
+        "laps": "6",
         "pos": "34"
       }
     ],
     "Bill Dorrance": [
       {
         "number": "20",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.410",
         "session": "Qualifying",
         "pos": "31"
       },
       {
         "number": "20",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:40.232",
         "session": "Race 1",
+        "gap": "6.966",
+        "laps": "1",
         "pos": "44"
       },
       {
         "number": "20",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:36.216",
         "session": "Race 2",
+        "gap": "24.194",
+        "laps": "6",
         "pos": "30"
       },
       {
         "number": "20",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:42.756",
         "session": "Race 3",
+        "gap": "0.677",
+        "laps": "5",
         "pos": "28"
       },
       {
         "number": "20",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.807",
         "session": "Race 4",
+        "gap": "6.774",
+        "laps": "6",
         "pos": "33"
       }
     ],
     "Jeremy Boysen": [
       {
         "number": "22",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.539",
         "session": "Qualifying",
         "pos": "32"
       },
       {
         "number": "22",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:43.910",
         "session": "Race 1",
+        "gap": "0.997",
+        "laps": "4",
         "pos": "31"
       },
       {
         "number": "22",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.680",
         "session": "Race 2",
+        "gap": "0.915",
+        "laps": "6",
         "pos": "31"
       },
       {
         "number": "22",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "",
         "session": "Race 3",
+        "gap": "0.759",
         "pos": "37"
       },
       {
         "number": "22",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.821",
         "session": "Race 4",
+        "gap": "1.536",
+        "laps": "6",
         "pos": "35"
       }
     ],
     "Larry Brady": [
       {
         "number": "59",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.103",
         "session": "Qualifying",
         "pos": "33"
       },
       {
         "number": "59",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:38.154",
         "session": "Race 1",
+        "gap": "1.273",
+        "laps": "4",
         "pos": "28"
       },
       {
         "number": "59",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:35.282",
         "session": "Race 2",
+        "gap": "1.988",
+        "laps": "6",
         "pos": "23"
       },
       {
         "number": "59",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:44.257",
         "session": "Race 3",
+        "gap": "0.02",
+        "laps": "5",
         "pos": "27"
       },
       {
         "number": "59",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.801",
         "session": "Race 4",
+        "gap": "0.474",
+        "laps": "6",
         "pos": "24"
       }
     ],
     "Kevin Kirkwood": [
       {
         "number": "117",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.254",
         "session": "Qualifying",
         "pos": "34"
       },
       {
         "number": "117",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.562",
         "session": "Race 1",
+        "gap": "0.724",
+        "laps": "4",
         "pos": "22"
       },
       {
         "number": "117",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.892",
         "session": "Race 2",
+        "gap": "1.09",
+        "laps": "6",
         "pos": "26"
       },
       {
         "number": "117",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.377",
         "session": "Race 4",
+        "gap": "0.954",
+        "laps": "6",
         "pos": "20"
       }
     ],
     "Jake Sanders": [
       {
         "number": "77",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.291",
         "session": "Qualifying",
         "pos": "35"
       },
       {
         "number": "77",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:39.297",
         "session": "Race 1",
+        "gap": "1.039",
+        "laps": "4",
         "pos": "26"
       },
       {
         "number": "77",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.773",
         "session": "Race 2",
+        "gap": "0.211",
+        "laps": "6",
         "pos": "22"
       },
       {
         "number": "77",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:40.470",
         "session": "Race 3",
+        "gap": "0.392",
+        "laps": "5",
         "pos": "22"
       },
       {
         "number": "77",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.281",
         "session": "Race 4",
+        "gap": "0.181",
+        "laps": "6",
         "pos": "32"
       }
     ],
     "Jeff Hardesty": [
       {
         "number": "128",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.711",
         "session": "Qualifying",
         "pos": "36"
       },
       {
         "number": "128",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:43.115",
         "session": "Race 1",
+        "gap": "1.06",
+        "laps": "4",
         "pos": "32"
       },
       {
         "number": "128",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.760",
         "session": "Race 2",
+        "gap": "1.58",
+        "laps": "6",
         "pos": "24"
       },
       {
         "number": "128",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:41.560",
         "session": "Race 3",
+        "gap": "1.007",
+        "laps": "5",
         "pos": "23"
       },
       {
         "number": "128",
-        "class": "SR",
-        "car": "6",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.543",
         "session": "Race 4",
+        "gap": "0.17",
+        "laps": "6",
         "pos": "36"
       }
     ],
     "Aj Campo": [
       {
         "number": "227",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:36.400",
         "session": "Qualifying",
         "pos": "37"
       },
       {
         "number": "227",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:43.741",
         "session": "Race 1",
+        "gap": "0.855",
+        "laps": "4",
         "pos": "34"
       },
       {
         "number": "227",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:42.010",
         "session": "Race 3",
+        "gap": "1.044",
+        "laps": "5",
         "pos": "25"
       },
       {
         "number": "227",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.858",
         "session": "Race 4",
+        "gap": "5.062",
+        "laps": "6",
         "pos": "29"
       }
     ],
     "John Howe": [
       {
         "number": "17",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:36.930",
         "session": "Qualifying",
         "pos": "38"
       },
       {
         "number": "17",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:43.873",
         "session": "Race 1",
+        "gap": "0.842",
+        "laps": "4",
         "pos": "33"
       },
       {
         "number": "17",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:41.993",
         "session": "Race 2",
+        "gap": "41.681",
+        "laps": "6",
         "pos": "35"
       },
       {
         "number": "17",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:41.477",
         "session": "Race 4",
+        "gap": "10.565",
+        "laps": "6",
         "pos": "38"
       }
     ],
     "Jd Krull": [
       {
         "number": "35",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:37.457",
         "session": "Qualifying",
         "pos": "39"
       },
       {
         "number": "35",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:44.548",
         "session": "Race 1",
+        "gap": "1.53",
+        "laps": "4",
         "pos": "36"
       },
       {
         "number": "35",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:38.960",
         "session": "Race 2",
+        "gap": "5.189",
+        "laps": "6",
         "pos": "32"
       },
       {
         "number": "35",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:35.770",
         "session": "Race 4",
+        "gap": "0.067",
+        "laps": "6",
         "pos": "30"
       }
     ],
     "Robert Andrews": [
       {
         "number": "244",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:40.176",
         "session": "Qualifying",
         "pos": "40"
       },
       {
         "number": "244",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:56.021",
         "session": "Race 1",
+        "gap": "2.206",
+        "laps": "4",
         "pos": "41"
       },
       {
         "number": "244",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:43.246",
         "session": "Race 2",
+        "gap": "1.719",
+        "laps": "6",
         "pos": "36"
       },
       {
         "number": "244",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:57.493",
         "session": "Race 3",
+        "gap": "9.158",
+        "laps": "5",
         "pos": "32"
       },
       {
         "number": "244",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:44.856",
         "session": "Race 4",
+        "gap": "1:12.642",
+        "laps": "4",
         "pos": "43"
       }
     ],
     "Team End Alzheimers Motorsports": [
       {
         "number": "29",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:42.056",
         "session": "Qualifying",
         "pos": "41"
       },
       {
         "number": "29",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:48.451",
         "session": "Race 1",
+        "gap": "1.926",
+        "laps": "4",
         "pos": "40"
       },
       {
         "number": "29",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:41.356",
         "session": "Race 2",
+        "gap": "7.456",
+        "laps": "6",
         "pos": "34"
       },
       {
         "number": "29",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "3:02.175",
         "session": "Race 3",
+        "gap": "2.869",
+        "laps": "5",
         "pos": "34"
       },
       {
         "number": "29",
-        "class": "SR",
-        "car": "6",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:41.057",
         "session": "Race 4",
+        "gap": "2.712",
+        "laps": "6",
         "pos": "39"
       }
     ],
     "Ellis Spiezia": [
       {
         "number": "111",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:32.466",
         "session": "Race 1",
+        "gap": "0.798",
+        "laps": "4",
         "pos": "19"
       },
       {
         "number": "111",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.763",
         "session": "Race 2",
+        "gap": "0.113",
+        "laps": "6",
         "pos": "8"
       },
       {
         "number": "111",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:34.744",
         "session": "Race 3",
+        "gap": "0.048",
+        "laps": "5",
         "pos": "13"
       },
       {
         "number": "111",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.627",
         "session": "Race 4",
+        "gap": "1.941",
+        "laps": "6",
         "pos": "18"
       }
     ],
     "Aryton Grim": [
       {
         "number": "121",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:35.485",
         "session": "Race 1",
+        "gap": "1.021",
+        "laps": "4",
         "pos": "24"
       },
       {
         "number": "121",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:28.764",
         "session": "Race 2",
+        "gap": "0.89",
+        "laps": "6",
         "pos": "9"
       },
       {
         "number": "121",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:35.986",
         "session": "Race 3",
+        "gap": "0.497",
+        "laps": "5",
         "pos": "12"
       },
       {
         "number": "121",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.786",
         "session": "Race 4",
+        "gap": "0.069",
+        "laps": "6",
         "pos": "13"
       }
     ],
     "Leah Bauer": [
       {
         "number": "107",
-        "class": "SR",
-        "car": "2",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:43.227",
         "session": "Race 1",
+        "gap": "2.048",
+        "laps": "4",
         "pos": "35"
       },
       {
         "number": "107",
-        "class": "SR",
-        "car": "0",
+        "class": "GLTC",
+        "car": "SR",
         "time": "",
         "session": "Race 2",
+        "gap": "2.223",
+        "laps": "6",
         "pos": "27"
       },
       {
         "number": "107",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:46.796",
         "session": "Race 3",
+        "gap": "0.24",
+        "laps": "5",
         "pos": "30"
       },
       {
         "number": "107",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.971",
         "session": "Race 4",
+        "gap": "4.795",
+        "laps": "6",
         "pos": "31"
       }
     ],
     "Luke Krepsky": [
       {
         "number": "38",
-        "class": "SR",
-        "car": "1",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:45.134",
         "session": "Race 1",
+        "gap": "2.07",
+        "laps": "4",
         "pos": "39"
       },
       {
         "number": "38",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:39.851",
         "session": "Race 2",
+        "gap": "3.835",
+        "laps": "6",
         "pos": "33"
       },
       {
         "number": "38",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:51.752",
         "session": "Race 3",
+        "gap": "3.341",
+        "laps": "5",
         "pos": "31"
       },
       {
         "number": "38",
-        "class": "SR",
-        "car": "6",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:36.766",
         "session": "Race 4",
+        "gap": "4.748",
+        "laps": "6",
         "pos": "37"
       }
     ],
     "Jaylen Battely": [
       {
         "number": "88",
-        "class": "SR",
-        "car": "4",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:30.027",
         "session": "Race 2",
+        "gap": "1.579",
+        "laps": "6",
         "pos": "14"
       },
       {
         "number": "88",
-        "class": "SR",
-        "car": "5",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:33.840",
         "session": "Race 3",
+        "gap": "0.12",
+        "laps": "5",
         "pos": "8"
       },
       {
         "number": "88",
-        "class": "SR",
-        "car": "3",
+        "class": "GLTC",
+        "car": "SR",
         "time": "2:29.500",
         "session": "Race 4",
+        "gap": "0.936",
+        "laps": "6",
         "pos": "8"
       }
     ]
