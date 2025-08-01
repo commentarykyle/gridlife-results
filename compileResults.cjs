@@ -71,11 +71,15 @@ function parseSessionName(fileName, series) {
         return qualNumMatch ? `Qualifying ${qualNumMatch[1]}` : 'Qualifying';
       }
   
-      // Race last number if present (never heat)
-      if (lastNumber) {
-        return `Race ${lastNumber}`;
-      }
-  
+    // Race with optional letter suffix (e.g., Race 3B)
+    const raceLetterMatch = file.match(/\bR(\d+)([A-Z])\b/);
+
+if (raceLetterMatch) {
+  return `Race ${raceLetterMatch[1]}${raceLetterMatch[2]}`;
+} else if (lastNumber) {
+  return `Race ${lastNumber}`;
+}
+
       // Podium Sprint
       if (regexPodiumSprint.test(file)) {
         return 'Podium Sprint';
@@ -103,11 +107,15 @@ function parseSessionName(fileName, series) {
         return qualNumMatch ? `Qualifying ${qualNumMatch[1]}` : 'Qualifying';
       }
   
-      // Race last number if present (never heat)
-      if (lastNumber) {
-        return `Race ${lastNumber}`;
-      }
-  
+   // Race with optional letter suffix (e.g., Race 3B)
+   const raceLetterMatch = file.match(/\bR(\d+)([A-Z])\b/);
+
+if (raceLetterMatch) {
+  return `Race ${raceLetterMatch[1]}${raceLetterMatch[2]}`;
+} else if (lastNumber) {
+  return `Race ${lastNumber}`;
+}
+
       // Podium Sprint
       if (regexPodiumSprint.test(file)) {
         return 'Podium Sprint';
@@ -135,11 +143,14 @@ function parseSessionName(fileName, series) {
         return qualNumMatch ? `Qualifying ${qualNumMatch[1]}` : 'Qualifying';
       }
   
-      // Race last number if present (never heat)
-      if (lastNumber) {
-        return `Race ${lastNumber}`;
-      }
-  
+   // Race with optional letter suffix (e.g., Race 3B)
+   const raceLetterMatch = file.match(/\bR(\d+)([A-Z])\b/);
+if (raceLetterMatch) {
+  return `Race ${raceLetterMatch[1]}${raceLetterMatch[2]}`;
+} else if (lastNumber) {
+  return `Race ${lastNumber}`;
+}
+
       // Podium Sprint
       if (regexPodiumSprint.test(file)) {
         return 'Podium Sprint';
