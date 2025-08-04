@@ -472,36 +472,37 @@ filteredDriversByClass() {
 
   for (const driverName in rawDrivers) {
     const laps = rawDrivers[driverName];
-    const sessionLap = laps.find(lap => lap.session === this.selectedSession);
-    if (!sessionLap) continue;
-    const baseClass = (sessionLap.class || 'Unknown').split(' - ')[0];
+    const sessionLaps = laps.filter(lap => lap.session === this.selectedSession);
+if (sessionLaps.length === 0) continue;
 
-    if (!grouped[baseClass]) grouped[baseClass] = [];
+for (const sessionLap of sessionLaps) {
+  const baseClass = (sessionLap.class || 'Unknown').split(' - ')[0];
+  if (!grouped[baseClass]) grouped[baseClass] = [];
 
-    // Build driver object differently depending on series
-    if (this.selectedSeries === 'TrackBattle') {
-      grouped[baseClass].push({
-        name: driverName,
-        number: sessionLap.number,
-        time: sessionLap.time,
-        car: sessionLap.car,
-        rawTime: this.parseTime(sessionLap.time),
-        position: null, // will set later
-      });
-    } else {
-      // Race series: include pos, laps, gap, and fastest lap time
-      grouped[baseClass].push({
-        name: driverName,
-        number: sessionLap.number,
-        time: sessionLap.time,        // fastest lap time or last time?
-        car: sessionLap.car,
-        position: parseInt(sessionLap.pos) || 9999,
-        laps: sessionLap.laps || '-',
-        gap: sessionLap.gap || '-',
-        rawTime: this.parseTime(sessionLap.time), // might be useful for fallback sorting
-      });
-    }
+  if (this.selectedSeries === 'TrackBattle') {
+    grouped[baseClass].push({
+      name: driverName,
+      number: sessionLap.number,
+      time: sessionLap.time,
+      car: sessionLap.car,
+      rawTime: this.parseTime(sessionLap.time),
+      position: null,
+    });
+  } else {
+    grouped[baseClass].push({
+      name: driverName,
+      number: sessionLap.number,
+      time: sessionLap.time,
+      car: sessionLap.car,
+      position: parseInt(sessionLap.pos) || 9999,
+      laps: sessionLap.laps || '-',
+      gap: sessionLap.gap || '-',
+      rawTime: this.parseTime(sessionLap.time),
+    });
   }
+}
+  }
+
 
   // Sorting & position assignment
   for (const className in grouped) {
