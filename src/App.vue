@@ -76,7 +76,7 @@
 
     <!-- TrackBattle -->
     <template v-if="selectedSeries === 'TrackBattle'">
-      <th>Time</th>
+      <th>Best Time</th>
       <th>Car Model</th>
     </template>
 
@@ -590,11 +590,14 @@ eventResultsByClass() {
   if (!this.selectedTrack || !this.resultsData) return null;
 
   const trackData = this.resultsData[this.selectedTrack];
-  const byClass = {};
+const byClass = {};
 
-  const podiumSession = this.sessions.find(s => s.toLowerCase().includes('podium'));
-  const overallSession = this.sessions.find(s => s.toLowerCase().includes('overall'));
-  if (!podiumSession || !overallSession) return null;
+const podiumSession = this.sessions.find(s => s.toLowerCase().includes('podium'));
+const overallSession = this.sessions.find(s => s.toLowerCase().includes('overall'));
+
+// Do NOT return early — allow fallback to qualifying
+if (!this.sessions.length || !this.selectedTrack || !trackData) return null;
+
 
   // Collect podium and overall drivers per class
   const podiumDriversSet = new Set();
@@ -612,44 +615,63 @@ eventResultsByClass() {
 
   const bestTime = bestLap?.time || '';
   const bestRawTime = this.parseTime(bestTime);
+// Determine if overallSession exists in laps:
+const overallExists = laps.some(l => l.session === overallSession);
 
-  // Podium lap
-  const podiumLap = laps.find(l => l.session === podiumSession);
-  if (podiumLap) {
-    const className = (podiumLap.class || 'Unknown').split(' - ')[0];
-    if (!byClass[className]) byClass[className] = [];
-    byClass[className].push({
-      name: driverName,
-      number: podiumLap.number,
-      time: podiumLap.time,
-      rawTime: this.parseTime(podiumLap.time),
-      bestTime,
-      bestRawTime,
-      car: podiumLap.car,
-      positionSource: 'podium',
-      pos: parseInt(podiumLap.pos) || 9999,
-    });
-    podiumDriversSet.add(driverName);
-    continue;
-  }
+// Podium lap (unchanged)
+const podiumLap = laps.find(l => l.session === podiumSession);
+if (podiumLap) {
+  const className = (podiumLap.class || 'Unknown').split(' - ')[0];
+  if (!byClass[className]) byClass[className] = [];
+  byClass[className].push({
+    name: driverName,
+    number: podiumLap.number,
+    time: podiumLap.time,
+    rawTime: this.parseTime(podiumLap.time),
+    bestTime,
+    bestRawTime,
+    car: podiumLap.car,
+    positionSource: 'podium',
+    pos: parseInt(podiumLap.pos) || 9999,
+  });
+  podiumDriversSet.add(driverName);
+  continue;
+}
 
-  // Overall lap (non-podium drivers)
-  const overallLap = laps.find(l => l.session === overallSession);
-  if (overallLap) {
-    const className = (overallLap.class || 'Unknown').split(' - ')[0];
-    if (!byClass[className]) byClass[className] = [];
-    byClass[className].push({
-      name: driverName,
-      number: overallLap.number,
-      time: overallLap.time,
-      rawTime: this.parseTime(overallLap.time),
-      bestTime,
-      bestRawTime,
-      car: overallLap.car,
-      positionSource: 'overall',
-      pos: parseInt(overallLap.pos) || 9999,
-    });
-  }
+// Overall lap or fallback to Q1/Q2/Q3 if overall does not exist
+let overallLap;
+if (overallExists) {
+  overallLap = laps.find(l => l.session === overallSession);
+} else {
+  // Fallback: look for best Q1, Q2, or Q3 lap
+  const qualifyingSessions = ['q1', 'q2', 'q3'];
+overallLap = laps
+  .filter(l => {
+    const sessionName = (l.session || '').toLowerCase().trim();
+    return (
+      qualifyingSessions.includes(sessionName) &&
+      this.parseTime(l.time) > 0
+    );
+  })
+  .sort((a, b) => this.parseTime(a.time) - this.parseTime(b.time))[0];
+
+}
+
+if (overallLap) {
+  const className = (overallLap.class || 'Unknown').split(' - ')[0];
+  if (!byClass[className]) byClass[className] = [];
+  byClass[className].push({
+    name: driverName,
+    number: overallLap.number,
+    time: overallLap.time,
+    rawTime: this.parseTime(overallLap.time),
+    bestTime,
+    bestRawTime,
+    car: overallLap.car,
+    positionSource: overallExists ? 'overall' : 'qualifying',
+    pos: parseInt(overallLap.pos) || 9999,
+  });
+}
 
   }
 
@@ -661,8 +683,8 @@ eventResultsByClass() {
       .filter(d => d.positionSource === 'podium')
       .sort((a, b) => a.pos - b.pos); // keep podium order by pos
 
-    const rest = drivers
-      .filter(d => d.positionSource === 'overall')
+      const rest = drivers
+  .filter(d => d.positionSource === 'overall' || d.positionSource === 'qualifying')
       .sort((a, b) => {
         if (isNaN(a.rawTime) && isNaN(b.rawTime)) return 0;
         if (isNaN(a.rawTime)) return 1;
