@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "fast-csv": "^5.0.2",
+    "papaparse": "^5.5.3",
     "vue": "^3.5.17"
   },
   "devDependencies": {
