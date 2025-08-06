@@ -46,15 +46,18 @@
         <select v-model="selectedSession">
           <option disabled value="">-- Select Session --</option>
           <option v-for="session in sessions" :key="session">{{ session }}</option>
+          <option v-if="showEventResultsOption" :value="'__event'">Event Results</option>
+
+
         </select>
       </label>
     </div>
 
     <!-- Main Results Viewer -->
-    <div v-if="filteredDriversByClass && Object.keys(filteredDriversByClass).length && !selectedDriver">
-      <h2>{{ selectedSession }} — {{ selectedTrack }} — {{ selectedSeries }} {{ selectedYear }}</h2>
+    <div v-if="displayedResultsByClass && Object.keys(displayedResultsByClass).length && !selectedDriver">
+      <h2>{{ displayedSessionLabel }} — {{ selectedTrack }} — {{ selectedSeries }} {{ selectedYear }}</h2>
 
-      <div v-for="(drivers, className) in filteredDriversByClass" :key="className" class="class-block">
+      <div v-for="(drivers, className) in displayedResultsByClass" :key="className" class="class-block">
         <h2>
   <img
     :src="`/${className.toLowerCase().replace(/\s+/g, '').replace(/[^a-z0-9]/g, '')}.png`"
@@ -113,7 +116,7 @@
 </thead>
 <tbody>
   <tr
-    v-for="driver in drivers"
+    v-for="(driver, index) in drivers"
     :key="driver.name"
     @click="selectDriver(driver.name, driver.number)"
     class="clickable-driver"
@@ -133,9 +136,20 @@
 
     <!-- TrackBattle -->
     <template v-if="selectedSeries === 'TrackBattle'">
-      <td>{{ driver.time }}</td>
-      <td>{{ driver.car }}</td>
+  <td>
+    <template v-if="selectedSession === '__event' && index < 5">
+      {{ driver.bestTime }}
+      <span style="color: gray; font-size: 0.9em;">
+        | SPRINT TIME: {{ driver.time }}
+      </span>
     </template>
+    <template v-else>
+      {{ driver.time }}
+    </template>
+  </td>
+  <td>{{ driver.car }}</td>
+</template>
+
 
     <!-- GLTC Qualifying -->
     <template v-else-if="selectedSeries === 'GLTC' && selectedSession?.toLowerCase().includes('qual')">
@@ -294,6 +308,20 @@ export default {
     };
   },
   computed: {
+    displayedResultsByClass() {
+  return this.selectedSession === '__event'
+    ? this.eventResultsByClass
+    : this.filteredDriversByClass;
+},
+
+  showEventResultsOption() {
+    return this.sessions?.some(s => s.toLowerCase().includes("podium"));
+  },
+  displayedSessionLabel() {
+    if (this.selectedSession === '__event') return 'Event Results';
+    return this.selectedSession;
+  },
+    
     driverVehicles() {
   if (!this.selectedDriver || !this.resolvedDriverKey) return [];
 
@@ -472,37 +500,36 @@ filteredDriversByClass() {
 
   for (const driverName in rawDrivers) {
     const laps = rawDrivers[driverName];
-    const sessionLaps = laps.filter(lap => lap.session === this.selectedSession);
-if (sessionLaps.length === 0) continue;
+    const sessionLap = laps.find(lap => lap.session === this.selectedSession);
+    if (!sessionLap) continue;
+    const baseClass = (sessionLap.class || 'Unknown').split(' - ')[0];
 
-for (const sessionLap of sessionLaps) {
-  const baseClass = (sessionLap.class || 'Unknown').split(' - ')[0];
-  if (!grouped[baseClass]) grouped[baseClass] = [];
+    if (!grouped[baseClass]) grouped[baseClass] = [];
 
-  if (this.selectedSeries === 'TrackBattle') {
-    grouped[baseClass].push({
-      name: driverName,
-      number: sessionLap.number,
-      time: sessionLap.time,
-      car: sessionLap.car,
-      rawTime: this.parseTime(sessionLap.time),
-      position: null,
-    });
-  } else {
-    grouped[baseClass].push({
-      name: driverName,
-      number: sessionLap.number,
-      time: sessionLap.time,
-      car: sessionLap.car,
-      position: parseInt(sessionLap.pos) || 9999,
-      laps: sessionLap.laps || '-',
-      gap: sessionLap.gap || '-',
-      rawTime: this.parseTime(sessionLap.time),
-    });
+    // Build driver object differently depending on series
+    if (this.selectedSeries === 'TrackBattle') {
+      grouped[baseClass].push({
+        name: driverName,
+        number: sessionLap.number,
+        time: sessionLap.time,
+        car: sessionLap.car,
+        rawTime: this.parseTime(sessionLap.time),
+        position: null, // will set later
+      });
+    } else {
+      // Race series: include pos, laps, gap, and fastest lap time
+      grouped[baseClass].push({
+        name: driverName,
+        number: sessionLap.number,
+        time: sessionLap.time,        // fastest lap time or last time?
+        car: sessionLap.car,
+        position: parseInt(sessionLap.pos) || 9999,
+        laps: sessionLap.laps || '-',
+        gap: sessionLap.gap || '-',
+        rawTime: this.parseTime(sessionLap.time), // might be useful for fallback sorting
+      });
+    }
   }
-}
-  }
-
 
   // Sorting & position assignment
   for (const className in grouped) {
@@ -559,6 +586,134 @@ for (const sessionLap of sessionLaps) {
 
   return orderedGrouped;
 },
+eventResultsByClass() {
+  if (!this.selectedTrack || !this.resultsData) return null;
+
+  const trackData = this.resultsData[this.selectedTrack];
+  const byClass = {};
+
+  const podiumSession = this.sessions.find(s => s.toLowerCase().includes('podium'));
+  const overallSession = this.sessions.find(s => s.toLowerCase().includes('overall'));
+  if (!podiumSession || !overallSession) return null;
+
+  // Collect podium and overall drivers per class
+  const podiumDriversSet = new Set();
+
+  for (const driverName in trackData) {
+  const laps = trackData[driverName];
+
+  // Get best lap of the weekend
+  const validLaps = laps.filter(l => this.parseTime(l.time) > 0);
+  const bestLap = validLaps.reduce((best, curr) => {
+    const currTime = this.parseTime(curr.time);
+    const bestTime = this.parseTime(best?.time || '999:59.999');
+    return currTime < bestTime ? curr : best;
+  }, null);
+
+  const bestTime = bestLap?.time || '';
+  const bestRawTime = this.parseTime(bestTime);
+
+  // Podium lap
+  const podiumLap = laps.find(l => l.session === podiumSession);
+  if (podiumLap) {
+    const className = (podiumLap.class || 'Unknown').split(' - ')[0];
+    if (!byClass[className]) byClass[className] = [];
+    byClass[className].push({
+      name: driverName,
+      number: podiumLap.number,
+      time: podiumLap.time,
+      rawTime: this.parseTime(podiumLap.time),
+      bestTime,
+      bestRawTime,
+      car: podiumLap.car,
+      positionSource: 'podium',
+      pos: parseInt(podiumLap.pos) || 9999,
+    });
+    podiumDriversSet.add(driverName);
+    continue;
+  }
+
+  // Overall lap (non-podium drivers)
+  const overallLap = laps.find(l => l.session === overallSession);
+  if (overallLap) {
+    const className = (overallLap.class || 'Unknown').split(' - ')[0];
+    if (!byClass[className]) byClass[className] = [];
+    byClass[className].push({
+      name: driverName,
+      number: overallLap.number,
+      time: overallLap.time,
+      rawTime: this.parseTime(overallLap.time),
+      bestTime,
+      bestRawTime,
+      car: overallLap.car,
+      positionSource: 'overall',
+      pos: parseInt(overallLap.pos) || 9999,
+    });
+  }
+
+  }
+
+  // Sort each class: podium first (by original pos), then overall by rawTime
+  for (const className in byClass) {
+    const drivers = byClass[className];
+
+    const podium = drivers
+      .filter(d => d.positionSource === 'podium')
+      .sort((a, b) => a.pos - b.pos); // keep podium order by pos
+
+    const rest = drivers
+      .filter(d => d.positionSource === 'overall')
+      .sort((a, b) => {
+        if (isNaN(a.rawTime) && isNaN(b.rawTime)) return 0;
+        if (isNaN(a.rawTime)) return 1;
+        if (isNaN(b.rawTime)) return -1;
+        return a.rawTime - b.rawTime;
+      });
+
+    const combined = [...podium, ...rest];
+
+    combined.forEach((driver, i) => {
+      driver.position = i + 1;
+    });
+
+    byClass[className] = combined;
+  }
+
+  // Sort classes as per your CLASS_ORDER
+  const CLASS_ORDER = [
+    "SUPER UNLIMITED",
+    "UNLIMITED",
+    "TRACK MOD",
+    "STREET MOD",
+    "STREET GT",
+    "STREET",
+    "CLUB TR",
+    "SUNDAE CUP",
+    "CLUB SC",
+    "RUSH SRX",
+    "SRX",
+    "SR",
+    "RUSH SR",
+    "GLTC"
+  ];
+
+  const ordered = {};
+  for (const name of CLASS_ORDER) {
+    if (byClass[name]) ordered[name] = byClass[name];
+  }
+
+  const extra = Object.keys(byClass)
+    .filter(c => !CLASS_ORDER.includes(c))
+    .sort();
+
+  for (const name of extra) {
+    ordered[name] = byClass[name];
+  }
+
+  return ordered;
+},
+
+
 
 
   },
@@ -655,8 +810,13 @@ for (const sessionLap of sessionLaps) {
   }
 
   const sessions = Array.from(sessionSet).sort();
+ // Prioritize 'Event Results' if that option should be shown
+ if (this.showEventResultsOption) {
+    this.selectedSession = '__event';  // special value you use in your template/computed
+    return;
+  }
 
-  // Prioritize 'Podium Sprint', then 'Overall', then fallback to first available
+  // Otherwise prioritize 'Podium', 'Overall', then fallback
   const podium = sessions.find(s => s.toLowerCase().includes('podium'));
   const overall = sessions.find(s => s.toLowerCase().includes('overall'));
   this.selectedSession = podium || overall || sessions[0] || '';

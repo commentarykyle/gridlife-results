@@ -21429,6 +21429,14 @@
         "number": "57",
         "class": "UNLIMITED - RWD",
         "car": "CAMARO",
+        "time": "2:04.522",
+        "session": "Overall",
+        "pos": "2"
+      },
+      {
+        "number": "57",
+        "class": "UNLIMITED - RWD",
+        "car": "CAMARO",
         "time": "02:08.788",
         "session": "Podium Sprint",
         "pos": "1"
@@ -21495,6 +21503,14 @@
         "number": "304",
         "class": "TRACK MOD - RWD",
         "car": "CORVETTE",
+        "time": "2:08.779",
+        "session": "Overall",
+        "pos": "3"
+      },
+      {
+        "number": "304",
+        "class": "TRACK MOD - RWD",
+        "car": "CORVETTE",
         "time": "02:08.669",
         "session": "Podium Sprint",
         "pos": "1"
@@ -21548,6 +21564,14 @@
         "time": "2:16.387",
         "session": "Heat 7",
         "pos": "4"
+      },
+      {
+        "number": "338",
+        "class": "UNLIMITED - RWD",
+        "car": "CORVETTE",
+        "time": "2:13.330",
+        "session": "Overall",
+        "pos": "6"
       },
       {
         "number": "338",
@@ -21619,6 +21643,14 @@
         "number": "687",
         "class": "TRACK MOD - RWD",
         "car": "M2",
+        "time": "2:11.742",
+        "session": "Overall",
+        "pos": "5"
+      },
+      {
+        "number": "687",
+        "class": "TRACK MOD - RWD",
+        "car": "M2",
         "time": "02:12.552",
         "session": "Podium Sprint",
         "pos": "2"
@@ -21648,6 +21680,14 @@
         "time": "2:11.338",
         "session": "Heat 3",
         "pos": "3"
+      },
+      {
+        "number": "921",
+        "class": "UNLIMITED - FWD",
+        "car": "CIVIC",
+        "time": "2:11.338",
+        "session": "Overall",
+        "pos": "4"
       },
       {
         "number": "921",
@@ -21756,6 +21796,22 @@
         "pos": "17"
       },
       {
+        "number": "121",
+        "class": "STREET MOD - RWD",
+        "car": "CORVETTE",
+        "time": "2:18.442",
+        "session": "Overall",
+        "pos": "11"
+      },
+      {
+        "number": "211",
+        "class": "STREET GT - RWD",
+        "car": "CORVETTE",
+        "time": "2:21.723",
+        "session": "Overall",
+        "pos": "20"
+      },
+      {
         "number": "211",
         "class": "STREET GT - RWD",
         "car": "CORVETTE",
@@ -21817,6 +21873,14 @@
         "number": "70",
         "class": "STREET MOD - AWD",
         "car": "IMPREZA",
+        "time": "2:15.791",
+        "session": "Overall",
+        "pos": "7"
+      },
+      {
+        "number": "70",
+        "class": "STREET MOD - AWD",
+        "car": "IMPREZA",
         "time": "02:16.294",
         "session": "Podium Sprint",
         "pos": "1"
@@ -21862,6 +21926,14 @@
         "time": "2:18.126",
         "session": "Heat 7",
         "pos": "5"
+      },
+      {
+        "number": "445",
+        "class": "TRACK MOD - RWD",
+        "car": "CORVETTE",
+        "time": "2:17.416",
+        "session": "Overall",
+        "pos": "9"
       },
       {
         "number": "445",
@@ -21925,6 +21997,14 @@
         "number": "14",
         "class": "STREET MOD - RWD",
         "car": "MERCEDES-AMG GT",
+        "time": "2:17.477",
+        "session": "Overall",
+        "pos": "10"
+      },
+      {
+        "number": "14",
+        "class": "STREET MOD - RWD",
+        "car": "MERCEDES-AMG GT",
         "time": "02:20.379",
         "session": "Podium Sprint",
         "pos": "4"
@@ -21978,6 +22058,14 @@
         "time": "2:24.810",
         "session": "Heat 7",
         "pos": "19"
+      },
+      {
+        "number": "150",
+        "class": "STREET MOD - RWD",
+        "car": "S2000",
+        "time": "2:21.324",
+        "session": "Overall",
+        "pos": "18"
       }
     ],
     "Igor Kesilyov": [
@@ -22028,6 +22116,14 @@
         "time": "2:21.023",
         "session": "Heat 6",
         "pos": "11"
+      },
+      {
+        "number": "369",
+        "class": "TRACK MOD - AWD",
+        "car": "MODEL S",
+        "time": "2:18.901",
+        "session": "Overall",
+        "pos": "12"
       },
       {
         "number": "369",
@@ -22099,6 +22195,14 @@
         "number": "717",
         "class": "STREET GT - RWD",
         "car": "Z06",
+        "time": "2:20.052",
+        "session": "Overall",
+        "pos": "15"
+      },
+      {
+        "number": "717",
+        "class": "STREET GT - RWD",
+        "car": "Z06",
         "time": "02:20.089",
         "session": "Podium Sprint",
         "pos": "1"
@@ -22152,6 +22256,14 @@
         "time": "2:23.613",
         "session": "Heat 7",
         "pos": "16"
+      },
+      {
+        "number": "426",
+        "class": "TRACK MOD - RWD",
+        "car": "M2",
+        "time": "2:22.015",
+        "session": "Overall",
+        "pos": "21"
       }
     ],
     "Wesley Penn": [
@@ -22178,6 +22290,14 @@
         "time": "2:22.983",
         "session": "Heat 3",
         "pos": "15"
+      },
+      {
+        "number": "115",
+        "class": "UNLIMITED - RWD",
+        "car": "CORVETTE",
+        "time": "2:22.983",
+        "session": "Overall",
+        "pos": "25"
       }
     ],
     "Mark Kilgore": [
@@ -22241,6 +22361,14 @@
         "number": "909",
         "class": "STREET GT - RWD",
         "car": "M4",
+        "time": "2:24.273",
+        "session": "Overall",
+        "pos": "27"
+      },
+      {
+        "number": "909",
+        "class": "STREET GT - RWD",
+        "car": "M4",
         "time": "02:24.479",
         "session": "Podium Sprint",
         "pos": "3"
@@ -22294,6 +22422,14 @@
         "time": "2:22.438",
         "session": "Heat 7",
         "pos": "13"
+      },
+      {
+        "number": "11",
+        "class": "STREET MOD - AWD",
+        "car": "IMPREZA",
+        "time": "2:22.438",
+        "session": "Overall",
+        "pos": "24"
       }
     ],
     "Luie Zendejas": [
@@ -22352,6 +22488,14 @@
         "time": "2:23.684",
         "session": "Heat 7",
         "pos": "18"
+      },
+      {
+        "number": "773",
+        "class": "UNLIMITED - RWD",
+        "car": "CORVETTE",
+        "time": "2:20.866",
+        "session": "Overall",
+        "pos": "17"
       }
     ],
     "Nicholas Hendrix": [
@@ -22410,6 +22554,14 @@
         "time": "2:23.280",
         "session": "Heat 7",
         "pos": "15"
+      },
+      {
+        "number": "364",
+        "class": "STREET GT - RWD",
+        "car": "CORVETTE",
+        "time": "2:22.063",
+        "session": "Overall",
+        "pos": "22"
       },
       {
         "number": "364",
@@ -22476,6 +22628,14 @@
         "time": "2:47.461",
         "session": "Heat 7",
         "pos": "53"
+      },
+      {
+        "number": "247",
+        "class": "UNLIMITED - RWD",
+        "car": "3 SERIES",
+        "time": "2:26.022",
+        "session": "Overall",
+        "pos": "32"
       }
     ],
     "Michael Young": [
@@ -22534,6 +22694,14 @@
         "time": "2:26.193",
         "session": "Heat 7",
         "pos": "23"
+      },
+      {
+        "number": "96",
+        "class": "TRACK MOD - RWD",
+        "car": "CORVETTE",
+        "time": "2:25.885",
+        "session": "Overall",
+        "pos": "30"
       }
     ],
     "Dallas Reed": [
@@ -22584,6 +22752,14 @@
         "time": "2:27.007",
         "session": "Heat 7",
         "pos": "24"
+      },
+      {
+        "number": "22",
+        "class": "UNLIMITED - AWD",
+        "car": "CORVETTE",
+        "time": "2:26.248",
+        "session": "Overall",
+        "pos": "34"
       }
     ],
     "Aaron Rekkedahl": [
@@ -22647,6 +22823,14 @@
         "number": "38",
         "class": "STREET - FWD",
         "car": "CIVIC TYPE R",
+        "time": "2:28.590",
+        "session": "Overall",
+        "pos": "38"
+      },
+      {
+        "number": "38",
+        "class": "STREET - FWD",
+        "car": "CIVIC TYPE R",
         "time": "02:30.391",
         "session": "Podium Sprint",
         "pos": "3"
@@ -22692,6 +22876,14 @@
         "time": "2:23.256",
         "session": "Heat 7",
         "pos": "14"
+      },
+      {
+        "number": "298",
+        "class": "UNLIMITED - RWD",
+        "car": "MUSTANG",
+        "time": "2:23.256",
+        "session": "Overall",
+        "pos": "26"
       }
     ],
     "Willem Drees": [
@@ -22734,6 +22926,14 @@
         "time": "2:28.660",
         "session": "Heat 5",
         "pos": "23"
+      },
+      {
+        "number": "466",
+        "class": "STREET - FWD",
+        "car": "ELANTRA N",
+        "time": "2:28.609",
+        "session": "Overall",
+        "pos": "39"
       },
       {
         "number": "466",
@@ -22784,6 +22984,14 @@
         "time": "2:30.241",
         "session": "Heat 7",
         "pos": "28"
+      },
+      {
+        "number": "44",
+        "class": "STREET GT - RWD",
+        "car": "911",
+        "time": "2:28.926",
+        "session": "Overall",
+        "pos": "40"
       }
     ],
     "Brad Smith": [
@@ -22834,6 +23042,14 @@
         "time": "2:28.115",
         "session": "Heat 7",
         "pos": "25"
+      },
+      {
+        "number": "228",
+        "class": "STREET GT - RWD",
+        "car": "CAMARO",
+        "time": "2:27.727",
+        "session": "Overall",
+        "pos": "37"
       },
       {
         "number": "228",
@@ -22897,6 +23113,14 @@
         "number": "727",
         "class": "CLUB TR - FWD",
         "car": "CIVIC",
+        "time": "2:29.669",
+        "session": "Overall",
+        "pos": "42"
+      },
+      {
+        "number": "727",
+        "class": "CLUB TR - FWD",
+        "car": "CIVIC",
         "time": "02:31.919",
         "session": "Podium Sprint",
         "pos": "3"
@@ -22942,6 +23166,14 @@
         "time": "2:29.694",
         "session": "Heat 7",
         "pos": "27"
+      },
+      {
+        "number": "73",
+        "class": "STREET MOD - RWD",
+        "car": "CORVETTE",
+        "time": "2:29.694",
+        "session": "Overall",
+        "pos": "43"
       }
     ],
     "Mike Coons": [
@@ -23005,6 +23237,14 @@
         "number": "310",
         "class": "STREET - AWD",
         "car": "IMPREZA",
+        "time": "2:27.271",
+        "session": "Overall",
+        "pos": "36"
+      },
+      {
+        "number": "310",
+        "class": "STREET - AWD",
+        "car": "IMPREZA",
         "time": "02:29.833",
         "session": "Podium Sprint",
         "pos": "2"
@@ -23058,6 +23298,14 @@
         "time": "2:33.438",
         "session": "Heat 7",
         "pos": "40"
+      },
+      {
+        "number": "311",
+        "class": "STREET - RWD",
+        "car": "240SX",
+        "time": "2:30.989",
+        "session": "Overall",
+        "pos": "47"
       }
     ],
     "Tj Ball": [
@@ -23115,6 +23363,14 @@
         "car": "3 SERIES",
         "time": "2:32.337",
         "session": "Heat 7",
+        "pos": "35"
+      },
+      {
+        "number": "276",
+        "class": "TRACK MOD - RWD",
+        "car": "3 SERIES",
+        "time": "2:27.127",
+        "session": "Overall",
         "pos": "35"
       }
     ],
@@ -23179,6 +23435,14 @@
         "number": "622",
         "class": "CLUB TR - RWD",
         "car": "3 SERIES",
+        "time": "2:32.675",
+        "session": "Overall",
+        "pos": "54"
+      },
+      {
+        "number": "622",
+        "class": "CLUB TR - RWD",
+        "car": "3 SERIES",
         "time": "02:34.079",
         "session": "Podium Sprint",
         "pos": "5"
@@ -23224,6 +23488,14 @@
         "time": "2:35.228",
         "session": "Heat 7",
         "pos": "45"
+      },
+      {
+        "number": "23",
+        "class": "CLUB TR - FWD",
+        "car": "CIVIC",
+        "time": "2:33.799",
+        "session": "Overall",
+        "pos": "60"
       }
     ],
     "Mike Bryant": [
@@ -23274,6 +23546,14 @@
         "time": "2:51.767",
         "session": "Heat 7",
         "pos": "54"
+      },
+      {
+        "number": "94",
+        "class": "CLUB TR - RWD",
+        "car": "MX-5 MIATA",
+        "time": "2:32.836",
+        "session": "Overall",
+        "pos": "56"
       }
     ],
     "Jerami Bailey": [
@@ -23332,6 +23612,14 @@
         "time": "2:32.932",
         "session": "Heat 7",
         "pos": "37"
+      },
+      {
+        "number": "13",
+        "class": "CLUB TR - RWD",
+        "car": "FR-S",
+        "time": "2:31.590",
+        "session": "Overall",
+        "pos": "52"
       },
       {
         "number": "13",
@@ -23398,6 +23686,14 @@
         "time": "2:33.661",
         "session": "Heat 7",
         "pos": "41"
+      },
+      {
+        "number": "716",
+        "class": "TRACK MOD - RWD",
+        "car": "CORVETTE",
+        "time": "2:31.301",
+        "session": "Overall",
+        "pos": "48"
       }
     ],
     "Devin Hofmann": [
@@ -23448,6 +23744,14 @@
         "time": "2:32.170",
         "session": "Heat 7",
         "pos": "34"
+      },
+      {
+        "number": "145",
+        "class": "STREET MOD - AWD",
+        "car": "WRX",
+        "time": "2:32.170",
+        "session": "Overall",
+        "pos": "53"
       }
     ],
     "Evin Degirmencioglu": [
@@ -23482,6 +23786,14 @@
         "time": "",
         "session": "Heat 4",
         "pos": "72"
+      },
+      {
+        "number": "949",
+        "class": "STREET GT - RWD",
+        "car": "MUSTANG",
+        "time": "2:36.852",
+        "session": "Overall",
+        "pos": "65"
       }
     ],
     "Arthur Dvortsen": [
@@ -23524,6 +23836,14 @@
         "time": "2:36.206",
         "session": "Heat 7",
         "pos": "47"
+      },
+      {
+        "number": "26",
+        "class": "CLUB TR - RWD",
+        "car": "MX-5 MIATA",
+        "time": "2:36.206",
+        "session": "Overall",
+        "pos": "64"
       }
     ],
     "Jeremy Lowder": [
@@ -23574,6 +23894,14 @@
         "time": "2:25.135",
         "session": "Heat 7",
         "pos": "20"
+      },
+      {
+        "number": "125",
+        "class": "UNLIMITED - RWD",
+        "car": "CAMARO",
+        "time": "2:24.874",
+        "session": "Overall",
+        "pos": "28"
       }
     ],
     "Dariush Lotfi": [
@@ -23608,6 +23936,14 @@
         "time": "2:36.009",
         "session": "Heat 4",
         "pos": "52"
+      },
+      {
+        "number": "241",
+        "class": "CLUB TR - RWD",
+        "car": "MX-5 MIATA",
+        "time": "2:36.009",
+        "session": "Overall",
+        "pos": "63"
       }
     ],
     "Neal Scharte": [
@@ -23666,6 +24002,14 @@
         "time": "2:32.919",
         "session": "Heat 7",
         "pos": "36"
+      },
+      {
+        "number": "205",
+        "class": "STREET MOD - RWD",
+        "car": "RX-8",
+        "time": "2:28.974",
+        "session": "Overall",
+        "pos": "41"
       }
     ],
     "Cody Umbaugh": [
@@ -23716,6 +24060,14 @@
         "time": "2:33.170",
         "session": "Heat 7",
         "pos": "38"
+      },
+      {
+        "number": "69",
+        "class": "STREET - FWD",
+        "car": "CIVIC TYPE R",
+        "time": "2:32.719",
+        "session": "Overall",
+        "pos": "55"
       }
     ],
     "Mike Callaway": [
@@ -23774,6 +24126,14 @@
         "time": "2:34.606",
         "session": "Heat 7",
         "pos": "43"
+      },
+      {
+        "number": "194",
+        "class": "STREET - AWD",
+        "car": "IMPREZA",
+        "time": "2:33.233",
+        "session": "Overall",
+        "pos": "58"
       }
     ],
     "Jared Garcia": [
@@ -23832,6 +24192,14 @@
         "time": "2:37.261",
         "session": "Heat 7",
         "pos": "49"
+      },
+      {
+        "number": "515",
+        "class": "CLUB TR - RWD",
+        "car": "S2000",
+        "time": "2:37.261",
+        "session": "Overall",
+        "pos": "66"
       }
     ],
     "Andre Wenzel": [
@@ -23842,6 +24210,14 @@
         "time": "2:40.033",
         "session": "Heat 1",
         "pos": "47"
+      },
+      {
+        "number": "108",
+        "class": "TRACK MOD - RWD",
+        "car": "RX-7",
+        "time": "2:40.033",
+        "session": "Overall",
+        "pos": "70"
       }
     ],
     "Stan Fayngold": [
@@ -23900,6 +24276,14 @@
         "time": "2:31.411",
         "session": "Heat 7",
         "pos": "32"
+      },
+      {
+        "number": "326",
+        "class": "CLUB TR - RWD",
+        "car": "FR-S",
+        "time": "2:31.411",
+        "session": "Overall",
+        "pos": "49"
       },
       {
         "number": "326",
@@ -23966,6 +24350,14 @@
         "time": "2:26.170",
         "session": "Heat 7",
         "pos": "22"
+      },
+      {
+        "number": "540",
+        "class": "TRACK MOD - AWD",
+        "car": "IMPREZA",
+        "time": "2:26.170",
+        "session": "Overall",
+        "pos": "33"
       }
     ],
     "Juniper Zarder": [
@@ -24024,6 +24416,14 @@
         "time": "2:36.885",
         "session": "Heat 7",
         "pos": "48"
+      },
+      {
+        "number": "521",
+        "class": "STREET MOD - RWD",
+        "car": "Z",
+        "time": "2:34.509",
+        "session": "Overall",
+        "pos": "62"
       }
     ],
     "Dan Mai": [
@@ -24074,6 +24474,14 @@
         "time": "2:39.171",
         "session": "Heat 7",
         "pos": "50"
+      },
+      {
+        "number": "169",
+        "class": "CLUB TR - RWD",
+        "car": "325I",
+        "time": "2:39.171",
+        "session": "Overall",
+        "pos": "68"
       }
     ],
     "Cody Smith": [
@@ -24091,6 +24499,14 @@
         "car": "CUTLASS",
         "time": "",
         "session": "Heat 2",
+        "pos": "73"
+      },
+      {
+        "number": "736",
+        "class": "STREET MOD - RWD",
+        "car": "CUTLASS",
+        "time": "2:42.808",
+        "session": "Overall",
         "pos": "73"
       }
     ],
@@ -24142,6 +24558,14 @@
         "time": "2:41.944",
         "session": "Heat 6",
         "pos": "34"
+      },
+      {
+        "number": "238",
+        "class": "CLUB TR - RWD",
+        "car": "RX-8",
+        "time": "2:37.958",
+        "session": "Overall",
+        "pos": "67"
       }
     ],
     "Jason Gaydos": [
@@ -24192,6 +24616,14 @@
         "time": "2:34.430",
         "session": "Heat 7",
         "pos": "42"
+      },
+      {
+        "number": "997",
+        "class": "CLUB TR - RWD",
+        "car": "BRZ",
+        "time": "2:33.837",
+        "session": "Overall",
+        "pos": "61"
       }
     ],
     "Nehru Cheddie": [
@@ -24250,6 +24682,14 @@
         "time": "2:44.642",
         "session": "Heat 7",
         "pos": "51"
+      },
+      {
+        "number": "46",
+        "class": "STREET - RWD",
+        "car": "M3",
+        "time": "2:41.893",
+        "session": "Overall",
+        "pos": "72"
       }
     ],
     "Lars Vogler": [
@@ -24284,6 +24724,14 @@
         "time": "2:43.321",
         "session": "Heat 4",
         "pos": "61"
+      },
+      {
+        "number": "133",
+        "class": "STREET - RWD",
+        "car": "M3",
+        "time": "2:43.321",
+        "session": "Overall",
+        "pos": "74"
       }
     ],
     "Jonny Grunwald": [
@@ -24302,6 +24750,14 @@
         "time": "2:47.386",
         "session": "Heat 2",
         "pos": "61"
+      },
+      {
+        "number": "818",
+        "class": "TRACK MOD - RWD",
+        "car": "RX-7",
+        "time": "2:47.015",
+        "session": "Overall",
+        "pos": "77"
       }
     ],
     "Jonathan Denk": [
@@ -24336,6 +24792,14 @@
         "time": "2:54.428",
         "session": "Heat 4",
         "pos": "65"
+      },
+      {
+        "number": "67",
+        "class": "STREET MOD - FWD",
+        "car": "CIVIC",
+        "time": "2:47.926",
+        "session": "Overall",
+        "pos": "78"
       }
     ],
     "Mark Gaydos": [
@@ -24362,6 +24826,14 @@
         "time": "",
         "session": "Heat 3",
         "pos": "65"
+      },
+      {
+        "number": "444x",
+        "class": "TRACK MOD - RWD",
+        "car": "3 SERIES",
+        "time": "2:44.183",
+        "session": "Overall",
+        "pos": "75"
       }
     ],
     "Beth Conaway": [
@@ -24420,6 +24892,14 @@
         "time": "2:46.590",
         "session": "Heat 7",
         "pos": "52"
+      },
+      {
+        "number": "222",
+        "class": "STREET GT - RWD",
+        "car": "CORVETTE",
+        "time": "2:46.590",
+        "session": "Overall",
+        "pos": "76"
       }
     ],
     "James Smith": [
@@ -24470,6 +24950,14 @@
         "time": "2:55.867",
         "session": "Heat 7",
         "pos": "56"
+      },
+      {
+        "number": "130",
+        "class": "CLUB SC - FWD",
+        "car": "FIT",
+        "time": "2:53.994",
+        "session": "Overall",
+        "pos": "81"
       },
       {
         "number": "130",
@@ -24528,6 +25016,14 @@
         "time": "2:55.135",
         "session": "Heat 7",
         "pos": "55"
+      },
+      {
+        "number": "156",
+        "class": "CLUB SC - FWD",
+        "car": "CIVIC",
+        "time": "2:53.331",
+        "session": "Overall",
+        "pos": "79"
       },
       {
         "number": "156",
@@ -24599,6 +25095,14 @@
         "number": "377",
         "class": "CLUB SC - FWD",
         "car": "COUPE",
+        "time": "2:55.706",
+        "session": "Overall",
+        "pos": "82"
+      },
+      {
+        "number": "377",
+        "class": "CLUB SC - FWD",
+        "car": "COUPE",
         "time": "02:57.247",
         "session": "Podium Sprint",
         "pos": "3"
@@ -24620,6 +25124,14 @@
         "time": "2:53.419",
         "session": "Heat 2",
         "pos": "63"
+      },
+      {
+        "number": "200",
+        "class": "STREET MOD - AWD",
+        "car": "IMPREZA",
+        "time": "2:53.419",
+        "session": "Overall",
+        "pos": "80"
       }
     ],
     "Jason Davidson": [
@@ -24683,6 +25195,14 @@
         "number": "122",
         "class": "CLUB SC - FWD",
         "car": "FIT",
+        "time": "2:57.499",
+        "session": "Overall",
+        "pos": "84"
+      },
+      {
+        "number": "122",
+        "class": "CLUB SC - FWD",
+        "car": "FIT",
         "time": "02:57.612",
         "session": "Podium Sprint",
         "pos": "4"
@@ -24736,6 +25256,14 @@
         "time": "3:00.843",
         "session": "Heat 6",
         "pos": "43"
+      },
+      {
+        "number": "302",
+        "class": "STREET MOD - RWD",
+        "car": "MARK VIII",
+        "time": "2:56.457",
+        "session": "Overall",
+        "pos": "83"
       }
     ],
     "Luca Barberis": [
@@ -24775,6 +25303,14 @@
         "number": "444",
         "class": "STREET MOD - RWD",
         "car": "GR SUPRA",
+        "time": "2:16.707",
+        "session": "Overall",
+        "pos": "8"
+      },
+      {
+        "number": "444",
+        "class": "STREET MOD - RWD",
+        "car": "GR SUPRA",
         "time": "02:18.020",
         "session": "Podium Sprint",
         "pos": "2"
@@ -24804,6 +25340,14 @@
         "time": "2:41.679",
         "session": "Heat 4",
         "pos": "59"
+      },
+      {
+        "number": "262",
+        "class": "CLUB TR - RWD",
+        "car": "MR2",
+        "time": "2:39.235",
+        "session": "Overall",
+        "pos": "69"
       }
     ],
     "Ian Flavin": [
@@ -24838,6 +25382,14 @@
         "time": "2:34.862",
         "session": "Heat 7",
         "pos": "44"
+      },
+      {
+        "number": "199",
+        "class": "CLUB TR - RWD",
+        "car": "BRZ",
+        "time": "2:32.949",
+        "session": "Overall",
+        "pos": "57"
       }
     ],
     "Peter Granberg": [
@@ -24896,6 +25448,14 @@
         "time": "2:31.116",
         "session": "Heat 7",
         "pos": "30"
+      },
+      {
+        "number": "511",
+        "class": "CLUB TR - RWD",
+        "car": "BRZ",
+        "time": "2:30.000",
+        "session": "Overall",
+        "pos": "44"
       },
       {
         "number": "511",
@@ -24967,6 +25527,14 @@
         "number": "212",
         "class": "TRACK MOD - RWD",
         "car": "1 SERIES",
+        "time": "2:19.152",
+        "session": "Overall",
+        "pos": "13"
+      },
+      {
+        "number": "212",
+        "class": "TRACK MOD - RWD",
+        "car": "1 SERIES",
         "time": "02:18.753",
         "session": "Podium Sprint",
         "pos": "4"
@@ -25033,6 +25601,14 @@
         "number": "82",
         "class": "STREET MOD - RWD",
         "car": "1 SERIES",
+        "time": "2:20.101",
+        "session": "Overall",
+        "pos": "16"
+      },
+      {
+        "number": "82",
+        "class": "STREET MOD - RWD",
+        "car": "1 SERIES",
         "time": "02:21.527",
         "session": "Podium Sprint",
         "pos": "5"
@@ -25078,6 +25654,14 @@
         "time": "2:22.975",
         "session": "Heat 5",
         "pos": "13"
+      },
+      {
+        "number": "314",
+        "class": "TRACK MOD - AWD",
+        "car": "LANCER",
+        "time": "2:22.322",
+        "session": "Overall",
+        "pos": "23"
       }
     ],
     "Eric Fleming": [
@@ -25120,6 +25704,14 @@
         "time": "2:06.800",
         "session": "Heat 6",
         "pos": "2"
+      },
+      {
+        "number": "830",
+        "class": "UNLIMITED - RWD",
+        "car": "CORVETTE",
+        "time": "2:04.203",
+        "session": "Overall",
+        "pos": "1"
       },
       {
         "number": "830",
@@ -25178,6 +25770,14 @@
         "time": "2:21.670",
         "session": "Heat 7",
         "pos": "12"
+      },
+      {
+        "number": "424",
+        "class": "UNLIMITED - RWD",
+        "car": "MUSTANG",
+        "time": "2:21.547",
+        "session": "Overall",
+        "pos": "19"
       }
     ],
     "Brad Moore": [
@@ -25233,6 +25833,14 @@
         "number": "193",
         "class": "STREET - RWD",
         "car": "718 CAYMAN",
+        "time": "2:25.912",
+        "session": "Overall",
+        "pos": "31"
+      },
+      {
+        "number": "193",
+        "class": "STREET - RWD",
+        "car": "718 CAYMAN",
         "time": "02:28.353",
         "session": "Podium Sprint",
         "pos": "1"
@@ -25254,6 +25862,14 @@
         "time": "2:34.253",
         "session": "Heat 3",
         "pos": "41"
+      },
+      {
+        "number": "71",
+        "class": "TRACK MOD - RWD",
+        "car": "S2000",
+        "time": "2:33.649",
+        "session": "Overall",
+        "pos": "59"
       }
     ],
     "Ross Ligibel": [
@@ -25288,6 +25904,14 @@
         "time": "",
         "session": "Heat 5",
         "pos": "62"
+      },
+      {
+        "number": "45",
+        "class": "STREET - RWD",
+        "car": "",
+        "time": "2:31.545",
+        "session": "Overall",
+        "pos": "51"
       }
     ],
     "Jeremy Hensley": [
@@ -25322,6 +25946,14 @@
         "time": "2:43.749",
         "session": "Heat 5",
         "pos": "48"
+      },
+      {
+        "number": "48",
+        "class": "STREET - AWD",
+        "car": "IMPREZA",
+        "time": "2:40.783",
+        "session": "Overall",
+        "pos": "71"
       }
     ],
     "Shawn Bassett": [
@@ -25363,6 +25995,14 @@
         "car": "240Z",
         "time": "2:30.381",
         "session": "Heat 7",
+        "pos": "29"
+      },
+      {
+        "number": "269",
+        "class": "UNLIMITED - RWD",
+        "car": "240Z",
+        "time": "2:25.192",
+        "session": "Overall",
         "pos": "29"
       }
     ],
@@ -25406,6 +26046,14 @@
         "time": "2:30.465",
         "session": "Heat 6",
         "pos": "25"
+      },
+      {
+        "number": "128",
+        "class": "TRACK MOD - FWD",
+        "car": "CIVIC",
+        "time": "2:30.465",
+        "session": "Overall",
+        "pos": "45"
       }
     ],
     "Charles Miller": [
@@ -25428,6 +26076,14 @@
       {
         "number": "55",
         "class": "STREET - AWD",
+        "car": "LANCER",
+        "time": "2:30.799",
+        "session": "Overall",
+        "pos": "46"
+      },
+      {
+        "number": "55",
+        "class": "STREET - AWD",
         "car": "EVO",
         "time": "DNS",
         "session": "Podium Sprint",
@@ -25442,6 +26098,14 @@
         "time": "",
         "session": "Heat 2",
         "pos": "74"
+      },
+      {
+        "number": "75",
+        "class": "STREET GT - RWD",
+        "car": "M2",
+        "time": "",
+        "session": "Overall",
+        "pos": "86"
       }
     ],
     "Mike Burroughs": [
@@ -25476,6 +26140,14 @@
         "time": "2:31.460",
         "session": "Heat 6",
         "pos": "27"
+      },
+      {
+        "number": "244",
+        "class": "TRACK MOD - RWD",
+        "car": "244 GTK",
+        "time": "2:31.460",
+        "session": "Overall",
+        "pos": "50"
       }
     ],
     "Joseph Lynch": [
@@ -25494,6 +26166,14 @@
         "time": "",
         "session": "Heat 7",
         "pos": "60"
+      },
+      {
+        "number": "201",
+        "class": "STREET MOD - RWD",
+        "car": "S2000",
+        "time": "2:59.620",
+        "session": "Overall",
+        "pos": "85"
       }
     ],
     "Andrius Bertulis": [
@@ -25528,6 +26208,14 @@
         "time": "2:19.972",
         "session": "Heat 7",
         "pos": "9"
+      },
+      {
+        "number": "171",
+        "class": "UNLIMITED - RWD",
+        "car": "RCF",
+        "time": "2:19.972",
+        "session": "Overall",
+        "pos": "14"
       },
       {
         "number": "171",
