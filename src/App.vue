@@ -147,14 +147,16 @@
       {{ driver.time }}
     </template>
   </td>
-  <td>{{ driver.car }}</td>
+  <td>{{ driver?.car
+ }}</td>
 </template>
 
 
     <!-- GLTC Qualifying -->
     <template v-else-if="selectedSeries === 'GLTC' && selectedSession?.toLowerCase().includes('qual')">
       <td>{{ driver.time }}</td>
-      <td>{{ driver.car }}</td>
+      <td>{{ driver?.car
+ }}</td>
     </template>
 
     <template v-else-if="selectedSeries === 'RUSH' && selectedSession?.toLowerCase().includes('qual')">
@@ -163,7 +165,8 @@
 
     <!-- GLTC Race -->
     <template v-else-if="selectedSeries === 'GLTC'">
-      <td>{{ driver.car }}</td>
+      <td>{{ driver?.car
+ }}</td>
       <td>{{ driver.laps ?? '-' }}</td>
       <td>{{ driver.time ?? '-' }}</td>
       <td>{{ driver.gap ?? '-' }}</td>
