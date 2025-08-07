@@ -602,13 +602,12 @@ eventResultsByClass() {
   const podiumSession = this.sessions.find(s => s.toLowerCase().includes('podium'));
   const overallSession = this.sessions.find(s => s.toLowerCase().includes('overall'));
 
-  // Do NOT return early — allow fallback to qualifying
   if (!this.sessions.length || !this.selectedTrack || !trackData) return null;
 
   for (const driverName in trackData) {
     const laps = trackData[driverName];
 
-    // Get best lap of the weekend (for this driver)
+    // Calculate best overall lap time for this driver (any session)
     const validLaps = laps.filter(l => this.parseTime(l.time) > 0);
     const bestLap = validLaps.reduce((best, curr) => {
       const currTime = this.parseTime(curr.time);
@@ -619,85 +618,109 @@ eventResultsByClass() {
     const bestTime = bestLap?.time || '';
     const bestRawTime = this.parseTime(bestTime);
 
-    // Track which classes this driver has already been added to, so no duplicates per class
     const addedClasses = new Set();
 
     for (const lap of laps) {
       const baseClass = (lap.class || 'Unknown').split(' - ')[0];
       if (!byClass[baseClass]) byClass[baseClass] = [];
 
-      // Skip if already added driver for this class
       if (addedClasses.has(baseClass)) continue;
 
-      let includeLap = false;
-      let lapToUse = null;
+      // Find the driver’s podium sprint lap for this class (if any)
+      const podiumLap = laps.find(
+        l => l.session === podiumSession && (l.class || '').split(' - ')[0] === baseClass
+      );
 
-      if (lap.session === podiumSession) {
-        includeLap = true;
-        lapToUse = lap;
-      } else if (lap.session === overallSession) {
-        includeLap = true;
-        lapToUse = lap;
-      } else if (!overallSession) {
-        const qualifyingSessions = ['q1', 'q2', 'q3'];
-        if (
-          qualifyingSessions.includes(lap.session.toLowerCase()) &&
-          this.parseTime(lap.time) > 0
-        ) {
-          includeLap = true;
-          lapToUse = lap;
+      // Determine values to store
+      const hasPodiumSprint = Boolean(podiumLap);
+      const sprintTime = hasPodiumSprint ? podiumLap.time : null;
+      const sprintRawTime = hasPodiumSprint ? this.parseTime(podiumLap.time) : NaN;
+
+      // For sorting fallback (overall or qualifying)
+      let fallbackLap = null;
+      if (!hasPodiumSprint) {
+        if (overallSession) {
+          fallbackLap = laps.find(
+            l => l.session === overallSession && (l.class || '').split(' - ')[0] === baseClass
+          );
+        }
+        if (!fallbackLap) {
+          // fallback qualifying sessions if no overall lap found
+          const qualifyingSessions = ['q1', 'q2', 'q3'];
+          fallbackLap = laps
+            .filter(
+              l =>
+                qualifyingSessions.includes(l.session?.toLowerCase()) &&
+                (l.class || '').split(' - ')[0] === baseClass &&
+                this.parseTime(l.time) > 0
+            )
+            .sort((a, b) => this.parseTime(a.time) - this.parseTime(b.time))[0];
         }
       }
 
-      if (includeLap && lapToUse) {
-        byClass[baseClass].push({
-          name: driverName,
-          number: lapToUse.number,
-          time: lapToUse.time,
-          rawTime: this.parseTime(lapToUse.time),
-          bestTime,
-          bestRawTime,
-          car: lapToUse.car,
-          positionSource:
-            lap.session === podiumSession
-              ? 'podium'
-              : lap.session === overallSession
-              ? 'overall'
-              : 'qualifying',
-          pos: parseInt(lapToUse.pos) || 9999,
-        });
-        addedClasses.add(baseClass);
-      }
+      // Skip if neither podium sprint nor overall/qualifying lap found for this class
+      if (!hasPodiumSprint && !fallbackLap) continue;
+
+      byClass[baseClass].push({
+        name: driverName,
+        number: podiumLap?.number || fallbackLap?.number || lap.number,
+        time: hasPodiumSprint ? sprintTime : fallbackLap?.time || lap.time,
+        rawTime: hasPodiumSprint ? sprintRawTime : this.parseTime(fallbackLap?.time || lap.time),
+        bestTime,
+        bestRawTime,
+        car: podiumLap?.car || fallbackLap?.car || lap.car,
+        positionSource: hasPodiumSprint ? 'podium' : fallbackLap ? 'overall' : 'unknown',
+        pos: parseInt(podiumLap?.pos || fallbackLap?.pos || lap.pos) || 9999,
+      });
+
+      addedClasses.add(baseClass);
     }
   }
 
-  // Sort each class: podium first (by original pos), then overall by rawTime
+  // Sort each class: 
+  // 1. drivers with podium sprint time, by sprint time ascending
+  // 2. then drivers without sprint time, by overall pos ascending
   for (const className in byClass) {
-    const drivers = byClass[className];
+  const drivers = byClass[className];
 
-    const podium = drivers
-      .filter(d => d.positionSource === 'podium')
-      .sort((a, b) => a.pos - b.pos); // keep podium order by pos
+  const podiumDrivers = drivers.filter(d => d.positionSource === 'podium');
+  const otherDrivers = drivers.filter(d => d.positionSource !== 'podium');
 
-    const rest = drivers
-      .filter(d => d.positionSource === 'overall' || d.positionSource === 'qualifying')
-      .sort((a, b) => {
-        if (isNaN(a.rawTime) && isNaN(b.rawTime)) return 0;
-        if (isNaN(a.rawTime)) return 1;
-        if (isNaN(b.rawTime)) return -1;
-        return a.rawTime - b.rawTime;
-      });
+  const validSprint = [];
+  const invalidSprint = [];
 
-    const combined = [...podium, ...rest];
-
-    combined.forEach((driver, i) => {
-      driver.position = i + 1;
-    });
-
-    byClass[className] = combined;
+  // Split podium drivers by sprint time validity
+  for (const d of podiumDrivers) {
+    if (!isNaN(d.rawTime)) {
+      validSprint.push(d);
+    } else {
+      invalidSprint.push(d);
+    }
   }
 
-  // Sort classes as per your CLASS_ORDER
+  // Sort valid sprint times ascending
+  validSprint.sort((a, b) => a.rawTime - b.rawTime);
+
+  // Sort invalid sprint times by bestRawTime (overall best time) ascending
+  invalidSprint.sort((a, b) => {
+    const aBest = isNaN(a.bestRawTime) ? Infinity : a.bestRawTime;
+    const bBest = isNaN(b.bestRawTime) ? Infinity : b.bestRawTime;
+    return aBest - bBest;
+  });
+
+  // Sort other drivers by overall position ascending
+  otherDrivers.sort((a, b) => a.pos - b.pos);
+
+  const combined = [...validSprint, ...invalidSprint, ...otherDrivers];
+
+  combined.forEach((driver, i) => {
+    driver.position = i + 1;
+  });
+
+  byClass[className] = combined;
+}
+
+
   const CLASS_ORDER = [
     'SUPER UNLIMITED',
     'UNLIMITED',
@@ -730,6 +753,7 @@ eventResultsByClass() {
 
   return ordered;
 },
+
 
 
 
