@@ -3322,6 +3322,1694 @@
       }
     ]
   },
+  "Lime Rock Park": {
+    "Andy Smedegard": [
+      {
+        "number": "212",
+        "class": "GLTC",
+        "car": "GT86.24",
+        "time": "57.692",
+        "session": "Qualifying",
+        "pos": "1"
+      },
+      {
+        "number": "212",
+        "class": "GLTC",
+        "car": "GT86.24",
+        "time": "58.173",
+        "session": "Race 1",
+        "gap": "3.862",
+        "laps": "13",
+        "pos": "3"
+      },
+      {
+        "number": "212",
+        "class": "GLTC",
+        "car": "GT86.24",
+        "time": "57.770",
+        "session": "Race 2",
+        "gap": "0.275",
+        "laps": "14",
+        "pos": "2"
+      },
+      {
+        "number": "212",
+        "class": "GLTC",
+        "car": "GT86.24",
+        "time": "58.179",
+        "session": "Race 3",
+        "laps": "15",
+        "pos": "1"
+      },
+      {
+        "number": "212",
+        "class": "GLTC",
+        "car": "GT86.24",
+        "time": "58.340",
+        "session": "Race 4",
+        "gap": "1.529",
+        "laps": "15",
+        "pos": "2"
+      }
+    ],
+    "Paul Darling": [
+      {
+        "number": "55",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "58.007",
+        "session": "Qualifying",
+        "pos": "2"
+      },
+      {
+        "number": "55",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "58.202",
+        "session": "Race 1",
+        "laps": "13",
+        "pos": "1"
+      },
+      {
+        "number": "55",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "57.944",
+        "session": "Race 2",
+        "laps": "14",
+        "pos": "1"
+      },
+      {
+        "number": "55",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "58.377",
+        "session": "Race 3",
+        "gap": "3.981",
+        "laps": "15",
+        "pos": "3"
+      },
+      {
+        "number": "55",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "58.864",
+        "session": "Race 4",
+        "gap": "1.082",
+        "laps": "15",
+        "pos": "4"
+      }
+    ],
+    "Eric Kutil": [
+      {
+        "number": "82",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "58.110",
+        "session": "Qualifying",
+        "pos": "3"
+      },
+      {
+        "number": "82",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "58.459",
+        "session": "Race 1",
+        "gap": "0.093",
+        "laps": "13",
+        "pos": "4"
+      },
+      {
+        "number": "82",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "58.085",
+        "session": "Race 2",
+        "gap": "0.161",
+        "laps": "14",
+        "pos": "3"
+      },
+      {
+        "number": "82",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "58.104",
+        "session": "Race 3",
+        "gap": "0.240",
+        "laps": "15",
+        "pos": "2"
+      },
+      {
+        "number": "82",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "58.408",
+        "session": "Race 4",
+        "laps": "15",
+        "pos": "1"
+      }
+    ],
+    "Nicholas Barbato": [
+      {
+        "number": "49",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "58.297",
+        "session": "Qualifying",
+        "pos": "4"
+      },
+      {
+        "number": "49",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "58.434",
+        "session": "Race 1",
+        "gap": "3.455",
+        "laps": "13",
+        "pos": "2"
+      },
+      {
+        "number": "49",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "58.696",
+        "session": "Race 2",
+        "gap": "0.132",
+        "laps": "14",
+        "pos": "7"
+      },
+      {
+        "number": "49",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.310",
+        "session": "Race 3",
+        "gap": "0.455",
+        "laps": "15",
+        "pos": "8"
+      },
+      {
+        "number": "49",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.585",
+        "session": "Race 4",
+        "gap": "0.306",
+        "laps": "15",
+        "pos": "9"
+      }
+    ],
+    "Aaron Leichty": [
+      {
+        "number": "66",
+        "class": "GLTC",
+        "car": "CORVETTE",
+        "time": "58.368",
+        "session": "Qualifying",
+        "pos": "5"
+      },
+      {
+        "number": "66",
+        "class": "GLTC",
+        "car": "CORVETTE",
+        "time": "58.671",
+        "session": "Race 1",
+        "gap": "1.043",
+        "laps": "13",
+        "pos": "6"
+      },
+      {
+        "number": "66",
+        "class": "GLTC",
+        "car": "CORVETTE",
+        "time": "58.028",
+        "session": "Race 2",
+        "gap": "0.942",
+        "laps": "14",
+        "pos": "4"
+      },
+      {
+        "number": "66",
+        "class": "GLTC",
+        "car": "CORVETTE",
+        "time": "58.743",
+        "session": "Race 3",
+        "gap": "0.462",
+        "laps": "15",
+        "pos": "5"
+      },
+      {
+        "number": "66",
+        "class": "GLTC",
+        "car": "CORVETTE",
+        "time": "59.335",
+        "session": "Race 4",
+        "gap": "1.706",
+        "laps": "15",
+        "pos": "5"
+      }
+    ],
+    "Matt Waldbaum": [
+      {
+        "number": "90",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "58.378",
+        "session": "Qualifying",
+        "pos": "6"
+      },
+      {
+        "number": "90",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "58.740",
+        "session": "Race 1",
+        "gap": "3.524",
+        "laps": "13",
+        "pos": "5"
+      },
+      {
+        "number": "90",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "58.566",
+        "session": "Race 2",
+        "gap": "0.420",
+        "laps": "14",
+        "pos": "6"
+      },
+      {
+        "number": "90",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "58.811",
+        "session": "Race 3",
+        "gap": "3 Laps",
+        "laps": "5",
+        "pos": "33"
+      },
+      {
+        "number": "90",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "59.626",
+        "session": "Race 4",
+        "gap": "0.366",
+        "laps": "15",
+        "pos": "15"
+      }
+    ],
+    "Matan Rosenberg": [
+      {
+        "number": "484",
+        "class": "GLTC",
+        "car": "Corvette",
+        "time": "58.385",
+        "session": "Qualifying",
+        "pos": "7"
+      },
+      {
+        "number": "484",
+        "class": "GLTC",
+        "car": "Corvette",
+        "time": "59.585",
+        "session": "Race 1",
+        "gap": "0.009",
+        "laps": "13",
+        "pos": "10"
+      },
+      {
+        "number": "484",
+        "class": "GLTC",
+        "car": "Corvette",
+        "time": "59.410",
+        "session": "Race 2",
+        "gap": "0.189",
+        "laps": "14",
+        "pos": "10"
+      },
+      {
+        "number": "484",
+        "class": "GLTC",
+        "car": "Corvette",
+        "time": "59.159",
+        "session": "Race 3",
+        "gap": "2.844",
+        "laps": "15",
+        "pos": "12"
+      },
+      {
+        "number": "484",
+        "class": "GLTC",
+        "car": "Corvette",
+        "time": "59.267",
+        "session": "Race 4",
+        "gap": "0.186",
+        "laps": "15",
+        "pos": "12"
+      }
+    ],
+    "Samuel Scott": [
+      {
+        "number": "85",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "58.609",
+        "session": "Qualifying",
+        "pos": "8"
+      },
+      {
+        "number": "85",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.511",
+        "session": "Race 1",
+        "gap": "0.296",
+        "laps": "13",
+        "pos": "15"
+      },
+      {
+        "number": "85",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "58.725",
+        "session": "Race 2",
+        "gap": "0.162",
+        "laps": "14",
+        "pos": "20"
+      },
+      {
+        "number": "85",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.071",
+        "session": "Race 3",
+        "gap": "0.130",
+        "laps": "15",
+        "pos": "11"
+      },
+      {
+        "number": "85",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.370",
+        "session": "Race 4",
+        "gap": "1.929",
+        "laps": "15",
+        "pos": "6"
+      }
+    ],
+    "Emile Tabb": [
+      {
+        "number": "374",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "58.665",
+        "session": "Qualifying",
+        "pos": "9"
+      },
+      {
+        "number": "374",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.380",
+        "session": "Race 1",
+        "gap": "0.026",
+        "laps": "13",
+        "pos": "8"
+      },
+      {
+        "number": "374",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "58.547",
+        "session": "Race 2",
+        "gap": "0.409",
+        "laps": "14",
+        "pos": "5"
+      },
+      {
+        "number": "374",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "58.965",
+        "session": "Race 3",
+        "gap": "10.620",
+        "laps": "15",
+        "pos": "4"
+      },
+      {
+        "number": "374",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.416",
+        "session": "Race 4",
+        "gap": "1.057",
+        "laps": "15",
+        "pos": "8"
+      }
+    ],
+    "Eric Magnussen": [
+      {
+        "number": "330",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "58.700",
+        "session": "Qualifying",
+        "pos": "10"
+      },
+      {
+        "number": "330",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.117",
+        "session": "Race 1",
+        "gap": "6.652",
+        "laps": "13",
+        "pos": "7"
+      },
+      {
+        "number": "330",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "58.706",
+        "session": "Race 2",
+        "gap": "1.511",
+        "laps": "14",
+        "pos": "8"
+      },
+      {
+        "number": "330",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.151",
+        "session": "Race 3",
+        "gap": "2.405",
+        "laps": "15",
+        "pos": "6"
+      },
+      {
+        "number": "330",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.244",
+        "session": "Race 4",
+        "gap": "6.311",
+        "laps": "15",
+        "pos": "3"
+      }
+    ],
+    "Carlos Mendez": [
+      {
+        "number": "83",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "58.832",
+        "session": "Qualifying",
+        "pos": "11"
+      },
+      {
+        "number": "83",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "59.478",
+        "session": "Race 1",
+        "gap": "6.570",
+        "laps": "13",
+        "pos": "24"
+      },
+      {
+        "number": "83",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "59.471",
+        "session": "Race 2",
+        "gap": "0.433",
+        "laps": "14",
+        "pos": "18"
+      },
+      {
+        "number": "83",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "59.417",
+        "session": "Race 3",
+        "gap": "2.629",
+        "laps": "15",
+        "pos": "9"
+      },
+      {
+        "number": "83",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "59.860",
+        "session": "Race 4",
+        "gap": "2.618",
+        "laps": "15",
+        "pos": "13"
+      }
+    ],
+    "Lena Chin": [
+      {
+        "number": "917",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "58.876",
+        "session": "Qualifying",
+        "pos": "12"
+      },
+      {
+        "number": "917",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "59.284",
+        "session": "Race 1",
+        "gap": "0.487",
+        "laps": "13",
+        "pos": "9"
+      },
+      {
+        "number": "917",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "59.047",
+        "session": "Race 2",
+        "gap": "0.337",
+        "laps": "14",
+        "pos": "9"
+      },
+      {
+        "number": "917",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "59.182",
+        "session": "Race 3",
+        "gap": "1.039",
+        "laps": "15",
+        "pos": "7"
+      },
+      {
+        "number": "917",
+        "class": "GLTC",
+        "car": "S2000",
+        "time": "59.453",
+        "session": "Race 4",
+        "gap": "0.098",
+        "laps": "15",
+        "pos": "7"
+      }
+    ],
+    "Dana Basinski": [
+      {
+        "number": "109",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "58.897",
+        "session": "Qualifying",
+        "pos": "13"
+      },
+      {
+        "number": "109",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.128",
+        "session": "Race 1",
+        "gap": "1.189",
+        "laps": "13",
+        "pos": "21"
+      },
+      {
+        "number": "109",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.143",
+        "session": "Race 2",
+        "gap": "0.132",
+        "laps": "14",
+        "pos": "17"
+      },
+      {
+        "number": "109",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.195",
+        "session": "Race 3",
+        "gap": "1.044",
+        "laps": "15",
+        "pos": "10"
+      },
+      {
+        "number": "109",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.324",
+        "session": "Race 4",
+        "gap": "1.465",
+        "laps": "15",
+        "pos": "10"
+      }
+    ],
+    "Kevin Zhu": [
+      {
+        "number": "243",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "59.149",
+        "session": "Qualifying",
+        "pos": "14"
+      },
+      {
+        "number": "243",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "59.589",
+        "session": "Race 1",
+        "gap": "0.655",
+        "laps": "13",
+        "pos": "11"
+      },
+      {
+        "number": "243",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "",
+        "session": "Race 2",
+        "gap": "7 Laps",
+        "pos": "35"
+      },
+      {
+        "number": "243",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "59.289",
+        "session": "Race 3",
+        "gap": "0.040",
+        "laps": "15",
+        "pos": "17"
+      },
+      {
+        "number": "243",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "59.730",
+        "session": "Race 4",
+        "gap": "0.769",
+        "laps": "15",
+        "pos": "17"
+      }
+    ],
+    "John Gaydos": [
+      {
+        "number": "444",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "59.300",
+        "session": "Qualifying",
+        "pos": "15"
+      },
+      {
+        "number": "444",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "59.243",
+        "session": "Race 1",
+        "gap": "1.562",
+        "laps": "13",
+        "pos": "12"
+      },
+      {
+        "number": "444",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "59.492",
+        "session": "Race 2",
+        "gap": "0.080",
+        "laps": "14",
+        "pos": "11"
+      },
+      {
+        "number": "444",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "59.682",
+        "session": "Race 3",
+        "gap": "0.421",
+        "laps": "15",
+        "pos": "21"
+      },
+      {
+        "number": "444",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "59.782",
+        "session": "Race 4",
+        "gap": "0.559",
+        "laps": "15",
+        "pos": "16"
+      }
+    ],
+    "Jake Price": [
+      {
+        "number": "202",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.422",
+        "session": "Qualifying",
+        "pos": "16"
+      },
+      {
+        "number": "202",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.660",
+        "session": "Race 1",
+        "gap": "1.509",
+        "laps": "13",
+        "pos": "13"
+      },
+      {
+        "number": "202",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.640",
+        "session": "Race 2",
+        "gap": "0.533",
+        "laps": "14",
+        "pos": "14"
+      },
+      {
+        "number": "202",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.417",
+        "session": "Race 3",
+        "gap": "6 Laps",
+        "laps": "8",
+        "pos": "34"
+      },
+      {
+        "number": "202",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "59.653",
+        "session": "Race 4",
+        "gap": "0.918",
+        "laps": "15",
+        "pos": "20"
+      }
+    ],
+    "Peter Zhang": [
+      {
+        "number": "28",
+        "class": "GLTC",
+        "car": "FR-S",
+        "time": "59.467",
+        "session": "Qualifying",
+        "pos": "17"
+      },
+      {
+        "number": "28",
+        "class": "GLTC",
+        "car": "FR-S",
+        "time": "59.925",
+        "session": "Race 1",
+        "gap": "3.491",
+        "laps": "13",
+        "pos": "14"
+      },
+      {
+        "number": "28",
+        "class": "GLTC",
+        "car": "FR-S",
+        "time": "59.778",
+        "session": "Race 2",
+        "gap": "0.558",
+        "laps": "14",
+        "pos": "13"
+      },
+      {
+        "number": "28",
+        "class": "GLTC",
+        "car": "FR-S",
+        "time": "59.960",
+        "session": "Race 3",
+        "gap": "3.322",
+        "laps": "15",
+        "pos": "25"
+      }
+    ],
+    "Michael Pagano": [
+      {
+        "number": "155",
+        "class": "GLTC",
+        "car": "116I",
+        "time": "59.549",
+        "session": "Qualifying",
+        "pos": "18"
+      },
+      {
+        "number": "155",
+        "class": "GLTC",
+        "car": "116I",
+        "time": "59.808",
+        "session": "Race 1",
+        "gap": "2.990",
+        "laps": "13",
+        "pos": "28"
+      },
+      {
+        "number": "155",
+        "class": "GLTC",
+        "car": "116I",
+        "time": "59.818",
+        "session": "Race 2",
+        "gap": "1.115",
+        "laps": "14",
+        "pos": "22"
+      },
+      {
+        "number": "155",
+        "class": "GLTC",
+        "car": "116I",
+        "time": "59.942",
+        "session": "Race 4",
+        "gap": "0.946",
+        "laps": "15",
+        "pos": "22"
+      }
+    ],
+    "Brandon Ganem": [
+      {
+        "number": "105",
+        "class": "GLTC",
+        "car": "RX-8",
+        "time": "59.669",
+        "session": "Qualifying",
+        "pos": "19"
+      },
+      {
+        "number": "105",
+        "class": "GLTC",
+        "car": "RX-8",
+        "time": "59.753",
+        "session": "Race 1",
+        "gap": "0.646",
+        "laps": "13",
+        "pos": "20"
+      },
+      {
+        "number": "105",
+        "class": "GLTC",
+        "car": "RX-8",
+        "time": "59.406",
+        "session": "Race 2",
+        "gap": "0.641",
+        "laps": "14",
+        "pos": "27"
+      },
+      {
+        "number": "105",
+        "class": "GLTC",
+        "car": "RX-8",
+        "time": "59.533",
+        "session": "Race 3",
+        "gap": "5.033",
+        "laps": "15",
+        "pos": "18"
+      },
+      {
+        "number": "105",
+        "class": "GLTC",
+        "car": "RX-8",
+        "time": "1:00.006",
+        "session": "Race 4",
+        "gap": "0.396",
+        "laps": "15",
+        "pos": "19"
+      }
+    ],
+    "Raul Iriarte": [
+      {
+        "number": "79",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.677",
+        "session": "Qualifying",
+        "pos": "20"
+      },
+      {
+        "number": "79",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.611",
+        "session": "Race 1",
+        "gap": "0.234",
+        "laps": "13",
+        "pos": "17"
+      },
+      {
+        "number": "79",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.736",
+        "session": "Race 2",
+        "gap": "6 Laps",
+        "laps": "7",
+        "pos": "34"
+      },
+      {
+        "number": "79",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.325",
+        "session": "Race 3",
+        "gap": "0.748",
+        "laps": "14",
+        "pos": "26"
+      },
+      {
+        "number": "79",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.546",
+        "session": "Race 4",
+        "gap": "4.716",
+        "laps": "15",
+        "pos": "21"
+      }
+    ],
+    "Donald Lui": [
+      {
+        "number": "404",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "59.703",
+        "session": "Qualifying",
+        "pos": "21"
+      },
+      {
+        "number": "404",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "1:00.114",
+        "session": "Race 2",
+        "gap": "1.074",
+        "laps": "14",
+        "pos": "21"
+      },
+      {
+        "number": "404",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "1:00.267",
+        "session": "Race 3",
+        "gap": "4.497",
+        "laps": "15",
+        "pos": "16"
+      },
+      {
+        "number": "404",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "1:00.098",
+        "session": "Race 4",
+        "gap": "4.460",
+        "laps": "15",
+        "pos": "18"
+      }
+    ],
+    "Salil Shukla": [
+      {
+        "number": "715",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.718",
+        "session": "Qualifying",
+        "pos": "22"
+      },
+      {
+        "number": "715",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.862",
+        "session": "Race 1",
+        "gap": "1.889",
+        "laps": "13",
+        "pos": "16"
+      },
+      {
+        "number": "715",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.708",
+        "session": "Race 2",
+        "gap": "0.141",
+        "laps": "14",
+        "pos": "12"
+      },
+      {
+        "number": "715",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.747",
+        "session": "Race 3",
+        "gap": "4.692",
+        "laps": "15",
+        "pos": "13"
+      },
+      {
+        "number": "715",
+        "class": "GLTC",
+        "car": "M3",
+        "time": "59.853",
+        "session": "Race 4",
+        "gap": "2.288",
+        "laps": "15",
+        "pos": "14"
+      }
+    ],
+    "Daniel Giraldo": [
+      {
+        "number": "440",
+        "class": "GLTC",
+        "car": "IS",
+        "time": "1:00.106",
+        "session": "Qualifying",
+        "pos": "23"
+      },
+      {
+        "number": "440",
+        "class": "GLTC",
+        "car": "IS",
+        "time": "",
+        "session": "Race 1",
+        "gap": "12 Laps",
+        "pos": "34"
+      },
+      {
+        "number": "440",
+        "class": "GLTC",
+        "car": "IS",
+        "time": "1:00.553",
+        "session": "Race 2",
+        "gap": "0.231",
+        "laps": "14",
+        "pos": "30"
+      },
+      {
+        "number": "440",
+        "class": "GLTC",
+        "car": "IS",
+        "time": "1:00.870",
+        "session": "Race 3",
+        "gap": "1.422",
+        "laps": "15",
+        "pos": "28"
+      },
+      {
+        "number": "440",
+        "class": "GLTC",
+        "car": "IS",
+        "time": "1:00.928",
+        "session": "Race 4",
+        "gap": "0.243",
+        "laps": "15",
+        "pos": "25"
+      }
+    ],
+    "Jeff Wasilko": [
+      {
+        "number": "8",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:00.636",
+        "session": "Qualifying",
+        "pos": "24"
+      },
+      {
+        "number": "8",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:00.907",
+        "session": "Race 1",
+        "gap": "0.658",
+        "laps": "13",
+        "pos": "23"
+      },
+      {
+        "number": "8",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:00.929",
+        "session": "Race 2",
+        "gap": "0.731",
+        "laps": "14",
+        "pos": "25"
+      },
+      {
+        "number": "8",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.192",
+        "session": "Race 3",
+        "gap": "2.823",
+        "laps": "15",
+        "pos": "23"
+      },
+      {
+        "number": "8",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.545",
+        "session": "Race 4",
+        "gap": "0.344",
+        "laps": "14",
+        "pos": "29"
+      }
+    ],
+    "Azmath Mohammed": [
+      {
+        "number": "50",
+        "class": "GLTC",
+        "car": "MR2",
+        "time": "1:00.702",
+        "session": "Qualifying",
+        "pos": "25"
+      },
+      {
+        "number": "50",
+        "class": "GLTC",
+        "car": "MR2",
+        "time": "1:00.820",
+        "session": "Race 1",
+        "gap": "0.847",
+        "laps": "13",
+        "pos": "19"
+      },
+      {
+        "number": "50",
+        "class": "GLTC",
+        "car": "MR2",
+        "time": "59.728",
+        "session": "Race 2",
+        "gap": "0.292",
+        "laps": "14",
+        "pos": "16"
+      },
+      {
+        "number": "50",
+        "class": "GLTC",
+        "car": "MR2",
+        "time": "59.424",
+        "session": "Race 3",
+        "gap": "0.155",
+        "laps": "15",
+        "pos": "15"
+      }
+    ],
+    "Thomas Lathrop": [
+      {
+        "number": "84",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "1:00.848",
+        "session": "Qualifying",
+        "pos": "26"
+      },
+      {
+        "number": "84",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "1:01.072",
+        "session": "Race 1",
+        "gap": "5.677",
+        "laps": "13",
+        "pos": "22"
+      },
+      {
+        "number": "84",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "1:01.140",
+        "session": "Race 2",
+        "gap": "1.255",
+        "laps": "14",
+        "pos": "19"
+      },
+      {
+        "number": "84",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "1:01.100",
+        "session": "Race 3",
+        "gap": "0.524",
+        "laps": "15",
+        "pos": "22"
+      },
+      {
+        "number": "84",
+        "class": "GLTC",
+        "car": "3 SERIES",
+        "time": "1:01.022",
+        "session": "Race 4",
+        "gap": "6.025",
+        "laps": "15",
+        "pos": "23"
+      }
+    ],
+    "Thomas Moss": [
+      {
+        "number": "515",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.197",
+        "session": "Qualifying",
+        "pos": "27"
+      },
+      {
+        "number": "515",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.372",
+        "session": "Race 1",
+        "gap": "0.015",
+        "laps": "13",
+        "pos": "26"
+      },
+      {
+        "number": "515",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:00.769",
+        "session": "Race 2",
+        "gap": "0.651",
+        "laps": "14",
+        "pos": "24"
+      },
+      {
+        "number": "515",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.319",
+        "session": "Race 3",
+        "gap": "1 Lap",
+        "laps": "14",
+        "pos": "24"
+      },
+      {
+        "number": "515",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.059",
+        "session": "Race 4",
+        "gap": "2.628",
+        "laps": "15",
+        "pos": "24"
+      }
+    ],
+    "Dai Nguyen": [
+      {
+        "number": "888",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "1:01.536",
+        "session": "Qualifying",
+        "pos": "28"
+      },
+      {
+        "number": "888",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "1:00.356",
+        "session": "Race 1",
+        "gap": "1.146",
+        "laps": "13",
+        "pos": "27"
+      },
+      {
+        "number": "888",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "1:00.903",
+        "session": "Race 2",
+        "gap": "0.525",
+        "laps": "14",
+        "pos": "26"
+      },
+      {
+        "number": "888",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "1:00.926",
+        "session": "Race 3",
+        "gap": "4.035",
+        "laps": "15",
+        "pos": "20"
+      },
+      {
+        "number": "888",
+        "class": "GLTC",
+        "car": "BRZ",
+        "time": "1:02.117",
+        "session": "Race 4",
+        "gap": "0.489",
+        "laps": "14",
+        "pos": "27"
+      }
+    ],
+    "Richard Sawicki": [
+      {
+        "number": "528",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.623",
+        "session": "Qualifying",
+        "pos": "29"
+      },
+      {
+        "number": "528",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:02.658",
+        "session": "Race 1",
+        "gap": "16.659",
+        "laps": "12",
+        "pos": "33"
+      },
+      {
+        "number": "528",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.425",
+        "session": "Race 2",
+        "gap": "0.172",
+        "laps": "14",
+        "pos": "32"
+      },
+      {
+        "number": "528",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.788",
+        "session": "Race 3",
+        "gap": "8.719",
+        "laps": "14",
+        "pos": "30"
+      },
+      {
+        "number": "528",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:02.316",
+        "session": "Race 4",
+        "gap": "17.068",
+        "laps": "14",
+        "pos": "30"
+      }
+    ],
+    "Chandler Roe": [
+      {
+        "number": "313",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:01.877",
+        "session": "Qualifying",
+        "pos": "30"
+      },
+      {
+        "number": "313",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:01.210",
+        "session": "Race 1",
+        "gap": "0.617",
+        "laps": "13",
+        "pos": "25"
+      },
+      {
+        "number": "313",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:00.740",
+        "session": "Race 2",
+        "gap": "0.590",
+        "laps": "14",
+        "pos": "23"
+      },
+      {
+        "number": "313",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:00.796",
+        "session": "Race 3",
+        "gap": "4.863",
+        "laps": "15",
+        "pos": "19"
+      },
+      {
+        "number": "313",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:01.010",
+        "session": "Race 4",
+        "gap": "8 Laps",
+        "laps": "6",
+        "pos": "31"
+      }
+    ],
+    "Patrick Huxley": [
+      {
+        "number": "179",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:02.002",
+        "session": "Qualifying",
+        "pos": "31"
+      },
+      {
+        "number": "179",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:01.954",
+        "session": "Race 1",
+        "gap": "6.102",
+        "laps": "13",
+        "pos": "29"
+      },
+      {
+        "number": "179",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:02.095",
+        "session": "Race 2",
+        "gap": "0.406",
+        "laps": "14",
+        "pos": "31"
+      },
+      {
+        "number": "179",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:02.504",
+        "session": "Race 3",
+        "gap": "0.750",
+        "laps": "14",
+        "pos": "32"
+      }
+    ],
+    "Dakotta Pionek": [
+      {
+        "number": "30",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:02.301",
+        "session": "Qualifying",
+        "pos": "32"
+      },
+      {
+        "number": "30",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:02.495",
+        "session": "Race 1",
+        "gap": "1 Lap",
+        "laps": "12",
+        "pos": "30"
+      },
+      {
+        "number": "30",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:00.999",
+        "session": "Race 2",
+        "gap": "0.440",
+        "laps": "14",
+        "pos": "28"
+      },
+      {
+        "number": "30",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:01.218",
+        "session": "Race 3",
+        "gap": "1.728",
+        "laps": "14",
+        "pos": "27"
+      },
+      {
+        "number": "30",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:01.306",
+        "session": "Race 4",
+        "gap": "1 Lap",
+        "laps": "14",
+        "pos": "26"
+      }
+    ],
+    "Natalie Latoz": [
+      {
+        "number": "462",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:03.470",
+        "session": "Qualifying",
+        "pos": "33"
+      },
+      {
+        "number": "462",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:02.342",
+        "session": "Race 1",
+        "gap": "1.330",
+        "laps": "12",
+        "pos": "32"
+      },
+      {
+        "number": "462",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.145",
+        "session": "Race 2",
+        "gap": "0.528",
+        "laps": "14",
+        "pos": "29"
+      },
+      {
+        "number": "462",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.221",
+        "session": "Race 3",
+        "gap": "0.771",
+        "laps": "14",
+        "pos": "29"
+      },
+      {
+        "number": "462",
+        "class": "GLTC",
+        "car": "MX-5 MIATA",
+        "time": "1:01.450",
+        "session": "Race 4",
+        "gap": "1.179",
+        "laps": "14",
+        "pos": "28"
+      }
+    ],
+    "Lisa Keyes": [
+      {
+        "number": "131",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:11.458",
+        "session": "Qualifying",
+        "pos": "34"
+      },
+      {
+        "number": "131",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:01.876",
+        "session": "Race 1",
+        "gap": "4.931",
+        "laps": "12",
+        "pos": "31"
+      },
+      {
+        "number": "131",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:03.446",
+        "session": "Race 2",
+        "gap": "1 Lap",
+        "laps": "13",
+        "pos": "33"
+      },
+      {
+        "number": "131",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:02.545",
+        "session": "Race 3",
+        "gap": "15.915",
+        "laps": "14",
+        "pos": "31"
+      },
+      {
+        "number": "131",
+        "class": "GLTC",
+        "car": "CIVIC",
+        "time": "1:11.323",
+        "session": "Race 4",
+        "gap": "5 Laps",
+        "laps": "1",
+        "pos": "32"
+      }
+    ],
+    "Erik Dallariva": [
+      {
+        "number": "74",
+        "class": "GLTC",
+        "car": "CSX",
+        "time": "59.844",
+        "session": "Race 1",
+        "gap": "5.864",
+        "laps": "13",
+        "pos": "18"
+      },
+      {
+        "number": "74",
+        "class": "GLTC",
+        "car": "CSX",
+        "time": "59.768",
+        "session": "Race 2",
+        "gap": "0.665",
+        "laps": "14",
+        "pos": "15"
+      },
+      {
+        "number": "74",
+        "class": "GLTC",
+        "car": "CSX",
+        "time": "59.877",
+        "session": "Race 3",
+        "gap": "0.741",
+        "laps": "15",
+        "pos": "14"
+      },
+      {
+        "number": "74",
+        "class": "GLTC",
+        "car": "CSX",
+        "time": "59.599",
+        "session": "Race 4",
+        "gap": "3.681",
+        "laps": "15",
+        "pos": "11"
+      }
+    ]
+  },
   "Michelin Raceway Road Atlanta": {
     "Christian Aranha": [
       {
